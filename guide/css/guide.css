@@ -1,0 +1,130 @@
+/*#47A6CD*/
+
+.guide-home{
+	box-shadow: 0 0 100px 300px #f5f5f5 inset;
+}
+.guide-home .presentation{
+	width:100%;
+	height:200px;
+	text-align:center;
+	color:#999;
+	font-size:40px;
+	top:30%;
+	position:relative;
+	font-family:'Raleway', 'Trebuchet MS', Arial, sans-serif;
+}
+
+.guide-home .presentation b{font-weight:700;}
+.guide-home .presentation span{color:#47A6CD;}
+.guide-home .presentation .semantic{color:#666;}
+.guide-home .presentation .item-doc{
+	border-radius:200px;
+	padding:50px;
+	height:200px;
+	width:200px;
+	float:left;
+	margin:20px;
+	font-size:21px;
+	display:block;
+	background:#47A6CD;
+	color:#FFF;
+}
+.guide-home .presentation .item-doc:hover{
+	background:#999;
+}
+.guide-home .presentation .item-doc .icon{margin-bottom:10px;}
+.box-choose-guide{
+	width:480px;
+	margin:auto;
+	padding-top:50px;
+}
+.guide-home .presentation .item-doc i{font-size:60px;}
+
+.guide-tricae .header-guide {
+	background: #47A6CD;
+	padding: 10px;
+	color: #fff;
+}
+
+.box-exemplo {
+	clear: both;
+}
+
+.box-exemplo .column {
+	min-height: 10px;
+	border: 1px solid #ddd;
+}
+
+.guide-tricae .section-guide {
+	padding: 20px 0;
+}
+
+.guide-tricae .box-code {
+	background: #f5f5f5;
+	margin-top: 15px;
+	padding: 10px;
+	clear: both;
+}
+
+.guide-tricae .box-code b {
+	color: #55a442;
+	font-weight: normal;
+}
+
+.guide-tricae .box-code span {
+	color: #999;
+}
+
+.accordion.code {
+	margin-top: 20px;
+}
+
+.accordion.code .title {
+	text-align: right;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+.example {
+	width: 100%;
+	height: 20px;
+	background: #ccc;
+}
+
+.example-grid .column div {
+	background: #eee;
+	min-height: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.button-menu {
+	padding: 8px 15px;
+	cursor: pointer;
+	left: 0;
+	position: fixed;
+	z-index: 3000;
+}
+
+.button-menu .icon {
+	color: #fff;
+}
+
+.table-icons i {
+	font-size: 18px;
+}
+
+.box-example-content {
+	width: 100%;
+	height: 150px;
+	position: relative;
+	background: #FFF;
+	margin-bottom: 5px;
+}
+
+.box-example-content.inverted {
+	background: #333;
+}

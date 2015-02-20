@@ -1,3 +1,0 @@
-<%- @partial('library-javascript') %>
-<%- @partial('ui-javascript') %>
-<script src="/javascript/docs.js"></script>
