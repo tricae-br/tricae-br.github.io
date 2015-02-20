@@ -1,6 +1,6 @@
 $( document ).ready(function() {
-    $("#menuLateral").load("_partial/menu-lateral.html");
-    $("#header").load("_partial/header.html");
-    $("#menuList").load("_partial/menu-list.html");
+    $("#menuLateral").load("/guide/mobile/partial/menu-lateral.html");
+    $("#header").load("/guide/mobile/partial/header.html");
+    $("#menuList").load("/guide/mobile/partial/menu-list.html");
 });
 
