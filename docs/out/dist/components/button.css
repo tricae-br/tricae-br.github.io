@@ -1,0 +1,934 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+            Button
+*******************************/
+
+.ui.button {
+  cursor: pointer;
+  display: inline-block;
+  min-height: 1em;
+  outline: none;
+  border: 1px solid #e6e6e6;
+  vertical-align: baseline;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0em 0.25em 0em 0em;
+  padding: 1.1em 1.5em;
+  text-transform: none;
+  text-shadow: none;
+  font-weight: bold;
+  line-height: 1;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  background-image: none;
+  border-radius: 2px;
+  box-shadow: 0 0 5px #e6e6e6;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+          transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+  will-change: '';
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/*******************************
+            States
+*******************************/
+
+
+/*--------------
+      Hover
+---------------*/
+
+.ui.button:hover {
+  color: rgba(51, 51, 51, 0.6);
+}
+.ui.button:hover .icon {
+  opacity: 0.85;
+}
+
+/*--------------
+      Focus
+---------------*/
+
+.ui.button:focus {
+  background-color: '';
+  background-image: '';
+  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0px 1px rgba(81, 167, 232, 0.8) inset, 0px 0px 3px 2px rgba(81, 167, 232, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+}
+.ui.button:focus .icon {
+  opacity: 0.85;
+}
+
+/*--------------
+      Down
+---------------*/
+
+.ui.button:active,
+.ui.active.button:active {
+  background-color: #e6e6e6;
+  box-shadow: none;
+}
+
+/*--------------
+     Active
+---------------*/
+
+.ui.active.button {
+  background-color: #d0d0d0;
+  background-image: none;
+  box-shadow: 0px 0px 0px 1px transparent inset;
+  color: rgba(0, 0, 0, 0.8);
+}
+.ui.active.button:hover {
+  background-color: #d0d0d0;
+  background-image: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+.ui.active.button:active {
+  background-color: #d0d0d0;
+  background-image: none;
+}
+
+/*--------------
+    Loading X
+---------------*/
+
+
+/*-------------------
+      Disabled
+--------------------*/
+
+.ui.buttons .disabled.button,
+.ui.disabled.button,
+.ui.disabled.button:hover,
+.ui.disabled.active.button {
+  cursor: default;
+  background-color: #dcddde !important;
+  color: rgba(0, 0, 0, 0.4) !important;
+  opacity: 0.3 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  pointer-events: none;
+}
+
+
+/*******************************
+             Types
+*******************************/
+
+
+/*-------------------
+       Animated
+--------------------*/
+
+.ui.animated.button {
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+  padding-right: 0em !important;
+}
+.ui.animated.button .content {
+  will-change: transform, opacity;
+}
+.ui.animated.button .visible.content {
+  position: relative;
+  margin-right: 1.5em;
+}
+.ui.animated.button .hidden.content {
+  position: absolute;
+  width: 100%;
+}
+
+/* Horizontal */
+.ui.animated.button .visible.content,
+.ui.animated.button .hidden.content {
+  -webkit-transition: right 0.3s ease 0s;
+          transition: right 0.3s ease 0s;
+}
+.ui.animated.button .visible.content {
+  left: auto;
+  right: 0%;
+}
+.ui.animated.button .hidden.content {
+  top: 50%;
+  left: auto;
+  right: -100%;
+  margin-top: -0.5em;
+}
+.ui.animated.button:hover .visible.content {
+  left: auto;
+  right: 200%;
+}
+.ui.animated.button:hover .hidden.content {
+  left: auto;
+  right: 0%;
+}
+
+/* Vertical */
+.ui.vertical.animated.button .visible.content,
+.ui.vertical.animated.button .hidden.content {
+  -webkit-transition: top 0.3s ease, -webkit-transform 0.3s ease;
+          transition: top 0.3s ease, transform 0.3s ease;
+}
+.ui.vertical.animated.button .visible.content {
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+  right: auto;
+}
+.ui.vertical.animated.button .hidden.content {
+  top: -50%;
+  left: 0%;
+  right: auto;
+}
+.ui.vertical.animated.button:hover .visible.content {
+  -webkit-transform: translateY(200%);
+      -ms-transform: translateY(200%);
+          transform: translateY(200%);
+  right: auto;
+}
+.ui.vertical.animated.button:hover .hidden.content {
+  top: 50%;
+  right: auto;
+}
+
+/* Fade */
+/*.ui.fade.animated.button .visible.content,
+.ui.fade.animated.button .hidden.content {
+  transition: opacity @animationDuration @animationEasing, transform @animationDuration @animationEasing;
+}
+.ui.fade.animated.button .visible.content {
+  left: auto;
+  right: auto;
+  opacity: 1;
+  transform: scale(1);
+}
+.ui.fade.animated.button .hidden.content {
+  opacity: 0;
+  left: 0%;
+  right: auto;
+  transform: scale(@fadeScaleHigh);
+}
+.ui.fade.animated.button:hover .visible.content {
+  left: auto;
+  right: auto;
+  opacity: 0;
+  transform: scale(@fadeScaleLow);
+}
+.ui.fade.animated.button:hover .hidden.content {
+  left: 0%;
+  right: auto;
+  opacity: 1;
+  transform: scale(1);
+}*/
+
+/*-------------------
+       Inverted x
+--------------------*/
+
+
+/*-------------------
+       Social X
+--------------------*/
+
+
+/*--------------
+     Icon
+---------------*/
+
+.ui.button > .icon {
+  opacity: 0.8;
+  margin: 0em 0.4em 0em -0.2em;
+  -webkit-transition: opacity 0.2s ease;
+          transition: opacity 0.2s ease;
+  vertical-align: baseline;
+  color: '';
+}
+.ui.button > .right.icon {
+  margin: 0em -0.2em 0em 0.4em;
+}
+
+
+/*******************************
+           Variations
+*******************************/
+
+
+/*-------------------
+       Floated
+--------------------*/
+
+.ui[class*="left floated"].buttons,
+.ui[class*="left floated"].button {
+  float: left;
+  margin-left: 0em;
+  margin-right: 0.25em;
+}
+.ui[class*="right floated"].buttons,
+.ui[class*="right floated"].button {
+  float: right;
+  margin-right: 0em;
+  margin-left: 0.25em;
+}
+
+/*-------------------
+       Compact
+--------------------*/
+
+.ui.compact.buttons .button,
+.ui.compact.button {
+  padding: 0.75em 1.125em 0.75em;
+}
+.ui.compact.icon.buttons .button,
+.ui.compact.icon.button {
+  padding: 0.75em 0.75em 0.75em;
+}
+.ui.compact.labeled.icon.buttons .button,
+.ui.compact.labeled.icon.button {
+  padding: 0.75em 4.125em 0.75em;
+}
+
+/*-------------------
+        Sizes
+--------------------*/
+
+.ui.mini.buttons .button,
+.ui.mini.buttons .or,
+.ui.mini.button {
+  font-size: 10px;
+}
+.ui.tiny.buttons .button,
+.ui.tiny.buttons .or,
+.ui.tiny.button {
+  font-size: 11px;
+}
+.ui.small.buttons .button,
+.ui.small.buttons .or,
+.ui.small.button {
+  font-size: 11px;
+}
+.ui.buttons .button,
+.ui.buttons .or,
+.ui.button {
+  font-size: 12px;
+}
+.ui.large.buttons .button,
+.ui.large.buttons .or,
+.ui.large.button {
+  font-size: 14px;
+}
+.ui.big.buttons .button,
+.ui.big.buttons .or,
+.ui.big.button {
+  font-size: 16px;
+}
+.ui.huge.buttons .button,
+.ui.huge.buttons .or,
+.ui.huge.button {
+  font-size: 18px;
+}
+.ui.massive.buttons .button,
+.ui.massive.buttons .or,
+.ui.massive.button {
+  font-size: 21px;
+}
+
+/*--------------
+    Icon Only
+---------------*/
+
+.ui.icon.buttons .button,
+.ui.icon.button {
+  padding: 1em 1em 1em;
+}
+.ui.icon.buttons .button > .icon,
+.ui.icon.button > .icon {
+  opacity: 0.9;
+  margin: 0em;
+  vertical-align: top;
+}
+
+/*-------------------
+        Basic
+--------------------*/
+
+.ui.basic.buttons .button,
+.ui.basic.button {
+  background: transparent !important;
+  background-image: none;
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-weight: normal;
+  border-radius: 2px;
+  text-transform: none;
+  text-shadow: none !important;
+  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
+}
+.ui.basic.buttons {
+  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15);
+  border-radius: 2px;
+}
+.ui.basic.buttons .button {
+  border-radius: 0em;
+}
+.ui.basic.buttons .button:hover,
+.ui.basic.button:hover {
+  background: #fafafa !important;
+  color: rgba(0, 0, 0, 0.8) !important;
+  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset, 0px 0px 0px 0px rgba(39, 41, 43, 0.15) inset;
+}
+.ui.basic.buttons .button:active,
+.ui.basic.button:active {
+  background: #f8f8f8 !important;
+  color: rgba(0, 0, 0, 0.8) !important;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(39, 41, 43, 0.15) inset;
+}
+.ui.basic.buttons .active.button,
+.ui.basic.active.button {
+  background: rgba(0, 0, 0, 0.05) !important;
+  box-shadow: '' !important;
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: rgba(39, 41, 43, 0.3);
+}
+.ui.basic.buttons .active.button:hover,
+.ui.basic.active.button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Vertical */
+.ui.basic.buttons .button:hover {
+  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset, 0px 0px 0px 0px rgba(39, 41, 43, 0.15) inset inset;
+}
+.ui.basic.buttons .button:active {
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(39, 41, 43, 0.15) inset inset;
+}
+.ui.basic.buttons .active.button {
+  box-shadow: rgba(39, 41, 43, 0.3) inset;
+}
+
+/* Standard Basic Inverted */
+/*.ui.basic.inverted.buttons .button,
+.ui.basic.inverted.button {
+  background-color: transparent !important;
+  color: @offWhite !important;
+  box-shadow: @basicInvertedBoxShadow !important;
+}
+.ui.basic.inverted.buttons .button:hover,
+.ui.basic.inverted.button:hover {
+  color: @white !important;
+  box-shadow: @basicInvertedHoverBoxShadow !important;
+}
+.ui.basic.inverted.buttons .button:active,
+.ui.basic.inverted.button:active {
+  background-color: @transparentWhite !important;
+  color: @white !important;
+  box-shadow: @basicInvertedDownBoxShadow !important;
+}
+.ui.basic.inverted.buttons .active.button,
+.ui.basic.inverted.active.button {
+  background-color: @transparentWhite;
+  color: @invertedTextColor;
+  text-shadow: @invertedTextShadow;
+  box-shadow: @basicInvertedActiveBoxShadow;
+}
+.ui.basic.inverted.buttons .active.button:hover,
+.ui.basic.inverted.active.button:hover {
+  background-color: @strongTransparentWhite;
+  box-shadow: @basicInvertedHoverBoxShadow !important;
+}*/
+
+/* Basic Group */
+.ui.basic.buttons .button {
+  border-left: 1px solid rgba(39, 41, 43, 0.15);
+  box-shadow: none;
+}
+.ui.basic.vertical.buttons .button {
+  border-left: none;
+}
+
+/*--------------
+  Labeled Icon X
+---------------*/
+
+
+/*--------------
+     Toggle
+---------------*/
+
+
+/* Toggle (Modifies active state to give affordances) */
+.ui.toggle.buttons .active.button,
+.ui.buttons .button.toggle.active,
+.ui.button.toggle.active {
+  background-color: #5bbd72 !important;
+  box-shadow: none !important;
+  text-shadow: none;
+  color: #ffffff !important;
+}
+.ui.button.toggle.active:hover {
+  background-color: #66c17b !important;
+  text-shadow: none;
+  color: #ffffff !important;
+}
+
+/*--------------
+    Circular
+---------------*/
+
+.ui.circular.button {
+  border-radius: 10em;
+}
+.ui.circular.button > .icon {
+  width: 1em;
+  vertical-align: baseline;
+}
+
+/*--------------
+     Attached
+---------------*/
+
+.ui.attached.button {
+  display: block;
+  margin: 0em;
+  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) !important;
+  border-radius: 0em;
+}
+.ui.attached.top.button {
+  border-radius: 2px 2px 0em 0em;
+}
+.ui.attached.bottom.button {
+  border-radius: 0em 0em 2px 2px;
+}
+.ui.attached.left.button {
+  display: inline-block;
+  border-left: none;
+  padding-right: 0.75em;
+  text-align: right;
+  border-radius: 2px 0em 0em 2px;
+}
+.ui.attached.right.button {
+  display: inline-block;
+  padding-left: 0.75em;
+  text-align: left;
+  border-radius: 0em 2px 2px 0em;
+}
+
+/*-------------------
+      Or Buttons X
+--------------------*/
+
+
+/*-------------------
+       Attached
+--------------------*/
+
+
+/* Plural Attached */
+.attached.ui.buttons {
+  margin: 0px;
+  border-radius: 0em 0em 0em 0em;
+}
+.attached.ui.buttons .button {
+  margin: 0em;
+}
+.attached.ui.buttons .button:first-child {
+  border-radius: 0em 0em 0em 0em;
+}
+.attached.ui.buttons .button:last-child {
+  border-radius: 0em 0em 0em 0em;
+}
+
+/* Top Side */
+[class*="top attached"].ui.buttons {
+  margin-bottom: -1px;
+  border-radius: 2px 2px 0em 0em;
+}
+[class*="top attached"].ui.buttons .button:first-child {
+  border-radius: 2px 0em 0em 0em;
+}
+[class*="top attached"].ui.buttons .button:last-child {
+  border-radius: 0em 2px 0em 0em;
+}
+
+/* Bottom Side */
+[class*="bottom attached"].ui.buttons {
+  margin-top: -1px;
+  border-radius: 0em 0em 2px 2px;
+}
+[class*="bottom attached"].ui.buttons .button:first-child {
+  border-radius: 0em 0em 0em 2px;
+}
+[class*="bottom attached"].ui.buttons .button:last-child {
+  border-radius: 0em 0em 2px 0em;
+}
+
+/* Left Side */
+[class*="left attached"].ui.buttons {
+  margin-left: -1px;
+  border-radius: 0em 2px 2px 0em;
+}
+[class*="left attached"].ui.buttons .button:first-child {
+  margin-left: -1px;
+  border-radius: 0em 2px 0em 0em;
+}
+[class*="left attached"].ui.buttons .button:last-child {
+  margin-left: -1px;
+  border-radius: 0em 0em 2px 0em;
+}
+
+/* Right Side */
+[class*="right attached"].ui.buttons,
+[class*="right attached"].ui.buttons .button {
+  margin-right: -1px;
+  border-radius: 2px 0em 0em 2px;
+}
+[class*="right attached"].ui.buttons .button:first-child {
+  margin-left: -1px;
+  border-radius: 2px 0em 0em 0em;
+}
+[class*="right attached"].ui.buttons .button:last-child {
+  margin-left: -1px;
+  border-radius: 0em 0em 0em 2px;
+}
+
+/* Fluid */
+.ui.fluid.buttons,
+.ui.button.fluid,
+.ui.fluid.buttons > .button {
+  display: block;
+  width: 100%;
+}
+/*
+.ui.\32.buttons,
+.ui.two.buttons {
+  width: 100%;
+}
+.ui.\32.buttons > .button,
+.ui.two.buttons > .button {
+  width: 50%;
+}
+
+.ui.\33.buttons,
+.ui.three.buttons {
+  width: 100%;
+}
+.ui.\33.buttons > .button,
+.ui.three.buttons > .button {
+  width: 33.333%;
+}
+
+.ui.\34.buttons,
+.ui.four.buttons {
+  width: 100%;
+}
+.ui.\34.buttons > .button,
+.ui.four.buttons > .button {
+  width: 25%;
+}
+
+.ui.\35.buttons,
+.ui.five.buttons {
+  width: 100%;
+}
+.ui.\35.buttons > .button,
+.ui.five.buttons > .button {
+  width: 20%;
+}
+
+.ui.\36.buttons,
+.ui.six.buttons {
+  width: 100%;
+}
+.ui.\36.buttons > .button,
+.ui.six.buttons > .button {
+  width: 16.666%;
+}
+
+.ui.\37.buttons,
+.ui.seven.buttons {
+  width: 100%;
+}
+.ui.\37.buttons > .button,
+.ui.seven.buttons > .button {
+  width: 14.285%;
+}
+
+.ui.\38.buttons,
+.ui.eight.buttons {
+  width: 100%;
+}
+.ui.\38.buttons > .button,
+.ui.eight.buttons > .button {
+  width: 12.500%;
+}
+
+.ui.\39.buttons,
+.ui.nine.buttons {
+  width: 100%;
+}
+.ui.\39.buttons > .button,
+.ui.nine.buttons > .button {
+  width: 11.11%;
+}
+
+.ui.\31\30.buttons,
+.ui.ten.buttons {
+  width: 100%;
+}
+.ui.\31\30.buttons > .button,
+.ui.ten.buttons > .button {
+  width: 10%;
+}
+
+.ui.\31\31.buttons,
+.ui.eleven.buttons {
+  width: 100%;
+}
+.ui.\31\31.buttons > .button,
+.ui.eleven.buttons > .button {
+  width: 9.09%;
+}
+
+.ui.\31\32.buttons,
+.ui.twelve.buttons {
+  width: 100%;
+}
+.ui.\31\32.buttons > .button,
+.ui.twelve.buttons > .button {
+  width: 8.3333%;
+}
+*/
+
+/* Fluid Vertical Buttons */
+.ui.fluid.vertical.buttons,
+.ui.fluid.vertical.buttons > .button {
+  display: block;
+  width: auto;
+}
+/*
+.ui.\32.vertical.buttons > .button,
+.ui.two.vertical.buttons > .button {
+  height: 50%;
+}
+.ui.\33.vertical.buttons > .button,
+.ui.three.vertical.buttons > .button {
+  height: 33.333%;
+}
+.ui.\34.vertical.buttons > .button,
+.ui.four.vertical.buttons > .button {
+  height: 25%;
+}
+.ui.\35.vertical.buttons > .button,
+.ui.five.vertical.buttons > .button {
+  height: 20%;
+}
+.ui.\36.vertical.buttons > .button,
+.ui.six.vertical.buttons > .button {
+  height: 16.666%;
+}
+.ui.\37.vertical.buttons > .button,
+.ui.seven.vertical.buttons > .button {
+  height: 14.285%;
+}
+.ui.\38.vertical.buttons > .button,
+.ui.eight.vertical.buttons > .button {
+  height: 12.500%;
+}
+.ui.\39.vertical.buttons > .button,
+.ui.nine.vertical.buttons > .button {
+  height: 11.11%;
+}
+.ui.\31\30.vertical.buttons > .button,
+.ui.ten.vertical.buttons > .button {
+  height: 10%;
+}
+.ui.\31\31.vertical.buttons > .button,
+.ui.eleven.vertical.buttons > .button {
+  height: 9.09%;
+}
+.ui.\31\32.vertical.buttons > .button,
+.ui.twelve.vertical.buttons > .button {
+  height: 8.3333%;
+}
+*/
+
+/*-------------------
+       Colors x
+--------------------*/
+
+
+/*-------------------
+       Primary
+--------------------*/
+
+.ui.primary.buttons .button,
+.ui.primary.button {
+  background-color: #f9c558;
+  color: #ffffff;
+  border: 1px solid #f7b427;
+}
+.ui.primary.button {
+  box-shadow: 0 0 5px #f9c558;
+}
+.ui.primary.buttons .button:hover,
+.ui.primary.button:hover {
+  background-color: #face71;
+}
+.ui.primary.buttons .button:active,
+.ui.primary.button:active,
+.ui.primary.buttons .active.button,
+.ui.primary.active.button {
+  background-color: #f7b427;
+  box-shadow: none;
+}
+
+/*-------------------
+      Secondary
+--------------------*/
+
+.ui.secondary.buttons .button,
+.ui.secondary.button {
+  background-color: #47a6cd;
+  color: #ffffff;
+  border: 1px solid #308bb1;
+}
+.ui.secondary.button {
+  box-shadow: 0 0 5px #47a6cd;
+}
+.ui.secondary.buttons .button:hover,
+.ui.secondary.button:hover {
+  background-color: #5bb0d2;
+}
+.ui.secondary.buttons .button:active,
+.ui.secondary.button:active,
+.ui.secondary.buttons .active.button,
+.ui.secondary.active.button {
+  background-color: #308bb1;
+  box-shadow: none;
+}
+
+/*---------------
+    Positive x
+----------------*/
+
+
+/*---------------
+     Negative x
+----------------*/
+
+
+
+/*******************************
+            Groups
+*******************************/
+
+.ui.buttons {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0em 0.25em 0em 0em;
+}
+.ui.buttons > .button:hover,
+.ui.buttons > .active.button {
+  position: relative;
+}
+.ui.buttons:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.ui.buttons .button:first-child {
+  border-left: 1px solid #e6e6e6;
+}
+.ui.buttons:not(.basic):not(.inverted) {
+  box-shadow: none;
+}
+.ui.buttons > .ui.button:not(.basic):not(.inverted),
+.ui.buttons:not(.basic):not(.inverted) > .button {
+  box-shadow: 0 0 5px #e6e6e6;
+}
+.ui.buttons .button {
+  margin: 0em;
+  float: left;
+  border-radius: 0em;
+  margin: 0px 0px 0px 0px;
+  border-left: none;
+}
+.ui.buttons .button:first-child {
+  margin-left: 0em;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.ui.buttons .button:last-child {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+/* Vertical  Style */
+.ui.vertical.buttons {
+  display: inline-block;
+}
+.ui.vertical.buttons .button {
+  display: block;
+  float: none;
+  margin: 0px 0px 0px 0px;
+  box-shadow: none;
+  border: 1px solid #e6e6e6;
+  border-top: none;
+}
+.ui.vertical.buttons .button:first-child,
+.ui.vertical.buttons .mini.button:first-child,
+.ui.vertical.buttons .tiny.button:first-child,
+.ui.vertical.buttons .small.button:first-child,
+.ui.vertical.buttons .massive.button:first-child,
+.ui.vertical.buttons .huge.button:first-child {
+  border-radius: 2px 2px 0px 0px;
+  border-top: 1px solid #e6e6e6;
+}
+.ui.vertical.buttons .button:last-child,
+.ui.vertical.buttons .mini.button:last-child,
+.ui.vertical.buttons .tiny.button:last-child,
+.ui.vertical.buttons .small.button:last-child,
+.ui.vertical.buttons .massive.button:last-child,
+.ui.vertical.buttons .huge.button:last-child,
+.ui.vertical.buttons .gigantic.button:last-child {
+  margin-bottom: 0px;
+  border-radius: 0px 0px 2px 2px;
+}
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+

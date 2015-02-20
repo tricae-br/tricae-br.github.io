@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/desktop.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main" id="contentMain">
+            <div class="row">
+                <div class="column desktop-2 tablet-3" id="menuLateral">
+                    <!--carrega o menu lateral-->
+                </div>
+
+                <div class="column desktop-10 tablet-9">
+
+                    <h2>Transitions</h2>
+                    <p>
+                        Utiliza transition. Ver mais em <a href="http://semantic-ui.com/modules/transition.html" target="_blank">Semantic-UI</a>
+                    </p>
+                    <p>
+                        <b>Shake</b><br />
+                        Deverá ser utilizado para erros de preenchimento de formulário (ex: campos de formulário, escolha de tamanho, etc...)
+                    </p>
+
+                    <br /><br />
+                    <div class="tr box-default simple-box">
+
+                        <div class="ui form">
+
+                            <div class="row">
+
+                                <div class="column desktop-4">
+                                    <div class="field transition1">
+                                        <label>E-mail</label>
+                                        <input type="text" placeholder="email@email.com" />
+                                    </div>
+                                </div>
+
+                                <div class="column desktop-4">
+                                    <div class="field">
+                                        <label>&nbsp;</label>
+                                        <input type="button" class="ui button secondary" id="buttonTransition1" value="Enviar" />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <script type="text/javascript">
+                            $( "#buttonTransition1" ).click(function() {
+                                $('.transition1').addClass('error');
+                                $('.transition1')
+                                        .transition({
+                                            animation: 'shake',
+                                            duration: '100ms'
+                                        })
+                                ;
+                            });
+                        </script>
+
+                        <div class="box-code">
+                            &lt;div class="ui form"&gt;<br /><br />
+
+                            &lt;div class="row"&gt;<br /><br />
+
+                            &lt;div class="column desktop-4"&gt;<br />
+                            &lt;div class="field transition1"&gt;<br />
+                            &lt;label&gt;E-mail&lt;/label&gt;<br />
+                            &lt;input type="text" placeholder="email@email.com" /&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;div class="column desktop-4"&gt;<br />
+                            &lt;div class="field"&gt;<br />
+                            &lt;label&gt;&amp;nbsp;&lt;/label&gt;<br />
+                            &lt;input type="button" class="ui button secondary" id="buttonTransition1" value="Enviar" /&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;script type="text/javascript"&gt;<br />
+                            $( "#buttonTransition1" ).click(function() {<br />
+                            $('.transition1').addClass('error');<br />
+                            $('.transition1')<br />
+                            .transition({<br />
+                            animation: 'shake',<br />
+                            duration: '100ms'<br />
+                            })<br />
+                            ;<br />
+                            });<br />
+                            &lt;/script&gt;
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

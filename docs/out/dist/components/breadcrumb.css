@@ -1,0 +1,69 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+            Breadcrumb
+*******************************/
+
+.tr.breadcrumb {
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 10px;
+  font-size: 11px;
+  width: 100%;
+  float: left;
+}
+.tr.breadcrumb ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 2;
+}
+.tr.breadcrumb ul li {
+  display: block;
+  float: left;
+}
+.tr.breadcrumb ul li:before {
+  content: '/';
+  color: #cccccc;
+}
+.tr.breadcrumb ul li:first-child:before {
+  content: none;
+}
+.tr.breadcrumb ul a,
+.tr.breadcrumb ul div {
+  padding: 0 5px;
+}
+.tr.breadcrumb ul div {
+  width: 80px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+/*******************************
+         Site Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+

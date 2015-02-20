@@ -1,0 +1,15 @@
+/*-------------------
+      Base Sizes
+--------------------*/
+
+@emSize   : 12px;
+@fontSize : 12px;
+
+@miniFont    : 10px;
+@tinyFont    : 11px;
+@smallFont   : 11px;
+@mediumFont  : 12px;
+@largeFont   : 14px;
+@bigFont     : 16px;
+@hugeFont    : 18px;
+@massiveFont : 21px;

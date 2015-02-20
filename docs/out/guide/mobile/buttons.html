@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/mobile.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="two wide column" id="menuLateral">
+        <!--carrega o menu lateral-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main">
+            <div class="row">
+                <div class="column desktop-12">
+                <h2>Botões</h2>
+                <p>Utiliza button. Ver mais em <a target="_blank" href="http://semantic-ui.com/elements/button.html">Semantic-UI</a></p>
+
+                <h2>Cores</h2>
+                <p>
+                    <b>Padrão</b><br />
+                    Apenas utilizar a class="ui button".
+                </p>
+                <div class="tr box-default simple-box">
+                    <button class="ui button">
+                        Continuar
+                    </button>
+                    <div class="box-code">
+                        &ltbutton class="ui button"&gt
+                        Continuar
+                        &lt/button&gt
+                    </div>
+                </div>
+                <p>
+                    <b>Call-to-action</b><br />
+                    Adicionar a class="primary" ao botão padrão.
+                </p>
+                <div class="tr box-default simple-box">
+                    <button class="ui primary button">
+                        Comprar
+                    </button>
+                    <div class="box-code">
+                        &ltbutton class="ui button primary"&gt
+                        Ccomprar
+                        &lt/button&gt
+                    </div>
+                </div>
+                <p>
+                    <b>Secundário</b><br />
+                    Adicionar a class="secondary" ao botão padrão.
+                </p>
+                <div class="tr box-default simple-box">
+                    <button class="ui secondary button">
+                        Detalhes
+                    </button>
+                    <div class="box-code">
+                        &ltbutton class="ui button secondary"&gt
+                        Detalhes
+                        &lt/button&gt
+                    </div>
+                </div>
+
+                <h2>Tamanhos</h2>
+                <p>
+                    <b>Padrão</b><br />
+                    Adicionar a class="ui button".
+                </p>
+                <div class="tr box-default simple-box">
+                    <button class="ui button">
+                        Ver detalhes
+                    </button>
+                    <div class="box-code">
+                        &ltbutton class="ui button"&gt
+                        Detalhes
+                        &lt/button&gt
+                    </div>
+                </div>
+                <p>
+                    <b>Small</b><br />
+                    Adicionar a class="small".
+                </p>
+                <div class="tr box-default simple-box">
+                    <button class="ui small button">
+                        Inserir cupom
+                    </button>
+                    <div class="box-code">
+                        &ltbutton class="ui button small"&gt
+                        Inserir cupom
+                        &lt/button&gt
+                    </div>
+                </div>
+                <p>
+                    <b>Large</b><br />
+                    Adicionar a class="large".
+                </p>
+                <div class="tr box-default simple-box">
+                    <button class="ui large button">
+                        Continuar comprando
+                    </button>
+                    <div class="box-code">
+                        &ltbutton class="ui button large"&gt
+                        Continuar comprando
+                        &lt/button&gt
+                    </div>
+                </div>
+
+                <h2>Icon</h2>
+                <p>
+                    <b>Default</b><br />
+                    Apenas adicionar a class="icon" à div "ui button" e o ícone a ser utilizado.
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui icon button">
+                        <i class="left icon edit"></i>
+                    </div>
+                    <div class="box-code">
+                        &ltdiv class="ui button <b>icon</b>"&gt<br />
+                        <b>&nbsp;&nbsp; &lti class="icon edit"&gt &lt/i&gt</b><br />
+                        &lt/div&gt<br/>
+                    </div>
+                </div>
+
+                <h2>Circular</h2>
+                <p>
+                    <b>Default</b><br />
+                    Apenas adicionar a class="circular" ao Icon Button.
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui icon button circular">
+                        <i class="left icon edit"></i>
+                    </div>
+                    <div class="box-code">
+                        &ltdiv class="ui button icon <b>circular</b>"&gt<br />
+                        &nbsp;&nbsp; &lti class="icon edit"&gt &lt/i&gt<br />
+                        &lt/div&gt<br/>
+                    </div>
+                </div>
+
+                <h2>Labeled Icon</h2>
+                <p>
+                    Adicionar a class="labeled" e a Label ao Icon Button.
+                </p>
+                <p>
+                    <b>Icon Left</b>
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui labeled icon button">
+                        <i class="icon edit"></i>
+                        Editar
+                    </div>
+                    <div class="box-code">
+                        &ltdiv class="ui <b>labeled</b> icon button"&gt
+                        &lti class="icon edit"&gt &lt/i&gt <b>Editar</b>
+                        &lt/div&gt
+                    </div>
+                </div>
+                <p>
+                    <b>Icon Right</b><br />
+                    Adicionar a class="right" e a Labeled Icon Button.
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui right labeled icon button">
+                        Adicionar
+                        <i class="right add icon"></i>
+                    </div>
+                    <div class="box-code">
+                        &ltdiv class="ui right labeled icon button"&gt
+                        &lti class="<b>right</b> icon add"&gt &lt/i&gt Adicionar
+                        &lt/div&gt
+                    </div>
+                </div>
+
+
+                <h2>Group</h2>
+
+                <p>
+                    <b>Horizontal Icon buttons</b><br />
+                    Apenas adicionar a &ltdiv class="ui buttons"&gt &lt/div&gt aos Icon Buttons.
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui buttons">
+                        <div class="ui icon button">
+                            <i class="icon edit"></i>
+                        </div>
+                        <div class="ui icon button">
+                            <i class="icon trash"></i>
+                        </div>
+                        <div class="ui icon button">
+                            <i class="add icon"></i>
+                        </div>
+                    </div>
+                    <div class="box-code">
+                        <b>&ltdiv class="ui buttons"&gt</b><br />
+
+                        &nbsp;&nbsp; &ltdiv class="ui icon button"&gt<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lti class="icon edit"&gt &lt/i&gt<br />
+                        &nbsp;&nbsp; &lt/div&gt<br/>
+
+                        &nbsp;&nbsp; &ltdiv class="ui icon button"&gt<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lti class="icon trash"&gt &lt/i&gt<br />
+                        &nbsp;&nbsp; &lt/div&gt<br/>
+
+                        &nbsp;&nbsp; &ltdiv class="ui icon button"&gt<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lti class=" icon add"&gt &lt/i&gt<br />
+                        &nbsp;&nbsp; &lt/div&gt<br/>
+
+                        <b>&lt/div&gt</b>
+                    </div>
+                </div>
+
+                <p>
+                    <b>Horizontal Labeled Icon Buttons</b><br />
+                    Apenas adicionar a &ltdiv class="ui buttons"&gt &lt/div&gt aos Labeled Icon Buttons.
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui buttons">
+                        <div class="ui labeled icon button">
+                            <i class="left icon edit"></i>
+                            Editar
+                        </div>
+                        <div class="ui labeled icon button">
+                            <i class="icon trash"></i>
+                            Apagar
+                        </div>
+                        <div class="ui right labeled icon button">
+                            Adicionar
+                            <i class="right add icon"></i>
+                        </div>
+                    </div>
+                    <div class="box-code">
+                        <b>&ltdiv class="ui buttons"&gt</b><br />
+
+                        &nbsp;&nbsp; &ltdiv class="ui left labeled icon button"&gt<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lti class="left icon edit"&gt &lt/i&gt Editar<br />
+                        &nbsp;&nbsp; &lt/div&gt<br/>
+
+                        &nbsp;&nbsp; &ltdiv class="ui left labeled icon button"&gt<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lti class="left icon trash"&gt &lt/i&gt Apagar<br />
+                        &nbsp;&nbsp; &lt/div&gt<br/>
+
+                        &nbsp;&nbsp; &ltdiv class="ui right labeled icon button"&gt<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lti class="right icon add"&gt &lt/i&gt Adicionar<br />
+                        &nbsp;&nbsp; &lt/div&gt<br/>
+
+                        <b>&lt/div&gt</b>
+                    </div>
+                </div>
+
+                <p>
+                    <b>Vertical Icon Buttons</b><br />
+                    Apenas adicionar a class "vertical" à div buttons.<br />
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui buttons vertical">
+                        <div class="ui icon button">
+                            <i class="left icon edit"></i>
+                        </div>
+                        <div class="ui icon button">
+                            <i class="icon trash"></i>
+                        </div>
+                        <div class="ui icon button">
+                            <i class="add icon"></i>
+                        </div>
+                    </div>
+                    <div class="box-code">
+                        &ltdiv class="ui buttons <b>vertical</b>"&gt<br />
+
+                        &nbsp;&nbsp; &ltdiv class="ui icon button"&gt<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lti class="icon edit"&gt &lt/i&gt<br />
+                        &nbsp;&nbsp; &lt/div&gt<br/>
+
+                        &nbsp;&nbsp; &ltdiv class="ui icon button"&gt<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lti class="icon trash"&gt &lt/i&gt<br />
+                        &nbsp;&nbsp; &lt/div&gt<br/>
+
+                        &nbsp;&nbsp; &ltdiv class="ui icon button"&gt<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lti class="icon add"&gt &lt/i&gt<br />
+                        &nbsp;&nbsp; &lt/div&gt<br/>
+
+                        &lt/div&gt
+                    </div>
+                </div>
+
+
+                <p>
+                    <b>Vertical Labeled Icon Buttons</b><br />
+                    Apenas adicionar a class "vertical" à div buttons.<br />
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui buttons vertical">
+                        <div class="ui labeled icon button">
+                            <i class="left icon edit"></i>
+                            Editar
+                        </div>
+                        <div class="ui labeled icon button">
+                            <i class="icon trash"></i>
+                            Apagar
+                        </div>
+                        <div class="ui right labeled icon button">
+                            Adicionar
+                            <i class="right add icon"></i>
+                        </div>
+                    </div>
+                    <div class="box-code">
+                        &ltdiv class="ui buttons <b>vertical</b>"&gt<br />
+
+                        &nbsp;&nbsp; &ltdiv class="ui left labeled icon button"&gt<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lti class="left icon edit"&gt &lt/i&gt Editar<br />
+                        &nbsp;&nbsp; &lt/div&gt<br/>
+
+                        &nbsp;&nbsp; &ltdiv class="ui left labeled icon button"&gt<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lti class="left icon trash"&gt &lt/i&gt Apagar<br />
+                        &nbsp;&nbsp; &lt/div&gt<br/>
+
+                        &nbsp;&nbsp; &ltdiv class="ui right labeled icon button"&gt<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &lti class="right icon add"&gt &lt/i&gt Adicionar<br />
+                        &nbsp;&nbsp; &lt/div&gt<br/>
+
+                        &lt/div&gt
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>

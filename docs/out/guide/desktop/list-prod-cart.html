@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/desktop.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main" id="contentMain">
+            <div class="row">
+                <div class="column desktop-2 tablet-3" id="menuLateral">
+                    <!--carrega o menu lateral-->
+                </div>
+
+                <div class="column desktop-10 tablet-9">
+
+                    <h2>Produtos Cart</h2>
+
+                    <p>
+                        Utiliza buttons, box e list.
+                    </p>
+
+                    <p>
+                        <b>Desktop Produto</b>
+                    </p>
+
+                    <div class="tr box-default simple-box">
+                        <div class="tr thead box-default simple-box">
+
+                            <div class="row">
+
+                                <div class="column desktop-5"><label class="static">Produto</label></div>
+
+                                <div class="column desktop-7">
+                                    <div class="row">
+                                        <div class="column desktop-3 al-center"><label class="static">Entrega</label></div>
+                                        <div class="column desktop-3 al-center"><label class="static">Quantidade</label></div>
+                                        <div class="column desktop-3 al-center"><label class="static">Valor</label></div>
+                                        <div class="column desktop-3 al-right"><label class="static">Total</label></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="tr list-item box-default simple-box item-cart">
+
+                            <div class="row">
+
+                                <div class="column desktop-5">
+                                    <div class="row">
+                                        <div class="column desktop-3"><img src="images/products/product.jpg" class="img-small" /></div>
+                                        <div class="column desktop-9">
+                                            <span class="tr tx-brand">Plugt</span><br />
+                                            <span class="tr tx-name-product">Galocha Modern Plugt Básico Marinho Lisa</span><br />
+                                            <label class="static">Tamanho:</label><span class="static">P</span> - <label class="static">Cor:</label> <span class="static">Rosa</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="column desktop-7">
+
+                                    <div class="row">
+
+                                        <div class="column desktop-3 al-center">
+                                            <span class="tr tx-deadline">3 a 4 dias úteis</span>
+                                        </div>
+
+                                        <div class="column desktop-3 al-center">
+                                            <select class="ui dropdown">
+                                                <option>1</option>
+                                                <option>2</option>
+                                            </select>
+                                            <a href="" class="tx-small">Remover item</a>
+                                        </div>
+
+                                        <div class="column desktop-3 al-center">
+                                            <span class="tr tx-price">R$ 49,90</span><br />
+                                            <span class="tr tx-special-price">R$ 39,90</span>
+                                        </div>
+
+                                        <div class="column desktop-3 al-right">
+                                            <span class="tr tx-special-price">R$ 39,90</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="ui accordion code">
+                            <div class="title">
+                                <i class="code icon"></i>
+                                Code
+                            </div>
+                            <div class="content">
+                                <div class="box-code">
+                                    &lt;div class="tr thead box-default simple-box"&gt;<br /><br />
+
+                                    &lt;div class="row"&gt;<br /><br />
+
+                                    &lt;div class="column desktop-5"&gt;&lt;label class="static"&gt;Produto&lt;/label&gt;&lt;/div&gt;<br /><br />
+
+                                    &lt;div class="column desktop-7"&gt;<br />
+                                    &lt;div class="row"&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;&lt;label class="static"&gt;Entrega&lt;/label&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;&lt;label class="static"&gt;Quantidade&lt;/label&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;&lt;label class="static"&gt;Valor&lt;/label&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-right"&gt;&lt;label class="static"&gt;Total&lt;/label&gt;&lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;div class="tr list-item box-default simple-box item-cart"&gt;<br /><br />
+
+                                    &lt;div class="row"&gt;<br /><br />
+
+                                    &lt;div class="column desktop-5"&gt;<br />
+                                    &lt;div class="row"&gt;<br />
+                                    &lt;div class="column desktop-3"&gt;&lt;img src="images/products/product.jpg" class="img-small" /&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-9"&gt;<br />
+                                    &lt;span class="tr tx-brand"&gt;Plugt&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;span class="tr tx-name-product"&gt;Galocha Modern Plugt B&aacute;sico Marinho Lisa&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;label class="static"&gt;Tamanho:&lt;/label&gt;&lt;span class="static"&gt;P&lt;/span&gt; - &lt;label class="static"&gt;Cor:&lt;/label&gt; &lt;span class="static"&gt;Rosa&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;div class="column desktop-7"&gt;<br /><br />
+
+                                    &lt;div class="row"&gt;<br /><br />
+
+                                    &lt;div class="column desktop-3 al-center"&gt;<br />
+                                    &lt;span class="tr tx-deadline"&gt;3 a 4 dias &uacute;teis&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;div class="column desktop-3 al-center"&gt;<br />
+                                    &lt;select class="ui dropdown"&gt;<br />
+                                    &lt;option&gt;1&lt;/option&gt;<br />
+                                    &lt;option&gt;2&lt;/option&gt;<br />
+                                    &lt;/select&gt;<br />
+                                    &lt;a href="" class="tx-small"&gt;Remover item&lt;/a&gt;<br />
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;div class="column desktop-3 al-center"&gt;<br />
+                                    &lt;span class="tr tx-price"&gt;R$ 49,90&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;span class="tr tx-special-price"&gt;R$ 39,90&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;div class="column desktop-3 al-right"&gt;<br />
+                                    &lt;span class="tr tx-special-price"&gt;R$ 39,90&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Desktop Brinde</b>
+                    </p>
+
+                    <div class="tr box-default simple-box">
+                        <div class="tr thead box-default simple-box">
+
+                            <div class="row">
+
+                                <div class="column desktop-5"><label class="static">Produto</label></div>
+
+                                <div class="column desktop-7">
+                                    <div class="row">
+                                        <div class="column desktop-3 al-center"><label class="static">Entrega</label></div>
+                                        <div class="column desktop-3 al-center"><label class="static">Quantidade</label></div>
+                                        <div class="column desktop-3 al-center"><label class="static">Valor</label></div>
+                                        <div class="column desktop-3 al-right"><label class="static">Total</label></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="tr list-item box-default simple-box item-cart">
+
+                            <div class="row">
+
+                                <div class="column desktop-5">
+                                    <div class="row">
+                                        <div class="column desktop-3"><img src="images/products/product.jpg" class="img-small" /></div>
+                                        <div class="column desktop-9">
+                                            <span class="tr tx-brand">Plugt</span><br />
+                                            <span class="tr tx-name-product">Galocha Modern Plugt Básico Marinho Lisa</span><br />
+                                            <label class="static">Tamanho:</label><span class="static">P</span> - <label class="static">Cor:</label> <span class="static">Rosa</span>
+                                            <div class="row free-gift">
+                                                <div class="column desktop-3"><img src="images/products/product.jpg" class="img-small" /></div>
+                                                <div class="column desktop-9">
+                                                    <span class="tr tx-brand">Brinde</span><br />
+                                                    <span class="tr tx-name-product">Galocha Modern Plugt Básico Marinho Lisa</span><br />
+                                                    <label class="static">Tamanho:</label><span class="static">P</span> - <label class="static">Cor:</label> <span class="static">Rosa</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="column desktop-7">
+                                    <div class="row">
+                                        <div class="column desktop-3 al-center">
+                                            <span class="tr tx-deadline">3 a 4 dias úteis</span>
+                                        </div>
+                                        <div class="column desktop-3 al-center">
+                                            <select class="ui dropdown">
+                                                <option>1</option>
+                                                <option>2</option>
+                                            </select>
+                                            <a href="" class="tx-small">Remover item</a>
+                                        </div>
+                                        <div class="column desktop-3 al-center">
+                                            <span class="tr tx-price">R$ 49,90</span><br />
+                                            <span class="tr tx-special-price">R$ 39,90</span>
+                                        </div>
+                                        <div class="column desktop-3 al-right">
+                                            <span class="tr tx-special-price">R$ 39,90</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="ui accordion code">
+                            <div class="title">
+                                <i class="code icon"></i>
+                                Code
+                            </div>
+                            <div class="content">
+                                <div class="box-code">
+                                    &lt;div class="tr thead box-default simple-box"&gt;<br /><br />
+
+                                    &lt;div class="row"&gt;<br /><br />
+
+                                    &lt;div class="column desktop-5"&gt;&lt;label class="static"&gt;Produto&lt;/label&gt;&lt;/div&gt;<br /><br />
+
+                                    &lt;div class="column desktop-7"&gt;<br />
+                                    &lt;div class="row"&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;&lt;label class="static"&gt;Entrega&lt;/label&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;&lt;label class="static"&gt;Quantidade&lt;/label&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;&lt;label class="static"&gt;Valor&lt;/label&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-right"&gt;&lt;label class="static"&gt;Total&lt;/label&gt;&lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;div class="tr list-item box-default simple-box item-cart"&gt;<br /><br />
+
+                                    &lt;div class="row"&gt;<br /><br />
+
+                                    &lt;div class="column desktop-5"&gt;<br />
+                                    &lt;div class="row"&gt;<br />
+                                    &lt;div class="column desktop-3"&gt;&lt;img src="images/products/product.jpg" class="img-small" /&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-9"&gt;<br />
+                                    &lt;span class="tr tx-brand"&gt;Plugt&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;span class="tr tx-name-product"&gt;Galocha Modern Plugt B&aacute;sico Marinho Lisa&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;label class="static"&gt;Tamanho:&lt;/label&gt;&lt;span class="static"&gt;P&lt;/span&gt; - &lt;label class="static"&gt;Cor:&lt;/label&gt; &lt;span class="static"&gt;Rosa&lt;/span&gt;<br />
+                                    &lt;div class="row free-gift"&gt;<br />
+                                    &lt;div class="column desktop-3"&gt;&lt;img src="images/products/product.jpg" class="img-small" /&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-9"&gt;<br />
+                                    &lt;span class="tr tx-brand"&gt;Brinde&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;span class="tr tx-name-product"&gt;Galocha Modern Plugt B&aacute;sico Marinho Lisa&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;label class="static"&gt;Tamanho:&lt;/label&gt;&lt;span class="static"&gt;P&lt;/span&gt; - &lt;label class="static"&gt;Cor:&lt;/label&gt; &lt;span class="static"&gt;Rosa&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;div class="column desktop-7"&gt;<br />
+                                    &lt;div class="row"&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;<br />
+                                    &lt;span class="tr tx-deadline"&gt;3 a 4 dias &uacute;teis&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;<br />
+                                    &lt;select class="ui dropdown"&gt;<br />
+                                    &lt;option&gt;1&lt;/option&gt;<br />
+                                    &lt;option&gt;2&lt;/option&gt;<br />
+                                    &lt;/select&gt;<br />
+                                    &lt;a href="" class="tx-small"&gt;Remover item&lt;/a&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;<br />
+                                    &lt;span class="tr tx-price"&gt;R$ 49,90&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;span class="tr tx-special-price"&gt;R$ 39,90&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-right"&gt;<br />
+                                    &lt;span class="tr tx-special-price"&gt;R$ 39,90&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Desktop Bundle</b>
+                    </p>
+
+                    <div class="tr box-default simple-box">
+                        <div class="tr thead box-default simple-box">
+
+                            <div class="row">
+
+                                <div class="column desktop-5"><label class="static">Produto</label></div>
+
+                                <div class="column desktop-7">
+                                    <div class="row">
+                                        <div class="column desktop-3 al-center"><label class="static">Entrega</label></div>
+                                        <div class="column desktop-3 al-center"><label class="static">Quantidade</label></div>
+                                        <div class="column desktop-3 al-center"><label class="static">Valor</label></div>
+                                        <div class="column desktop-3 al-right"><label class="static">Total</label></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="tr list-item box-default simple-box item-cart">
+
+                            <div class="row">
+
+                                <div class="column desktop-5">
+                                    <div class="row">
+                                        <div class="column desktop-3"><img src="images/products/product.jpg" class="img-small" /></div>
+                                        <div class="column desktop-9">
+                                            <span class="tr tx-brand">Kit</span><br />
+                                            <span class="tr tx-name-product">Galocha Modern Plugt Básico Marinho Lisa</span><br />
+                                            <label class="static">Tamanho:</label><span class="static">P</span> - <label class="static">Cor:</label> <span class="static">Rosa</span>
+                                            <div class="ui accordion">
+                                                <div class="title">
+                                                    <i class="dropdown icon small"></i>
+                                                    Ver todos os itens do kit
+                                                </div>
+                                                <div class="content">
+                                                    <div class="row free-gift">
+                                                        <div class="column desktop-3"><img src="images/products/product.jpg" class="img-small" /></div>
+                                                        <div class="column desktop-9">
+                                                            <span class="tr tx-brand">Plugt</span><br />
+                                                            <span class="tr tx-name-product">Galocha Modern Plugt Básico Marinho Lisa</span><br />
+                                                            <label class="static">Tamanho:</label><span class="static">P</span> - <label class="static">Cor:</label> <span class="static">Rosa</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row free-gift">
+                                                        <div class="column desktop-3"><img src="images/products/product.jpg" class="img-small" /></div>
+                                                        <div class="column desktop-9">
+                                                            <span class="tr tx-brand">Plugt</span><br />
+                                                            <span class="tr tx-name-product">Galocha Modern Plugt Básico Marinho Lisa</span><br />
+                                                            <label class="static">Tamanho:</label><span class="static">P</span> - <label class="static">Cor:</label> <span class="static">Rosa</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row free-gift">
+                                                        <div class="column desktop-3"><img src="images/products/product.jpg" class="img-small" /></div>
+                                                        <div class="column desktop-9">
+                                                            <span class="tr tx-brand">Plugt</span><br />
+                                                            <span class="tr tx-name-product">Galocha Modern Plugt Básico Marinho Lisa</span><br />
+                                                            <label class="static">Tamanho:</label><span class="static">P</span> - <label class="static">Cor:</label> <span class="static">Rosa</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="column desktop-7">
+                                    <div class="row">
+                                        <div class="column desktop-3 al-center">
+                                            <span class="tr tx-deadline">3 a 4 dias úteis</span>
+                                        </div>
+                                        <div class="column desktop-3 al-center">
+                                            <select class="ui dropdown">
+                                                <option>1</option>
+                                                <option>2</option>
+                                            </select>
+                                            <a href="" class="tx-small">Remover item</a>
+                                        </div>
+                                        <div class="column desktop-3 al-center">
+                                            <span class="tr tx-price">R$ 49,90</span><br />
+                                            <span class="tr tx-special-price">R$ 39,90</span>
+                                        </div>
+                                        <div class="column desktop-3 al-right">
+                                            <span class="tr tx-special-price">R$ 39,90</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="ui accordion code">
+                            <div class="title">
+                                <i class="code icon"></i>
+                                Code
+                            </div>
+                            <div class="content">
+                                <div class="box-code">
+                                    &lt;div class="tr thead box-default simple-box"&gt;<br /><br />
+
+                                    &lt;div class="row"&gt;<br /><br />
+
+                                    &lt;div class="column desktop-5"&gt;&lt;label class="static"&gt;Produto&lt;/label&gt;&lt;/div&gt;<br /><br />
+
+                                    &lt;div class="column desktop-7"&gt;<br />
+                                    &lt;div class="row"&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;&lt;label class="static"&gt;Entrega&lt;/label&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;&lt;label class="static"&gt;Quantidade&lt;/label&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;&lt;label class="static"&gt;Valor&lt;/label&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-right"&gt;&lt;label class="static"&gt;Total&lt;/label&gt;&lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;div class="tr list-item box-default simple-box item-cart"&gt;<br /><br />
+
+                                    &lt;div class="row"&gt;<br /><br />
+
+                                    &lt;div class="column desktop-5"&gt;<br />
+                                    &lt;div class="row"&gt;<br />
+                                    &lt;div class="column desktop-3"&gt;&lt;img src="images/products/product.jpg" class="img-small" /&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-9"&gt;<br />
+                                    &lt;span class="tr tx-brand"&gt;Kit&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;span class="tr tx-name-product"&gt;Galocha Modern Plugt B&aacute;sico Marinho Lisa&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;label class="static"&gt;Tamanho:&lt;/label&gt;&lt;span class="static"&gt;P&lt;/span&gt; - &lt;label class="static"&gt;Cor:&lt;/label&gt; &lt;span class="static"&gt;Rosa&lt;/span&gt;<br />
+                                    &lt;div class="ui accordion"&gt;<br />
+                                    &lt;div class="title"&gt;<br />
+                                    &lt;i class="dropdown icon small"&gt;&lt;/i&gt;<br />
+                                    Ver todos os itens do kit<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;div class="content"&gt;<br />
+                                    &lt;div class="row free-gift"&gt;<br />
+                                    &lt;div class="column desktop-3"&gt;&lt;img src="images/products/product.jpg" class="img-small" /&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-9"&gt;<br />
+                                    &lt;span class="tr tx-brand"&gt;Plugt&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;span class="tr tx-name-product"&gt;Galocha Modern Plugt B&aacute;sico Marinho Lisa&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;label class="static"&gt;Tamanho:&lt;/label&gt;&lt;span class="static"&gt;P&lt;/span&gt; - &lt;label class="static"&gt;Cor:&lt;/label&gt; &lt;span class="static"&gt;Rosa&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;div class="row free-gift"&gt;<br />
+                                    &lt;div class="column desktop-3"&gt;&lt;img src="images/products/product.jpg" class="img-small" /&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-9"&gt;<br />
+                                    &lt;span class="tr tx-brand"&gt;Plugt&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;span class="tr tx-name-product"&gt;Galocha Modern Plugt B&aacute;sico Marinho Lisa&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;label class="static"&gt;Tamanho:&lt;/label&gt;&lt;span class="static"&gt;P&lt;/span&gt; - &lt;label class="static"&gt;Cor:&lt;/label&gt; &lt;span class="static"&gt;Rosa&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;div class="row free-gift"&gt;<br />
+                                    &lt;div class="column desktop-3"&gt;&lt;img src="images/products/product.jpg" class="img-small" /&gt;&lt;/div&gt;<br />
+                                    &lt;div class="column desktop-9"&gt;<br />
+                                    &lt;span class="tr tx-brand"&gt;Plugt&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;span class="tr tx-name-product"&gt;Galocha Modern Plugt B&aacute;sico Marinho Lisa&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;label class="static"&gt;Tamanho:&lt;/label&gt;&lt;span class="static"&gt;P&lt;/span&gt; - &lt;label class="static"&gt;Cor:&lt;/label&gt; &lt;span class="static"&gt;Rosa&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;div class="column desktop-7"&gt;<br />
+                                    &lt;div class="row"&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;<br />
+                                    &lt;span class="tr tx-deadline"&gt;3 a 4 dias &uacute;teis&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;<br />
+                                    &lt;select class="ui dropdown"&gt;<br />
+                                    &lt;option&gt;1&lt;/option&gt;<br />
+                                    &lt;option&gt;2&lt;/option&gt;<br />
+                                    &lt;/select&gt;<br />
+                                    &lt;a href="" class="tx-small"&gt;Remover item&lt;/a&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-center"&gt;<br />
+                                    &lt;span class="tr tx-price"&gt;R$ 49,90&lt;/span&gt;&lt;br /&gt;<br />
+                                    &lt;span class="tr tx-special-price"&gt;R$ 39,90&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;div class="column desktop-3 al-right"&gt;<br />
+                                    &lt;span class="tr tx-special-price"&gt;R$ 39,90&lt;/span&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;<br /><br />
+
+                                    &lt;/div&gt;
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

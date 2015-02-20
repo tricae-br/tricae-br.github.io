@@ -1,0 +1,45 @@
+ /*
+ * # Semantic - Button
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+/*******************************
+            Theme
+*******************************/
+
+@type    : 'component';
+@element : 'text';
+
+@import '../../theme.config';
+
+/*******************************
+            Text
+*******************************/
+
+.tr.tx-brand{
+  text-transform:uppercase;
+  color: @colorAuxiliaryText;
+}
+.tr.tx-name-product{
+  color: @colorDefaultText;
+}
+.tr.tx-price{
+  color: @colorAuxiliaryText;
+  text-decoration:line-throught;
+}
+.tr.tx-special-price{
+  color: @colorHighlightSite;
+}
+.tr.tx-plots{
+  color: @colorDefaultText;
+  font-weight:bold;
+}
+
+
+.loadUIOverrides();

@@ -1,0 +1,70 @@
+ /*
+ * # Semantic - Button
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+/*******************************
+            Theme
+*******************************/
+
+@type    : 'component';
+@element : 'nav';
+
+@import '../../theme.config';
+
+/*******************************
+            Nav
+*******************************/
+
+.tr.nav-vertical{
+  font-size: @fontSizeItemNav;
+  ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    a{
+      display:block;
+      border-top: @borderNavDefault;
+      padding: @paddingItemNav;
+      span{
+        float:right;
+        font-size: @fontSizeNumberElements;
+        background-color: @colorBgNumberElements;
+        border-radius: @boxRadiusNumberElements;
+        color: @colorNumberElements;
+        padding: @paddingNumberElements;
+      }
+    }
+    a:hover{
+      background-color:@colorDefaultBgBox;
+    }
+    li ul li{
+      a{
+        padding-left: @paddingItemNavIndent1;
+        border-top: 1px dashed @colorDefaultLine;
+      }
+      ul li a{
+        padding-left: @paddingItemNavIndent2;
+      }
+    }
+    li.active a{
+      background-color:@colorDefaultBgBox;
+    }
+    li.active > a{
+      color: @colorItemActive;
+      font-weight:bold;
+    }
+    ul li.active a{
+      font-weight:normal;
+    }
+  }
+}
+
+
+.loadUIOverrides();

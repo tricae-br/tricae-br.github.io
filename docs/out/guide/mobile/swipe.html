@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/mobile.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="two wide column" id="menuLateral">
+        <!--carrega o menu lateral-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main">
+            <div class="row">
+                <div class="column desktop-12">
+                <h2>Swipe</h2>
+                <p>
+                    Utiliza o swipe e icon. Ver mais em <a hre="http://www.idangero.us/swiper" target="_blank">Swiper</a>.
+                </p>
+                <p>
+                    <b>Horizontal</b><br />
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="row">
+                        <div class="column desktop-7 tablet-12">
+                            <div class="swiper" id="swiperDefault">
+                                <a class="arrow-left" href="#"><i class="icon chevron circle left"></i></a>
+                                <a class="arrow-right" href="#"><i class="icon chevron circle right"></i></a>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"> <img src="images/banners/banner-1.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/banners/banner-2.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/banners/banner-3.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/banners/banner-4.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/banners/banner-5.jpg" width="100%" height="auto"> </div>
+                                    </div>
+                                </div>
+                                <div class="pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        var mySwiperDefault = $('#swiperDefault .swiper-container').swiper({
+                            pagination: '#swiperDefault .pagination',
+                            loop: true,
+                            grabCursor: true,
+                            paginationClickable: true,
+                            calculateHeight: true
+                        });
+                        $('#swiperDefault .arrow-left').on('click', function(e){
+                            e.preventDefault()
+                            mySwiperDefault.swipePrev()
+                        })
+                        $('#swiperDefault .arrow-right').on('click', function(e){
+                            e.preventDefault()
+                            mySwiperDefault.swipeNext()
+                        })
+                    </script>
+
+                    <div class="ui accordion code">
+                        <div class="title">
+                            <i class="code icon"></i>
+                            Code
+                        </div>
+                        <div class="content">
+                            <div class="box-code">
+                                &lt;div class="row"&gt;<br />
+                                &lt;div class="column desktop-7 tablet-12"&gt;<br />
+                                &lt;div class="swiper" id="swiperDefault"&gt;<br />
+                                &lt;a class="arrow-left" href="#"&gt;&lt;i class="icon chevron circle left"&gt;&lt;/i&gt;&lt;/a&gt;<br />
+                                &lt;a class="arrow-right" href="#"&gt;&lt;i class="icon chevron circle right"&gt;&lt;/i&gt;&lt;/a&gt;<br />
+                                &lt;div class="swiper-container"&gt;<br />
+                                &lt;div class="swiper-wrapper"&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/banners/banner-1.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/banners/banner-2.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/banners/banner-3.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/banners/banner-4.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/banners/banner-5.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;div class="pagination"&gt;&lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;/div&gt;<br /><br />
+
+                                &lt;script&gt;<br />
+                                var mySwiperDefault = $('#swiperDefault .swiper-container').swiper({<br />
+                                pagination: '#swiperDefault .pagination',<br />
+                                loop: true,<br />
+                                grabCursor: true,<br />
+                                paginationClickable: true,<br />
+                                calculateHeight: true<br />
+                                });<br />
+                                $('#swiperDefault .arrow-left').on('click', function(e){<br />
+                                e.preventDefault()<br />
+                                mySwiperDefault.swipePrev()<br />
+                                })<br />
+                                $('#swiperDefault .arrow-right').on('click', function(e){<br />
+                                e.preventDefault()<br />
+                                mySwiperDefault.swipeNext()<br />
+                                })<br />
+                                &lt;/script&gt;
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <p>
+                    <b>Vertical</b><br />
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="row">
+                        <div class="column desktop-7 tablet-12">
+                            <div class="swiper vertical" id="swiperVertical">
+                                <div class="swiper-container" >
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"> <img src="images/banners/banner-1.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/banners/banner-2.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/banners/banner-3.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/banners/banner-4.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/banners/banner-5.jpg" width="100%" height="auto"> </div>
+                                    </div>
+                                </div>
+                                <div class="pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                        var mySwiperVertical = $('#swiperVertical .swiper-container').swiper({
+                            pagination: '#swiperVertical .pagination',
+                            loop: true,
+                            grabCursor: true,
+                            paginationClickable: true,
+                            calculateHeight: true,
+                            mode: 'vertical'
+                        });
+                    </script>
+
+                    <div class="ui accordion code">
+                        <div class="title">
+                            <i class="code icon"></i>
+                            Code
+                        </div>
+                        <div class="content">
+                            <div class="box-code">
+                                &lt;div class="row"&gt;<br />
+                                &lt;div class="column desktop-7 tablet-12"&gt;<br />
+                                &lt;div class="swiper <b>vertical</b>" id="swiperVertical"&gt;<br />
+                                &lt;div class="swiper-container" &gt;<br />
+                                &lt;div class="swiper-wrapper"&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/banners/banner-1.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/banners/banner-2.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/banners/banner-3.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/banners/banner-4.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/banners/banner-5.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;div class="pagination"&gt;&lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;/div&gt;<br /><br />
+
+                                &lt;script&gt;<br />
+                                var mySwiperVertical = $('#swiperVertical .swiper-container').swiper({<br />
+                                pagination: '#swiperVertical .pagination',<br />
+                                loop: true,<br />
+                                grabCursor: true,<br />
+                                paginationClickable: true,<br />
+                                calculateHeight: true,<br />
+                                mode: 'vertical'<br />
+                                });<br />
+                                &lt;/script&gt;
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <p>
+                    <b>Carousel</b><br />
+                    Utiliza o swipe e icon.
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="row">
+                        <div class="column desktop-7 tablet-12">
+                            <div class="swiper carousel" id="swiperCarousel">
+                                <a class="arrow-left" href="#"><i class="icon chevron circle left"></i></a>
+                                <a class="arrow-right" href="#"><i class="icon chevron circle right"></i></a>
+                                <div class="swiper-container" >
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"> <img src="images/products/product.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/products/product-2.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/products/product-3.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/products/product-4.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/products/product-7.jpg" width="100%" height="auto"> </div>
+                                    </div>
+                                </div>
+                                <div class="pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                        var mySwiperCarousel = $('#swiperCarousel .swiper-container').swiper({
+                            pagination: '#swiperCarousel .pagination',
+                            loop: true,
+                            grabCursor: true,
+                            paginationClickable: true,
+                            calculateHeight: true,
+                            slidesPerView: 2
+                        });
+                        $('#swiperCarousel .arrow-left').on('click', function(e){
+                            e.preventDefault()
+                            mySwiperCarousel.swipePrev()
+                        })
+                        $('#swiperCarousel .arrow-right').on('click', function(e){
+                            e.preventDefault()
+                            mySwiperCarousel.swipeNext()
+                        })
+                    </script>
+
+                    <div class="ui accordion code">
+                        <div class="title">
+                            <i class="code icon"></i>
+                            Code
+                        </div>
+                        <div class="content">
+                            <div class="box-code">
+                                &lt;div class="row"&gt;<br />
+                                &lt;div class="column desktop-7 tablet-12"&gt;<br />
+                                &lt;div class="swiper <b>carousel</b>" id="swiperCarousel"&gt;<br />
+                                &lt;a class="arrow-left" href="#"&gt;&lt;i class="icon chevron circle left"&gt;&lt;/i&gt;&lt;/a&gt;<br />
+                                &lt;a class="arrow-right" href="#"&gt;&lt;i class="icon chevron circle right"&gt;&lt;/i&gt;&lt;/a&gt;<br />
+                                &lt;div class="swiper-container" &gt;<br />
+                                &lt;div class="swiper-wrapper"&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/products/product.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/products/product-2.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/products/product-3.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/products/product-4.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/products/product-7.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;div class="pagination"&gt;&lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;/div&gt;<br /><br />
+
+                                &lt;script&gt;<br />
+                                var mySwiperCarousel = $('#swiperCarousel .swiper-container').swiper({<br />
+                                pagination: '#swiperCarousel .pagination',<br />
+                                loop: true,<br />
+                                grabCursor: true,<br />
+                                paginationClickable: true,<br />
+                                calculateHeight: true,<br />
+                                slidesPerView: 2<br />
+                                });<br />
+                                $('#swiperCarousel .arrow-left').on('click', function(e){<br />
+                                e.preventDefault()<br />
+                                mySwiperCarousel.swipePrev()<br />
+                                })<br />
+                                $('#swiperCarousel .arrow-right').on('click', function(e){<br />
+                                e.preventDefault()<br />
+                                mySwiperCarousel.swipeNext()<br />
+                                })<br />
+                                &lt;/script&gt;
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <p>
+                    <b>Carousel vertical</b><br />
+                    Utiliza o swipe e icon.
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="row">
+                        <div class="column desktop-2 tablet-6">
+                            <div class="swiper carousel vertical" id="swiperCarouselV">
+                                <a class="arrow-up" href="#"><i class="icon chevron circle up"></i></a>
+                                <a class="arrow-down" href="#"><i class="icon chevron circle down"></i></a>
+                                <div class="swiper-container" style="height:450px;">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"> <img src="images/products/product.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/products/product-2.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/products/product-3.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/products/product-4.jpg" width="100%" height="auto"> </div>
+                                        <div class="swiper-slide"> <img src="images/products/product-7.jpg" width="100%" height="auto"> </div>
+                                    </div>
+                                </div>
+                                <div class="pagination pagination-nested-1"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                        var mySwiperCarouselV = $('#swiperCarouselV .swiper-container').swiper({
+                            mode: 'vertical',
+                            grabCursor: true,
+                            pagination: '#swiperCarouselV .pagination',
+                            paginationClickable: true,
+                            slidesPerView: 3,
+                            slidesPerGroup: 3
+                        });
+                        $('#swiperCarouselV .arrow-up').on('click', function(e){
+                            e.preventDefault()
+                            mySwiperCarouselV.swipePrev()
+                        })
+                        $('#swiperCarouselV .arrow-down').on('click', function(e){
+                            e.preventDefault()
+                            mySwiperCarouselV.swipeNext()
+                        })
+                    </script>
+
+                    <div class="ui accordion code">
+                        <div class="title">
+                            <i class="code icon"></i>
+                            Code
+                        </div>
+                        <div class="content">
+                            <div class="box-code">
+                                &lt;div class="row"&gt;<br />
+                                &lt;div class="column desktop-2 tablet-6"&gt;<br />
+                                &lt;div class="swiper <b>carousel vertical</b>" id="swiperCarouselV"&gt;<br />
+                                &lt;a class="arrow-up" href="#"&gt;&lt;i class="icon chevron circle up"&gt;&lt;/i&gt;&lt;/a&gt;<br />
+                                &lt;a class="arrow-down" href="#"&gt;&lt;i class="icon chevron circle down"&gt;&lt;/i&gt;&lt;/a&gt;<br />
+                                &lt;div class="swiper-container" style="height:450px;"&gt;<br />
+                                &lt;div class="swiper-wrapper"&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/products/product.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/products/product-2.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/products/product-3.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/products/product-4.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;div class="swiper-slide"&gt; &lt;img src="images/products/product-7.jpg" width="100%" height="auto"&gt; &lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;div class="pagination pagination-nested-1"&gt;&lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;/div&gt;<br />
+                                &lt;/div&gt;<br /><br />
+
+                                &lt;script&gt;<br />
+                                var mySwiperCarouselV = $('#swiperCarouselV .swiper-container').swiper({<br />
+                                mode: 'vertical',<br />
+                                grabCursor: true,<br />
+                                pagination: '#swiperCarouselV .pagination',<br />
+                                paginationClickable: true,<br />
+                                slidesPerView: 3,<br />
+                                slidesPerGroup: 3<br />
+                                });<br />
+                                $('#swiperCarouselV .arrow-up').on('click', function(e){<br />
+                                e.preventDefault()<br />
+                                mySwiperCarouselV.swipePrev()<br />
+                                })<br />
+                                $('#swiperCarouselV .arrow-down').on('click', function(e){<br />
+                                e.preventDefault()<br />
+                                mySwiperCarouselV.swipeNext()<br />
+                                })<br />
+                                &lt;/script&gt;
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>

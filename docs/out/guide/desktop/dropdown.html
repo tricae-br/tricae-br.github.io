@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/desktop.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main" id="contentMain">
+            <div class="row">
+                <div class="column desktop-2 tablet-3" id="menuLateral">
+                    <!--carrega o menu lateral-->
+                </div>
+
+                <div class="column desktop-10 tablet-9">
+
+                    <h2>Dropdown</h2>
+                    <p>
+                        Utiliza dropdown. Ver mais em <a href="http://semantic-ui.com/modules/dropdown.html" target="_blank">Semantic-UI</a>
+                    </p>
+                    <p>
+                        <b>Default</b>
+                    </p>
+                    <div class="tr box-default simple-box">
+
+                        <select class="ui dropdown">
+                            <option value="">Gender</option>
+                            <option value="1">Male</option>
+                            <option value="0">Female</option>
+                        </select>
+
+                        <div class="box-code">
+                            &lt;select class="<b>ui dropdown</b>"&gt;<br />
+                            &lt;option value=""&gt;Gender&lt;/option&gt;<br />
+                            &lt;option value="1"&gt;Male&lt;/option&gt;<br />
+                            &lt;option value="0"&gt;Female&lt;/option&gt;<br />
+                            &lt;/select&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Error</b>
+                    </p>
+                    <div class="tr box-default simple-box">
+
+                        <select class="ui dropdown error">
+                            <option value="">Gender</option>
+                            <option value="1">Male</option>
+                            <option value="0">Female</option>
+                        </select>
+
+                        <div class="box-code">
+                            &lt;select class="ui dropdown <b>error</b>"&gt;<br />
+                            &lt;option value=""&gt;Gender&lt;/option&gt;<br />
+                            &lt;option value="1"&gt;Male&lt;/option&gt;<br />
+                            &lt;option value="0"&gt;Female&lt;/option&gt;<br />
+                            &lt;/select&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Script</b><br />
+                        Utilizar o script abaixo para iniciar (já adicionado no global.js)
+                    </p>
+                    <div class="tr box-default simple-box" style="position:relative;">
+
+                        <div class="box-code">
+                            $('.ui.dropdown')<br />
+                            .dropdown()<br />
+                            ;
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+</html>

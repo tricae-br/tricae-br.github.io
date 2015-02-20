@@ -1,0 +1,134 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/* ===============================================================
+Basic Swiper Styles 
+================================================================*/
+.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  -webkit-transition-property: -webkit-transform, left, top;
+  -webkit-transition-duration: 0s;
+  -webkit-transform: translate3d(0px, 0, 0);
+  -webkit-transition-timing-function: ease;
+  -moz-transition-duration: 0s;
+  -moz-transform: translate3d(0px, 0, 0);
+  -moz-transition-timing-function: ease;
+  -o-transition-duration: 0s;
+  -o-transform: translate3d(0px, 0, 0);
+  -o-transition-timing-function: ease;
+  -o-transform: translate(0px, 0px);
+  -ms-transition-property: -ms-transform, left, top;
+  -ms-transition-duration: 0s;
+  -ms-transform: translate3d(0px, 0, 0);
+  -ms-transition-timing-function: ease;
+  -webkit-transition-property: -webkit-transform, left, top;
+          transition-property: transform, left, top;
+  -webkit-transition-duration: 0s;
+          transition-duration: 0s;
+  -webkit-transform: translate3d(0px, 0, 0);
+          transform: translate3d(0px, 0, 0);
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  box-sizing: content-box;
+}
+.swiper-free-mode > .swiper-wrapper {
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}
+.swiper-slide {
+  float: left;
+  box-sizing: content-box;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+  -ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+  -ms-touch-action: pan-x;
+}
+.swiper {
+  position: relative;
+  width: 100%;
+}
+.swiper .arrow-left,
+.swiper .arrow-right,
+.swiper .arrow-up,
+.swiper .arrow-down {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  z-index: 100;
+  font-size: 20px;
+}
+.swiper .arrow-left {
+  top: 50%;
+  left: 10px;
+  margin-top: -15px;
+}
+.swiper .arrow-right {
+  top: 50%;
+  right: 10px;
+  margin-top: -15px;
+}
+.swiper .pagination {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  bottom: 5px;
+  width: 100%;
+  z-index: 100;
+}
+.swiper .arrow-up {
+  top: 5px;
+  left: 50%;
+  margin-left: -15px;
+}
+.swiper .arrow-down {
+  bottom: 5px;
+  left: 50%;
+  margin-left: -15px;
+}
+.swiper.vertical .pagination {
+  width: 10px;
+  height: 100%;
+  bottom: 0;
+  left: auto;
+  right: 10px;
+  padding: 10px 0;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #999;
+  box-shadow: 0px 1px 2px #555 inset;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.swiper-active-switch {
+  background: #fff;
+}

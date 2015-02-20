@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/mobile.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="two wide column" id="menuLateral">
+        <!--carrega o menu lateral-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main">
+            <div class="row">
+                <div class="column desktop-12">
+
+                    <h2>Rating</h2>
+
+                    <p>
+                        Utiliza rating. Ver mais em <a target="_blank" href="http://semantic-ui.com/modules/rating.html#/definition">Semantic-UI</a>
+                    </p>
+                    <br /><br />
+                    <p>
+                        <b>Default</b><br />
+                    </p>
+                    <div class="tr box-default simple-box">
+                        <div class="ui star rating" data-rating="4"></div>
+
+                        <div class="box-code">
+                            &lt;div class="ui star rating" data-rating="4"&gt;&lt;/div&gt;<br /><br />
+                            &lt;script type="text/javascript"&gt;<br />
+                            &nbsp;&nbsp;$(document).ready(function(){<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;$('.box-default .star.rating')<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.rating({<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maxRating: 5<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;});<br />
+                            &nbsp;&nbsp;});<br />
+                            &lt;/script&gt;
+                        </div>
+                        <script type="text/javascript">
+                            $(document).ready(function(){
+                                $('.box-default .star.rating')
+                                        .rating({
+                                            maxRating: 5
+                                        })
+                                ;
+                            });
+                        </script>
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Tamanho</b><br />
+                    </p>
+                    <div class="tr box-default simple-box">
+                        <div class="ui mini star rating"></div><br />
+                        <div class="ui tiny star rating"></div><br />
+                        <div class="ui small star rating"></div><br />
+                        <div class="ui star rating"></div><br />
+                        <div class="ui large star rating"></div><br />
+                        <div class="ui huge star rating"></div><br />
+                        <div class="ui massive star rating"></div>
+
+                        <div class="box-code">
+                            &lt;div class="ui mini star rating"&gt;&lt;/div&gt;<br />
+                            &lt;div class="ui tiny star rating"&gt;&lt;/div&gt;<br />
+                            &lt;div class="ui small star rating"&gt;&lt;/div&gt;<br />
+                            &lt;div class="ui star rating"&gt;&lt;/div&gt;<br />
+                            &lt;div class="ui large star rating"&gt;&lt;/div&gt;<br />
+                            &lt;div class="ui huge star rating"&gt;&lt;/div&gt;<br />
+                            &lt;div class="ui massive star rating"&gt;&lt;/div&gt;
+                        </div>
+                        <script type="text/javascript">
+                            $(document).ready(function(){
+                                $('.box-default .star.rating')
+                                        .rating({
+                                            maxRating: 5
+                                        })
+                                ;
+                            });
+                        </script>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

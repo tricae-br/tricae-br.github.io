@@ -1,0 +1,23 @@
+<div class="header-guide">
+    <div class="content-main">
+        <div class="button-menu" id="buttonMenu"><i class="content icon"></i></div>
+        <div class="row">
+            <div class="column desktop-1">
+            </div>
+            <div class="column desktop-6">
+                <img src="images/logo.png" />
+            </div>
+            <div class="column desktop-5 al-right">
+                <a href="../desktop"><i class="icon desktop large inverted" data-content="Mudar para mobile" data-variation="inverted"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#buttonMenu').click(function(){
+        $('.left.demo.sidebar')
+                .sidebar('toggle')
+        ;
+    });
+</script>

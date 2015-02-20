@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/desktop.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main" id="contentMain">
+            <div class="row">
+                <div class="column desktop-2 tablet-3" id="menuLateral">
+                    <!--carrega o menu lateral-->
+                </div>
+
+                <div class="column desktop-10 tablet-9">
+
+                    <h2>Input</h2>
+                    <p>
+                        Utiliza input e icon.
+                    </p>
+                    <p>
+                        <b>Default</b><br />
+                    </p>
+                    <div class="tr box-default simple-box">
+                        <div class="ui input">
+                            <input type="text" placeholder="Procurar...">
+                        </div>
+                        <div class="box-code">
+                            <b>&ltdiv class="ui input"&gt</b><br />
+                                &nbsp;&nbsp;&ltinput type="text" placeholder="Procurar..." /&gt<br />
+                            <b>&lt/div&gt</b>
+                        </div>
+                    </div>
+
+                    <p>
+                        <b>Error</b><br />
+                        Apenas adicionar a class="error".
+                    </p>
+                    <div class="tr box-default simple-box">
+                        <div class="ui input error">
+                            <input type="text" placeholder="Procurar...">
+                        </div>
+                        <div class="box-code">
+                            &ltdiv class="ui input <b>error</b>"&gt<br />
+                            &nbsp;&nbsp;&ltinput type="text" placeholder="Procurar..." /&gt<br />
+                            &lt/div&gt
+                        </div>
+                    </div>
+
+                    <p>
+                        <b>Fluid</b><br />
+                        Apenas adicionar a class="fluid".
+                    </p>
+                    <div class="tr box-default simple-box">
+                        <div class="ui input fluid">
+                            <input type="text" placeholder="Procurar...">
+                        </div>
+                        <div class="box-code">
+                            &ltdiv class="ui input <b>fluid</b>"&gt<br />
+                            &nbsp;&nbsp;&ltinput type="text" placeholder="Procurar..." /&gt<br />
+                            &lt/div&gt
+                        </div>
+                    </div>
+
+                    <p>
+                        <b>Action</b><br />
+                        Apenas utilizar a class="action".
+                    </p>
+                    <div class="tr box-default simple-box">
+                        <div class="ui action input">
+                            <input type="text" placeholder="O que está procurando...">
+                            <div class="ui button secondary">Buscar</div>
+                        </div>
+                        <div class="box-code">
+                            &ltdiv class="ui input <b>action</b>"&gt<br />
+                            &nbsp;&nbsp;&ltinput type="text" placeholder="Procurar..." /&gt<br />
+                            &ltdiv class="ui button secondary"&gt Buscar &lt/div&gt<br />
+                            &lt/div&gt
+                        </div>
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Tamanhos</b>
+                    </p>
+                    <div class="tr box-default simple-box">
+                        <div class="ui small icon input">
+                            <input type="text" placeholder="Search small...">
+                            <i class="search icon"></i>
+                        </div>
+                        <br /><br />
+
+                        <div class="ui large icon input">
+                            <input type="text" placeholder="Search large...">
+                            <i class="search icon"></i>
+                        </div>
+                        <br /><br />
+
+                        <div class="ui big icon input">
+                            <input type="text" placeholder="Search big...">
+                            <i class="search icon"></i>
+                        </div>
+                        <br /><br />
+
+                        <div class="ui huge icon input">
+                            <input type="text" placeholder="Search huge...">
+                            <i class="search icon"></i>
+                        </div>
+                        <br /><br />
+
+                        <div class="ui massive icon input">
+                            <input type="text" placeholder="Search massive...">
+                            <i class="search icon"></i>
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="ui <b>small</b> icon input"&gt;<br />
+                            &nbsp;&nbsp;&lt;input type="text" placeholder="Search small..."&gt;<br />
+                            &nbsp;&nbsp;&lt;i class="search icon"&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui <b>large</b> icon input"&gt;<br />
+                            &nbsp;&nbsp;&lt;input type="text" placeholder="Search large..."&gt;<br />
+                            &nbsp;&nbsp;&lt;i class="search icon"&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui <b>big</b> icon input"&gt;<br />
+                            &nbsp;&nbsp;&lt;input type="text" placeholder="Search big..."&gt;<br />
+                            &nbsp;&nbsp;&lt;i class="search icon"&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui <b>huge</b> icon input"&gt;<br />
+                            &nbsp;&nbsp;&lt;input type="text" placeholder="Search huge..."&gt;<br />
+                            &nbsp;&nbsp;&lt;i class="search icon"&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui <b>massive</b> icon input"&gt;<br />
+                            &nbsp;&nbsp;&lt;input type="text" placeholder="Search massive..."&gt;<br />
+                            &nbsp;&nbsp;&lt;i class="search icon"&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>

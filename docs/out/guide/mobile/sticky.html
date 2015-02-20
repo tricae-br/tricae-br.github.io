@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/mobile.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="two wide column" id="menuLateral">
+        <!--carrega o menu lateral-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main" id="contentMain">
+            <div class="row">
+
+                <div class="column desktop-12">
+
+                    <h2>Sticky</h2>
+                    <p>
+                        Utiliza sticky. Ver mais em <a href="http://semantic-ui.com/modules/sticky.html" target="_blank">Semantic-UI</a>
+                    </p>
+
+                    <br /><br />
+                    <p>
+                        <b>Default</b><br />
+                        Não há layout para essa funcionalidade. Adicionar o script abaixo para iniciar.
+                    </p>
+
+                    <div class="tr box-default simple-box">
+
+                        <script type="text/javascript">
+                            $('.ui.sticky') //Elemento que será fixado
+                                    .sticky({
+                                        context: '#example1' //Elemento base para a fixação
+                                    })
+                            ;
+                        </script>
+
+                        <div class="box-code">
+                            &lt;script type="text/javascript"&gt;<br />
+                            $('.ui.sticky') <span>//Elemento que ser&aacute; fixado</span><br />
+                            .sticky({<br />
+                            context: '#example1' <span>//Elemento base para a fixa&ccedil;&atilde;o</span><br />
+                            })<br />
+                            ;<br />
+                            &lt;/script&gt;
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

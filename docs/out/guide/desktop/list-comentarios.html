@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/desktop.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main" id="contentMain">
+            <div class="row">
+                <div class="column desktop-2 tablet-3" id="menuLateral">
+                    <!--carrega o menu lateral-->
+                </div>
+
+                <div class="column desktop-10 tablet-9">
+
+                    <h2>Lista de pedidos</h2>
+
+                    <p>
+                        Utiliza list e <a href="rating.html">rating</a>.
+                    </p>
+
+                    <div class="tr box-default simple-box">
+                        <div class="row">
+                            <div class="column desktop-12">
+                                <div class="tr list-item comments">
+                                    <span class="tx-title">Linda!</span> -
+                                    A cama é linda! Perfeita...O tamanho é excelente, dá pra criança usar bastante tempo, sem falar da qualidade, muito boa! Amei
+                                    <span class="tr tx-auxiliary"> - Comentado por Claudia</span>
+                                    <div class="row-break"></div>
+                                    <div class="ui star rating" data-rating="4"></div>
+                                </div>
+                                <div class="tr list-item comments">
+                                    <span class="tx-title">Linda!</span> -
+                                    A cama é linda! Perfeita...O tamanho é excelente, dá pra criança usar bastante tempo, sem falar da qualidade, muito boa! Amei
+                                    <span class="tr tx-auxiliary"> - Comentado por Claudia</span>
+                                    <div class="row-break"></div>
+                                    <div class="ui star rating" data-rating="4"></div>
+
+                                    <script type="text/javascript">
+                                        $(document).ready(function(){
+                                            $('.box-default .star.rating')
+                                                    .rating({
+                                                        maxRating: 5,
+                                                        interactive: false
+                                                    });
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="tr list-item comments"&gt;<br />
+                            &lt;span class="tx-title"&gt;Linda!&lt;/span&gt; -<br />
+                            A cama &eacute; linda! Perfeita...O tamanho &eacute; excelente, d&aacute; pra crian&ccedil;a usar bastante tempo, sem falar da qualidade, muito boa! Amei<br />
+                            &lt;span class="tr tx-auxiliary"&gt; - Comentado por Claudia&lt;/span&gt;<br />
+                            &lt;div class="row-break"&gt;&lt;/div&gt;<br />
+                            &lt;div class="ui star rating" data-rating="4"&gt;&lt;/div&gt;<br />
+                            &lt;/div&gt;
+                        </div>
+
+                    </div>
+                    <script type="text/javascript">
+                        $('select.dropdown')
+                                .dropdown()
+                        ;
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

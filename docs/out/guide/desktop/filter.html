@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/desktop.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main" id="contentMain">
+            <div class="row">
+                <div class="column desktop-2 tablet-3" id="menuLateral">
+                    <!--carrega o menu lateral-->
+                </div>
+
+                <div class="column desktop-10 tablet-9">
+
+                    <h2>Filters</h2>
+
+                    <p>
+                        Utiliza grid, filter, nav, dropdown e icon.
+                    </p>
+                    <p>
+                        <b>Horizontal</b>
+                    </p>
+                    <div class="tr box-default simple-box">
+                        <div class="tr box-default simple-box filter-box">
+                            <div class="ui form">
+                                <div class="row columns-4">
+                                    <div class="column">
+                                        <div class="field">
+                                            <label>Gênero</label>
+                                            <select class="ui dropdown">
+                                                <option>Selecione</option>
+                                                <option>Menina</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="field">
+                                            <label>Marca</label>
+                                            <select class="ui dropdown">
+                                                <option>Selecione</option>
+                                                <option>Tricae</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="field">
+                                            <label>Personagem</label>
+                                            <select class="ui dropdown">
+                                                <option>Selecione</option>
+                                                <option>Menina</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="field">
+                                            <label>Personagem</label>
+                                            <div class="option-selected">Barbie<i class="remove circle icon"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui accordion code">
+                            <div class="title">
+                                <i class="code icon"></i>
+                                Code
+                            </div>
+                            <div class="content">
+                                <div class="box-code">
+                                    &lt;div class="tr box-default simple-box filter-box"&gt;<br />
+                                    &nbsp;&nbsp;&lt;div class="ui form"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="row columns-4"&gt;<br /><br />
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="column"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="field"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;G&ecirc;nero&lt;/label&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;select class="ui dropdown"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&gt;Selecione&lt;/option&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&gt;Menina&lt;/option&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/select&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br /><br />
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="column"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="field"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;Marca&lt;/label&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;select class="ui dropdown"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&gt;Selecione&lt;/option&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&gt;Tricae&lt;/option&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/select&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br /><br />
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="column"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="field"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;Personagem&lt;/label&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;select class="ui dropdown"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&gt;Selecione&lt;/option&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&gt;Menina&lt;/option&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/select&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br /><br />
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="column"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="field"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;Personagem&lt;/label&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="option-selected"&gt;Barbie&lt;i class="remove circle icon"&gt;&lt;/i&gt;&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="option-selected"&gt;Barbie&lt;i class="remove circle icon"&gt;&lt;/i&gt;&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br /><br />
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &lt;/div&gt;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>
+                        <b>Default</b>
+                    </p>
+                    <div class="tr box-default simple-box">
+                        <div class="row">
+                            <div class="column desktop-4 tablet-6 mobile-12">
+                                <div class="tr box-default filter-box filter">
+                                    <div class="box-header">Gênero</div>
+                                    <div class="box-section">
+                                        <ul>
+                                            <li><label><input type="checkbox" />Menina<span>11</span></label></li>
+                                            <li><label><input type="checkbox" checked />Menino<span>11</span></label></li>
+                                            <li><label><input type="checkbox" />Unissex<span>11</span></label></li>
+                                        </ul>
+                                        <a class="clear-filter">limpar filtro</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui accordion code">
+                            <div class="title">
+                                <i class="code icon"></i>
+                                Code
+                            </div>
+                            <div class="content">
+                                <div class="box-code">
+                                    &lt;div class="tr box-default filter-box filter"&gt;<br />
+                                    &nbsp;&nbsp;&lt;div class="box-header"&gt;G&ecirc;nero&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&lt;div class="box-section"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Menina&lt;span&gt;11&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;label&gt;&lt;input type="checkbox" checked /&gt;Menino&lt;span&gt;11&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Unissex&lt;span&gt;11&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="clear-filter"&gt;limpar filtro&lt;/a&gt;<br />
+                                    &nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &lt;/div&gt;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>
+                        <b>Filtro de preço</b>
+                    </p>
+                    <div class="tr box-default simple-box filter-price filter">
+                        <div class="row">
+                            <div class="column desktop-4 tablet-6 mobile-12">
+                                <div class="tr box-default filter-box filter-color">
+                                    <div class="box-header">Preço</div>
+                                    <div class="box-section">
+
+                                        <div class="ui form">
+                                            <div class="row">
+
+                                                <div class="column desktop-4 mobile-12">
+                                                    <div class="field ui small input">
+                                                        <label>De R$</label>
+                                                        <input type="text" placeholder="0,00" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="column desktop-4 mobile-12">
+                                                    <div class="field ui small input">
+                                                        <label>até R$</label>
+                                                        <input type="text" placeholder="0,00" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="column desktop-4 mobile-12">
+                                                    <div class="field">
+                                                        <label>&nbsp;</label>
+                                                        <button class="ui button small secondary">ok</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <ul>
+                                            <li><label><input type="checkbox" checked />De R$ 0,00 até R$ 20,00<span>11</span></label></li>
+                                            <li><label><input type="checkbox" />De R$ 20,00 até R$ 50,00<span>11</span></label></li>
+                                            <li><label><input type="checkbox" />De R$ 50,00 até R$ 80,00<span>11</span></label></li>
+                                        </ul>
+                                        <a class="clear-filter">limpar filtro</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui accordion code">
+                            <div class="title">
+                                <i class="code icon"></i>
+                                Code
+                            </div>
+                            <div class="content">
+                                <div class="box-code">
+                                    &lt;div class="tr box-default filter-box filter-color"&gt;<br />
+                                    &nbsp;&nbsp;&lt;div class="box-header"&gt;Pre&ccedil;o&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="box-section"&gt;<br /><br />
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="ui form"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="row"&gt;<br /><br />
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="column desktop-4 mobile-12"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="field ui small input"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;De R$&lt;/label&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" placeholder="0,00" /&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br /><br />
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="column desktop-4 mobile-12"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="field ui small input"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;at&eacute; R$&lt;/label&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" placeholder="0,00" /&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br /><br />
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="column desktop-4 mobile-12"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="field"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;&amp;nbsp;&lt;/label&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button class="ui button small secondary"&gt;ok&lt;/button&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br /><br />
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br /><br />
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;label&gt;&lt;input type="checkbox" checked /&gt;De R$ 0,00 at&eacute; R$ 20,00&lt;span&gt;11&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;De R$ 20,00 at&eacute; R$ 50,00&lt;span&gt;11&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;De R$ 50,00 at&eacute; R$ 80,00&lt;span&gt;11&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="clear-filter"&gt;limpar filtro&lt;/a&gt;<br /><br />
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &lt;/div&gt;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>
+                        <b>Filtro de cor</b>
+                    </p>
+                    <div class="tr box-default simple-box">
+                        <div class="row">
+                            <div class="column desktop-4 tablet-6 mobile-12">
+                                <div class="tr box-default filter-box filter">
+                                    <div class="box-header">Cor</div>
+                                    <div class="box-section filter-color">
+                                        <ul>
+                                            <li><label><input type="checkbox" checked /><div class="color fc-blue"></div>Azul<span>11</span></label></li>
+                                            <li><label><input type="checkbox" /><div class="color fc-chess"></div>Xadrez<span>11</span></label></li>
+                                            <li><label><input type="checkbox" /><div class="color fc-red"></div>Vermelho<span>11</span></label></li>
+                                        </ul>
+                                        <a class="clear-filter">limpar filtro</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui accordion code">
+                            <div class="title">
+                                <i class="code icon"></i>
+                                Code
+                            </div>
+                            <div class="content">
+                                <div class="box-code">
+                                    &lt;div class="tr box-default filter-box filter"&gt;<br />
+                                    &nbsp;&nbsp;&lt;div class="box-header"&gt;Cor&lt;/div&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="box-section filter-color"&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;label&gt;&lt;input type="checkbox" checked /&gt;&lt;div class="color fc-blue"&gt;&lt;/div&gt;Azul&lt;span&gt;11&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;&lt;div class="color fc-chess"&gt;&lt;/div&gt;Xadrez&lt;span&gt;11&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;&lt;div class="color fc-red"&gt;&lt;/div&gt;Vermelho&lt;span&gt;11&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="clear-filter"&gt;limpar filtro&lt;/a&gt;<br />
+                                    &nbsp;&nbsp;&lt;/div&gt;<br />
+                                    &lt;/div&gt;
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="ui styled fluid accordion">
+                            <div class="title">
+                                <i class="dropdown icon"></i>
+                                Ver tabela de cores
+                            </div>
+                            <div class="content">
+                                <table class="table tr filter fluid">
+                                <thead>
+                                <tr>
+                                    <th>Exemplo</th>
+                                    <th>Cor</th>
+                                    <th>Class</th>
+                                </tr>
+                                </thead>
+                                <tbody class="tr filter-color filter-box">
+                                <tr>
+                                    <td><div class="color fc-yellow"></div></td>
+                                    <td>Amarelo</td>
+                                    <td>class="fc-yellow"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-blue"></div></td>
+                                    <td>Azul</td>
+                                    <td>class="fc-blue"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-marine"></div></td>
+                                    <td>Azul marinho</td>
+                                    <td>class="fc-marine"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-beige"></div></td>
+                                    <td>Bege</td>
+                                    <td>class="fc-beige"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-white"></div></td>
+                                    <td>Branco</td>
+                                    <td>class="fc-white"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-bronze"></div></td>
+                                    <td>Bronze</td>
+                                    <td>class="fc-bronze"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-caramel"></div></td>
+                                    <td>Caramelo</td>
+                                    <td>class="fc-caramel"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-oak"></div></td>
+                                    <td>Carvalho</td>
+                                    <td>class="fc-oak"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-grey"></div></td>
+                                    <td>Cinza</td>
+                                    <td>class="fc-grey"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-sneak"></div></td>
+                                    <td>Cobra</td>
+                                    <td>class="fc-sneak"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-colorful"></div></td>
+                                    <td>Colorido</td>
+                                    <td>class="fc-colorful"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-coral"></div></td>
+                                    <td>Coral</td>
+                                    <td>class="fc-coral"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-crystal"></div></td>
+                                    <td>Cristal</td>
+                                    <td>class="fc-crystal"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-golden"></div></td>
+                                    <td>Dourado</td>
+                                    <td>class="fc-golden"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-imbuia"></div></td>
+                                    <td>Embuia</td>
+                                    <td>class="fc-imbuia"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-stamped"></div></td>
+                                    <td>Estampado</td>
+                                    <td>class="fc-stamped"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-floral"></div></td>
+                                    <td>Floral</td>
+                                    <td>class="fc-floral"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-graphite"></div></td>
+                                    <td>Grafite</td>
+                                    <td>class="fc-graphite"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-colorless"></div></td>
+                                    <td>Incolor</td>
+                                    <td>class="fc-colorless"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-orange"></div></td>
+                                    <td>Laranja</td>
+                                    <td>class="fc-orange"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-lilac"></div></td>
+                                    <td>Lilás</td>
+                                    <td>class="fc-lilac"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-stripe"></div></td>
+                                    <td>Listrado</td>
+                                    <td>class="fc-stripe"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-wood"></div></td>
+                                    <td>Madeira</td>
+                                    <td>class="fc-wood"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-brown"></div></td>
+                                    <td>Marrom</td>
+                                    <td>class="fc-brown"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-brown2"></div></td>
+                                    <td>Marrom escuro</td>
+                                    <td>class="fc-brown2"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-ivory"></div></td>
+                                    <td>Marfim</td>
+                                    <td>class="fc-ivory"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-honey"></div></td>
+                                    <td>Mel</td>
+                                    <td>class="fc-honey"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-multicolor"></div></td>
+                                    <td>Multicor</td>
+                                    <td>class="fc-multicolor"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-nude"></div></td>
+                                    <td>Nude</td>
+                                    <td>class="fc-nude"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-offwhite"></div></td>
+                                    <td>Offwhite</td>
+                                    <td>class="fc-offwhite"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-olive"></div></td>
+                                    <td>Oliva</td>
+                                    <td>class="fc-olive"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-ounce"></div></td>
+                                    <td>Oncinha</td>
+                                    <td>class="fc-ounce"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-ounce-dark"></div></td>
+                                    <td>Oncinha escuro</td>
+                                    <td>class="fc-ounce-dark"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-pink"></div></td>
+                                    <td>Pink</td>
+                                    <td>class="fc-pink"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-dots"></div></td>
+                                    <td>Poa</td>
+                                    <td>class="fc-dots"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-silver"></div></td>
+                                    <td>Prateado</td>
+                                    <td>class="fc-silver"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-black"></div></td>
+                                    <td>Preto</td>
+                                    <td>class="fc-black"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-stripes"></div></td>
+                                    <td>Risca de giz</td>
+                                    <td>class="fc-stripes"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-pink-light"></div></td>
+                                    <td>Rosa claro</td>
+                                    <td>class="fc-pink-light"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-purple"></div></td>
+                                    <td>Roxo</td>
+                                    <td>class="fc-purple"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-tobacco"></div></td>
+                                    <td>Tabaco</td>
+                                    <td>class="fc-tobacco"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-transparent"></div></td>
+                                    <td>Transparent</td>
+                                    <td>class="fc-transparent"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-turquoise"></div></td>
+                                    <td>Turqueza</td>
+                                    <td>class="fc-turquoise"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-green"></div></td>
+                                    <td>Verde</td>
+                                    <td>class="fc-green"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-moss"></div></td>
+                                    <td>Verde Musgo</td>
+                                    <td>class="fc-moss"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-red"></div></td>
+                                    <td>Vermelho</td>
+                                    <td>class="fc-red"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-vine"></div></td>
+                                    <td>Vinho</td>
+                                    <td>class="fc-vine"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-chess"></div></td>
+                                    <td>Xadrez</td>
+                                    <td>class="fc-chess"</td>
+                                </tr>
+                                <tr>
+                                    <td><div class="color fc-zebra"></div></td>
+                                    <td>Zebra</td>
+                                    <td>class="fc-zebra"</td>
+                                </tr>
+                                </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    <script>
+                        $('.ui.accordion')
+                                .accordion()
+                        ;
+                    </script>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

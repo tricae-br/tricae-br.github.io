@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/desktop.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main" id="contentMain">
+            <div class="row">
+                <div class="column desktop-2 tablet-3" id="menuLateral">
+                    <!--carrega o menu lateral-->
+                </div>
+
+                <div class="column desktop-10 tablet-9">
+
+                    <h2>Popup</h2>
+                    <p>
+                        Utiliza popup. Ver mais em <a href="http://semantic-ui.com/modules/popup.html" target="_blank">Semantic-UI</a>
+                    </p>
+                    <p>
+                        <b>Default</b>
+                    </p>
+                    <div class="tr box-default simple-box">
+
+                        <div class="ui icon button element-pop" data-content="Escreva sua mensagem">
+                            <i class="add icon"></i>
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="ui icon button <b>element-pop</b>" <b>data-content="Escreva sua mensagem"</b>&gt;<br />
+                            &lt;i class="add icon"&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Basic</b>
+                    </p>
+                    <div class="tr box-default simple-box">
+
+                        <div class="ui icon button element-pop" data-content="Escreva sua mensagem" data-variation="basic">
+                            <i class="add icon"></i>
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="ui icon button element-pop" data-content="Escreva sua mensagem" <b>data-variation="basic"</b>&gt;<br />
+                            &lt;i class="add icon"&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Wide</b>
+                    </p>
+                    <div class="tr box-default simple-box">
+
+                        <div class="ui icon button element-pop" data-content="Hello. This is a wide pop-up which allows for lots of content with additional space. You can fit a lot of words here and the paragraphs will be pretty wide." data-variation="wide">
+                            <i class="add icon"></i>
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="ui icon button element-pop" data-content="Hello. This is a wide pop-up which allows for lots of content with additional space. You can fit a lot of words here and the paragraphs will be pretty wide." data-variation="<b>wide</b>"&gt;<br />
+                            &lt;i class="add icon"&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Very wide</b>
+                    </p>
+                    <div class="tr box-default simple-box">
+
+                        <div class="ui icon button element-pop" data-content="Hello. This is a wide pop-up which allows for lots of content with additional space. You can fit a lot of words here and the paragraphs will be pretty wide." data-variation="very wide">
+                            <i class="add icon"></i>
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="ui icon button element-pop" data-content="Hello. This is a wide pop-up which allows for lots of content with additional space. You can fit a lot of words here and the paragraphs will be pretty wide." data-variation="<b>very wide</b>"&gt;<br />
+                            &lt;i class="add icon"&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Size</b>
+                    </p>
+                    <div class="tr box-default simple-box" style="position:relative;">
+
+                        <i class="circular heart icon link element-pop" data-content="Hello. This is a small popup" data-variation="small"></i>
+                        <i class="circular heart icon link element-pop" data-content="Hello. This is a large popup" data-variation="large"></i>
+                        <i class="circular heart icon link element-pop" data-content="Hello. This is a huge popup" data-variation="huge"></i>
+
+                        <div class="box-code">
+                            &lt;i class="circular heart icon link element-pop" data-content="Hello. This is a small popup" <b>data-variation="small"</b>&gt;&lt;/i&gt;<br />
+                            &lt;i class="circular heart icon link element-pop" data-content="Hello. This is a large popup" <b>data-variation="large"</b>&gt;&lt;/i&gt;<br />
+                            &lt;i class="circular heart icon link element-pop" data-content="Hello. This is a huge popup" <b>data-variation="huge"</b>&gt;&lt;/i&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Inverted</b>
+                    </p>
+                    <div class="tr box-default simple-box" style="position:relative;">
+
+                        <i class="circular heart icon link element-pop" data-content="Hello. This is an inverted popup" data-variation="inverted"></i>
+
+                        <div class="box-code">
+                            &lt;i class="circular heart icon link element-pop" data-content="Hello. This is an inverted popup" <b>data-variation="inverted"</b>&gt;&lt;/i&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Fluid</b>
+                    </p>
+                    <div class="tr box-default simple-box" style="position:relative;">
+
+                        <div class="ui button element-pop">Show fluid popup</div>
+                        <div class="ui fluid popup">
+                            Hello. This is a wide pop-up which allows for lots of content with additional space. You can fit a lot of words here and the paragraphs will be pretty wide.
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="ui button element-pop"&gt;Show fluid popup&lt;/div&gt;<br />
+                            &lt;div <b>class="ui fluid popup"</b>&gt;<br />
+                            Hello. This is a wide pop-up which allows for lots of content with additional space. You can fit a lot of words here and the paragraphs will be pretty wide.<br />
+                            &lt;/div&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Script</b><br />
+                        Utilizar o script abaixo para iniciar (já adicionado no global.js)
+                    </p>
+                    <div class="tr box-default simple-box" style="position:relative;">
+
+                        <div class="box-code">
+                            $('.element-pop')<br />
+                            .popup()<br />
+                            ;
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+/*******************************
+            Theme
+*******************************/
+
+@type    : 'component';
+@element : 'filter';
+
+@import '../../theme.config';
+
+
+/*******************************
+       Filters Desktop
+*******************************/
+.tr.filter-box{
+  font-size: @smallFont;
+  line-height:@lineHeightItemFilter;
+  ul{
+   list-style:none;
+   margin:0;
+   padding:0;
+   max-height:200px;
+   overflow-y:auto;
+  }
+  span{
+    float:right;
+    font-size: @fontSizeNumberElements;
+    background-color: @colorBgNumberElements;
+    border-radius: @boxRadiusNumberElements;
+    color: @colorNumberElements;
+    padding: @paddingNumberElements;
+    display:block;
+  }
+  label, .clear-filter{
+    display:block;
+    border-top: @borderNavDefault;
+    padding: @paddingItemNav;
+    color: @linkColor;
+    cursor:pointer;
+  }
+  label:hover, .clear-filter:hover{
+    background-color:@colorDefaultBgBox;
+  }
+  label input{
+    float:right;
+  }
+  li.active label{
+    background-color:@colorDefaultBgBox;
+    color: @colorItemActive;
+  }
+  input[type=checkbox]{
+    float:left;
+    margin-right:10px;
+  }
+  .clear-filter{
+    text-align:right;
+  }
+}
+.tr.filter-box.filter-color{
+  .color{
+    border-radius: 100px;
+    float:left;
+    margin-right:5px;
+    width:@lineHeightItemFilter;
+    height:@lineHeightItemFilter;
+  }
+  .color.fc-blue{
+    background-color:#0074f7;
+  }
+  .color.fc-black{
+    background-color:#000;
+  }
+  .color.fc-red{
+    background-color:#d60501;
+  }
+}
+
+
+.loadUIOverrides();

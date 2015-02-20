@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/mobile.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="two wide column" id="menuLateral">
+        <!--carrega o menu lateral-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main">
+            <div class="row">
+                <div class="column desktop-12">
+
+                <h2>Form Elements</h2>
+                <p>
+                    Utiliza grid, dropdown, icon, form, text e input.
+                </p>
+
+                <br /><br />
+                <p>
+                    <b>Iniciando</b><br /><br />
+                    - criar uma <b>&lt;div class="ui form"&gt; &lt; /div&gt;</b><br />
+                    - criar a estrutura baseado no <a href="grid.html">grid</a><br />
+                    - para rotular os campos, utilizar sempre a tag <b>&lt;label&gt; &lt;/label&gt;</b><br />
+                    - sempre utilizar <b>placeholder</b><br />
+                    - para elementos <b>input</b> utilizar sempre o <b>type</b> (otimizar a usabilidade mobile)<br /><br />
+                    Exemplo:
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui form">
+                        <div class="row">
+                            <div class="column desktop-4 tablet-5 mobile-12">
+                                <div class="field">
+                                    <label>Login</label>
+                                    <input type="text" placeholder="seulogin" />
+                                </div>
+                            </div>
+                            <div class="column desktop-4 tablet-5 mobile-12">
+                                <div class="field">
+                                    <label>Senha</label>
+                                    <input type="text" placeholder="****" />
+                                </div>
+                            </div>
+                            <div class="column desktop-4 tablet-2 mobile-12">
+                                <div class="field">
+                                    <label>&nbsp;</label>
+                                    <input type="button" class="ui button secondary" value="Entrar" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui accordion code">
+                        <div class="title">
+                            <i class="code icon"></i>
+                            Code
+                        </div>
+                        <div class="content">
+                            <div class="box-code">
+                                &lt;div class="<b>ui form</b>"&gt;<br /><br />
+                                &nbsp;&nbsp;&lt;div class="row"&gt;<br /><br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="column desktop-4"&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="<b>field</b>"&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;label&gt;</b>Login<b>&lt;/label&gt;</b><br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" placeholder="seulogin" /&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br /><br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="column desktop-4"&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="field"&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;Senha&lt;/label&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" <b>placeholder="****"</b> /&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br /><br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="column desktop-4"&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="field"&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;&amp;nbsp;&lt;/label&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="button" class="ui button secondary" value="Entrar" /&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br /><br />
+                                &nbsp;&nbsp;&lt;/div&gt;<br /><br />
+                                &lt;/div&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br /><br />
+                <p>
+                    <b>Textarea</b><br />
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui form">
+                        <div class="field">
+                            <label>Comentário</label>
+                            <textarea></textarea>
+                        </div>
+                    </div>
+
+                    <div class="ui accordion code">
+                        <div class="title">
+                            <i class="code icon"></i>
+                            Code
+                        </div>
+                        <div class="content">
+                            <div class="box-code">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;Coment&aacute;rio&lt;/label&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;textarea&gt;&lt;/textarea&gt;</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br /><br />
+                <p>
+                    <b>Input</b><br />
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui form">
+                        <div class="field">
+                            <label>Nome</label>
+                            <input type="text" placeholder="ex.: João dos Santos...">
+                        </div>
+                    </div>
+
+                    <div class="ui accordion code">
+                        <div class="title">
+                            <i class="code icon"></i>
+                            Code
+                        </div>
+                        <div class="content">
+                            <div class="box-code">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;Nome&lt;/label&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;input type="text" placeholder="ex.: Jo&atilde;o dos Santos..."&gt;</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br /><br />
+                <p>
+                    <b>Checkbox</b><br />
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui form">
+                        <div class="inline field">
+                            <div class="ui checkbox">
+                                <input type="checkbox">
+                                <label>Checkbox</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ui accordion code">
+                        <div class="title">
+                            <i class="code icon"></i>
+                            Code
+                        </div>
+                        <div class="content">
+                            <div class="box-code">
+                                &nbsp;&nbsp;&ltdiv class="<b>inline</b> field"&gt<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;<b>&ltdiv class="ui checkbox"&gt</b><br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&ltinput type="checkbox" /&gt</b><br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&ltlabel&gt Checkbox &lt/label&gt</b><br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt/div&gt<br />
+                                &nbsp;&nbsp;&lt/div&gt
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br /><br />
+                <p>
+                    <b>Radio Box</b><br />
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui form">
+                        <div class="grouped inline fields">
+                            <div class="field">
+                                <div class="ui radio checkbox">
+                                    <input type="radio" name="gender" checked="checked">
+                                    <label>Feminino</label>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui radio checkbox">
+                                    <input type="radio" name="gender">
+                                    <label>Masculino</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ui accordion code">
+                        <div class="title">
+                            <i class="code icon"></i>
+                            Code
+                        </div>
+                        <div class="content">
+                            <div class="box-code">
+                                &lt;div class="grouped inline fields"&gt;<br /><br />
+                                &nbsp;&nbsp;&lt;div class="field"&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="ui radio checkbox"&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="radio" name="gender" checked="checked"&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;Feminino&lt;/label&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                &nbsp;&nbsp;&lt;/div&gt;<br /><br />
+                                &nbsp;&nbsp;&lt;div class="field"&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="ui radio checkbox"&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="radio" name="gender"&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;Masculino&lt;/label&gt;<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+                                &nbsp;&nbsp;&lt;/div&gt;<br /><br />
+                                &lt;/div&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br /><br />
+                <p>
+                    <b>Select</b><br />
+                    Ver mais detalhes em <a href="dropdown.html">dropdown</a><br />
+                    Para iniciar o dropdown, é necessário utilizar o script abaixo, já inserido no global.js
+                </p>
+                <div class="tr box-default simple-box">
+                    <div class="ui form">
+                        <div class="field">
+                            <label>Gênero</label>
+                            <select class="ui dropdown">
+                                <option value="Fem">Feminino</option>
+                                <option value="Mas">Masculino</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="ui accordion code">
+                        <div class="title">
+                            <i class="code icon"></i>
+                            Code
+                        </div>
+                        <div class="content">
+                            <div class="box-code">
+                                &lt;label&gt;G&ecirc;nero&lt;/label&gt;<br />
+                                &lt;select class="ui dropdown"&gt;<br />
+                                &lt;option value="Fem"&gt;Feminino&lt;/option&gt;<br />
+                                &lt;option value="Mas"&gt;Masculino&lt;/option&gt;<br />
+                                &lt;/select&gt;<br /><br />
+
+                                &lt;script type="text/javascript"&gt;<br />
+                                $('select.dropdown')<br />
+                                .dropdown()<br />
+                                ;<br />
+                                &lt;/script&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

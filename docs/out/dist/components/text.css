@@ -1,0 +1,114 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+            Text
+*******************************/
+
+.tr.tx-brand {
+  text-transform: uppercase;
+  color: #999999;
+  font-size: 0.9em;
+}
+.tr.tx-name-product {
+  color: #333333;
+  font-size: 1em;
+}
+.tr.tx-price {
+  color: #999999;
+  text-decoration: line-through;
+  font-size: 0.9em;
+}
+.tr.tx-special-price {
+  color: #47a6cd;
+  font-size: 1em;
+  font-weight: bold;
+}
+.tr.tx-plots {
+  color: #333333;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1;
+}
+.tr.tx-plots span {
+  font-size: 0.7em;
+  font-weight: normal;
+  line-height: 1;
+}
+.tr.tx-deadline {
+  font-weight: bold;
+}
+.tr.tx-description-page {
+  color: #999999;
+  font-size: 11px;
+}
+.tr.tx-description-page h1,
+.tr.tx-description-page h2,
+.tr.tx-description-page h3 {
+  font-size: 11px;
+  margin: 10px 0;
+}
+label.static {
+  color: #999999;
+  text-transform: uppercase;
+}
+span.static {
+  color: #333333;
+}
+label.static,
+span.static {
+  font-size: 0.8em;
+}
+.tx-mini {
+  font-size: 10px;
+}
+.tx-small {
+  font-size: 11px;
+}
+.tx-medium {
+  font-size: 12px;
+}
+.tx-large {
+  font-size: 14px;
+}
+a.lk-guide-size {
+  display: inline-block;
+  padding: 5px 0;
+}
+.tr.tx-auxiliary {
+  font-size: 11px;
+  color: #999999;
+}
+@media screen and (max-width: 768px) {
+  a.lk-guide-size {
+    padding: 5px 0 15px 0;
+  }
+}
+
+
+/*******************************
+         Site Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+

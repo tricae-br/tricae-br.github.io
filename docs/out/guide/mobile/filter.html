@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/mobile.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="two wide column" id="menuLateral">
+        <!--carrega o menu lateral-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main">
+            <div class="row">
+                <div class="column desktop-12">
+                    <h2>Filters Mobile</h2>
+
+                    <div class="tr box-default simple-box">
+                        <table class="tr filter-mobile filter" style="width:100%; height:500px;position:relative;">
+                            <tr>
+                                <td class="tabular">
+                                    <div class="ui top attached">
+                                        <a class="active item" data-tab="gender"><i class="icon gender"></i>Gênero</a>
+                                        <a class="item" data-tab="size"><i class="icon size"></i>Tamanho</a>
+                                        <a class="item" data-tab="brand"><i class="icon brand"></i>Marca</a>
+                                        <a class="item" data-tab="merchandise"><i class="icon merchandise"></i>Personagem</a>
+                                        <a class="item" data-tab="price"><i class="icon price"></i>Preço</a>
+                                        <a class="item" data-tab="color"><i class="icon color"></i>Cor</a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="ui active tab segment" data-tab="gender">
+                                        <ul>
+                                            <li><label><input type="checkbox" /><b>Selecionar todos os gêneros</b></label></li>
+                                            <li><label><input type="checkbox" />Menina</label></li>
+                                            <li><label><input type="checkbox" />Menino</label></li>
+                                            <li><label><input type="checkbox" />Unissex</label></li>
+                                        </ul>
+                                    </div>
+                                    <div class="ui bottom attached tab segment" data-tab="size">
+                                        <ul>
+                                            <li><label><input type="checkbox" /><b>Selecionar todos os tamanhos</b></label></li>
+                                            <li><label><input type="checkbox" />RN</label></li>
+                                            <li><label><input type="checkbox" />PP</label></li>
+                                            <li><label><input type="checkbox" />P</label></li>
+                                            <li><label><input type="checkbox" />M</label></li>
+                                            <li><label><input type="checkbox" />G</label></li>
+                                            <li><label><input type="checkbox" />GG</label></li>
+                                        </ul>
+                                    </div>
+                                    <div class="ui bottom attached tab segment" data-tab="brand">
+                                        <ul>
+                                            <li><label><input type="checkbox" /><b>Selecionar todas as marcas</b></label></li>
+                                            <li><label><input type="checkbox" />Adidas</label></li>
+                                            <li><label><input type="checkbox" />Brink</label></li>
+                                            <li><label><input type="checkbox" />Candide</label></li>
+                                            <li><label><input type="checkbox" />Disney</label></li>
+                                            <li><label><input type="checkbox" />Elka</label></li>
+                                            <li><label><input type="checkbox" />Fisher Price</label></li>
+                                        </ul>
+                                    </div>
+                                    <div class="ui bottom attached tab segment" data-tab="merchandise">
+                                        <ul>
+                                            <li><label><input type="checkbox" /><b>Selecionar todos os personagens</b></label></li>
+                                            <li><label><input type="checkbox" />Batman</label></li>
+                                            <li><label><input type="checkbox" />Garfield</label></li>
+                                            <li><label><input type="checkbox" />Lanterna Verde</label></li>
+                                            <li><label><input type="checkbox" />Looney Tunes</label></li>
+                                            <li><label><input type="checkbox" />Penelope Charmosa</label></li>
+                                            <li><label><input type="checkbox" />Super Homem</label></li>
+                                        </ul>
+                                    </div>
+                                    <div class="ui bottom attached tab segment" data-tab="price">
+                                        <ul>
+                                            <li><label><input type="checkbox" /><b>Selecionar todos os preços</b></label></li>
+                                            <li><label><input type="checkbox" />R$ 0,00 - R$ 19,99</label></li>
+                                            <li><label><input type="checkbox" />R$ 20,00 - R$ 49,99</label></li>
+                                            <li><label><input type="checkbox" />R$ 50,00 - R$ 79,99</label></li>
+                                            <li><label><input type="checkbox" />R$ 80,00 - R$ 99,99</label></li>
+                                            <li><label><input type="checkbox" />R$ 100,00 - R$ 119,99</label></li>
+                                        </ul>
+                                    </div>
+                                    <div class="ui bottom attached tab segment filter-color" data-tab="color">
+                                        <ul>
+                                            <li><label><input type="checkbox" /><b>Selecionar todas as cores</b></label></li>
+                                            <li><label><input type="checkbox" /><div class="color fc-blue"></div>Azul</label></li>
+                                            <li><label><input type="checkbox" /><div class="color fc-red"></div>Vermelho</label></li>
+                                            <li><label><input type="checkbox" /><div class="color fc-chess"></div>Xadrez</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <script>
+                            $('.tabular .item')
+                                    .tab()
+                            ;
+                        </script>
+
+                        <div class="box-code">
+                            &lt;table class="tr filter-mobile filter" style="width:100%; height:500px;position:relative;"&gt;<br />
+                            &lt;tr&gt;<br /><br />
+
+                            &lt;td class="tabular"&gt;<br /><br />
+
+                            &lt;div class="ui top attached"&gt;<br />
+                            &lt;a class="active item" data-tab="gender"&gt;&lt;i class="icon gender"&gt;&lt;/i&gt;G&ecirc;nero&lt;/a&gt;<br />
+                            &lt;a class="item" data-tab="size"&gt;&lt;i class="icon size"&gt;&lt;/i&gt;Tamanho&lt;/a&gt;<br />
+                            &lt;a class="item" data-tab="brand"&gt;&lt;i class="icon brand"&gt;&lt;/i&gt;Marca&lt;/a&gt;<br />
+                            &lt;a class="item" data-tab="merchandise"&gt;&lt;i class="icon merchandise"&gt;&lt;/i&gt;Personagem&lt;/a&gt;<br />
+                            &lt;a class="item" data-tab="price"&gt;&lt;i class="icon price"&gt;&lt;/i&gt;Pre&ccedil;o&lt;/a&gt;<br />
+                            &lt;a class="item" data-tab="color"&gt;&lt;i class="icon color"&gt;&lt;/i&gt;Cor&lt;/a&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;/td&gt;<br /><br />
+
+                            &lt;td&gt;<br /><br />
+
+                            &lt;div class="ui active tab segment" data-tab="gender"&gt;<br />
+                            &lt;ul&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;&lt;b&gt;Selecionar todos os g&ecirc;neros&lt;/b&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Menina&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Menino&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Unissex&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;/ul&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui bottom attached tab segment" data-tab="size"&gt;<br />
+                            &lt;ul&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;&lt;b&gt;Selecionar todos os tamanhos&lt;/b&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;RN&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;PP&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;P&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;M&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;G&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;GG&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;/ul&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui bottom attached tab segment" data-tab="brand"&gt;<br />
+                            &lt;ul&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;&lt;b&gt;Selecionar todas as marcas&lt;/b&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Adidas&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Brink&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Candide&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Disney&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Elka&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Fisher Price&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;/ul&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui bottom attached tab segment" data-tab="merchandise"&gt;<br />
+                            &lt;ul&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;&lt;b&gt;Selecionar todos os personagens&lt;/b&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Batman&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Garfield&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Lanterna Verde&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Looney Tunes&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Penelope Charmosa&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;Super Homem&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;/ul&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui bottom attached tab segment" data-tab="price"&gt;<br />
+                            &lt;ul&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;&lt;b&gt;Selecionar todos os pre&ccedil;os&lt;/b&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;R$ 0,00 - R$ 19,99&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;R$ 20,00 - R$ 49,99&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;R$ 50,00 - R$ 79,99&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;R$ 80,00 - R$ 99,99&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;R$ 100,00 - R$ 119,99&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;/ul&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui bottom attached tab segment filter-color" data-tab="color"&gt;<br />
+                            &lt;ul&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;&lt;b&gt;Selecionar todas as cores&lt;/b&gt;&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;&lt;div class="color fc-blue"&gt;&lt;/div&gt;Azul&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;&lt;div class="color fc-red"&gt;&lt;/div&gt;Vermelho&lt;/label&gt;&lt;/li&gt;<br />
+                            &lt;li&gt;&lt;label&gt;&lt;input type="checkbox" /&gt;&lt;div class="color fc-chess"&gt;&lt;/div&gt;Xadrez&lt;/li&gt;<br />
+                            &lt;/ul&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;/td&gt;<br /><br />
+
+                            &lt;/tr&gt;<br />
+                            &lt;/table&gt;<br /><br />
+
+                            &lt;script&gt;<br />
+                            $('.tabular .item')<br />
+                            .tab()<br />
+                            ;<br />
+                            &lt;/script&gt;
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

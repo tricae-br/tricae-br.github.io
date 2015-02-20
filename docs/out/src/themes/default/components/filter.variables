@@ -1,0 +1,17 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@borderNavDefault : @borderDefault;
+@paddingItemNav : @paddingElementDefault;
+@paddingItemNavIndent1 : (@paddingItemNav*3);
+@paddingItemNavIndent2 : (@paddingItemNav*5);
+@fontSizeItemNav : @smallFont;
+
+@fontSizeNumberElements : @smallFont;
+@colorBgNumberElements : #ccc;
+@boxRadiusNumberElements : 5px;
+@colorNumberElements : #FFF;
+@paddingNumberElements : 0 3px;
+@colorItemActive : @colorDefaultText;
+
+@lineHeightItemFilter : 1.3em;

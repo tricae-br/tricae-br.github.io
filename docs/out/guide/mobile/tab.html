@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/mobile.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="two wide column" id="menuLateral">
+        <!--carrega o menu lateral-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main" id="contentMain">
+            <div class="row">
+
+                <div class="column desktop-12">
+
+                    <h2>Tab</h2>
+                    <p>
+                        Utiliza tab. Ver mais em <a href="http://semantic-ui.com/modules/tab.html" target="_blank">Semantic-UI</a>
+                    </p>
+                    <p>
+                        <b>Default</b><br />
+                        Esse component não possui layout criado, para que possa ser utilizado de diversas maneiras.<br />
+                        Script adicionado no global.js
+                    </p>
+
+                    <br /><br />
+                    <div class="tr box-default simple-box">
+
+                        <div class="ui top attached tabular menu">
+                            <a class="active item" data-tab="first">First</a>
+                            <a class="item" data-tab="second">Second</a>
+                            <a class="item" data-tab="third">Third</a>
+                        </div>
+                        <div class="ui bottom attached active tab segment" data-tab="first">
+                            First
+                        </div>
+                        <div class="ui bottom attached tab segment" data-tab="second">
+                            Second
+                        </div>
+                        <div class="ui bottom attached tab segment" data-tab="third">
+                            Third
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="ui top attached tabular menu"&gt;<br />
+                            &lt;a class="active item" data-tab="first"&gt;First&lt;/a&gt;<br />
+                            &lt;a class="item" data-tab="second"&gt;Second&lt;/a&gt;<br />
+                            &lt;a class="item" data-tab="third"&gt;Third&lt;/a&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;div class="ui bottom attached active tab segment" data-tab="first"&gt;<br />
+                            First<br />
+                            &lt;/div&gt;<br />
+                            &lt;div class="ui bottom attached tab segment" data-tab="second"&gt;<br />
+                            Second<br />
+                            &lt;/div&gt;<br />
+                            &lt;div class="ui bottom attached tab segment" data-tab="third"&gt;<br />
+                            Third<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;script type="text/javascript"&gt;<br />
+                            $('.tabular .item')<br />
+                            .tab()<br />
+                            ;<br />
+                            &lt;/script&gt;
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

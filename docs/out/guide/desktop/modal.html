@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tricae Guide</title>
+    <link rel="stylesheet" href="/dist/desktop.css" media="all">
+    <link rel="stylesheet" href="../css/guide.css" media="all">
+
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="guide-tricae">
+
+<div>
+    <div id="header">
+        <!--carrega o header-->
+    </div>
+
+    <div class="section-guide">
+        <div class="content-main" id="contentMain">
+            <div class="row">
+                <div class="column desktop-2 tablet-3" id="menuLateral">
+                    <!--carrega o menu lateral-->
+                </div>
+
+                <div class="column desktop-10 tablet-9">
+
+                    <h2>Modal</h2>
+                    <p>
+                        Utiliza icon, dimmer e modal. Ver mais em <a href="http://semantic-ui.com/modules/modal.html" target="_blank">Semantic-UI</a>
+                    </p>
+                    <p>
+                        <b>Default completo</b><br />
+                    </p>
+
+                    <div class="tr box-default simple-box">
+
+                        <div class="ui button" id="buttonModal">Show modal</div>
+
+                        <div class="ui modal modal1">
+                            <i class="close icon"></i>
+                            <div class="header">
+                                Profile Picture
+                            </div>
+                            <div class="content">
+                                Conteudo
+                            </div>
+                            <div class="actions">
+                                <div class="ui black button">
+                                    Nope
+                                </div>
+                                <div class="ui positive right labeled icon button">
+                                    Yep, that's me
+                                    <i class="checkmark icon"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="ui button" id="buttonModal"&gt;Show modal&lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui modal modal1"&gt;<br />
+                            &lt;i class="close icon"&gt;&lt;/i&gt;<br />
+                            &lt;div class="header"&gt;<br />
+                            Profile Picture<br />
+                            &lt;/div&gt;<br />
+                            &lt;div class="content"&gt;<br />
+                            Conteudo<br />
+                            &lt;/div&gt;<br />
+                            &lt;div class="actions"&gt;<br />
+                            &lt;div class="ui black button"&gt;<br />
+                            Nope<br />
+                            &lt;/div&gt;<br />
+                            &lt;div class="ui positive right labeled icon button"&gt;<br />
+                            Yep, that's me<br />
+                            &lt;i class="checkmark icon"&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;script type="text/javascript"&gt;<br />
+                            $( "#buttonModal" ).click(function() {<br />
+                            $('.ui.modal.modal1')<br />
+                            .modal('show')<br />
+                            ;<br />
+                            });<br />
+                            &lt;/script&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Default simples</b><br />
+                    </p>
+
+                    <div class="tr box-default simple-box">
+
+                        <div class="ui button" id="buttonModal2">Show modal</div>
+
+                        <div class="ui modal modal2">
+                            <i class="close icon"></i>
+                            <div class="content">
+                                Conteudo
+                            </div>
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="ui button" id="buttonModal2"&gt;Show modal&lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui modal modal2"&gt;<br />
+                            &lt;i class="close icon"&gt;&lt;/i&gt;<br />
+                            &lt;div class="content"&gt;<br />
+                            Conteudo<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;script type="text/javascript"&gt;<br />
+                            $( "#buttonModal2" ).click(function() {<br />
+                            $('.ui.modal.modal2')<br />
+                            .modal('show')<br />
+                            ;<br />
+                            });
+                            &lt;/script&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Full screen</b><br />
+                    </p>
+
+                    <div class="tr box-default simple-box">
+
+                        <div class="ui button" id="buttonModal3">Show modal</div>
+
+                        <div class="ui modal fullscreen modal3">
+                            <i class="close icon"></i>
+                            <div class="content">
+                                Conteudo
+                            </div>
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="ui button" id="buttonModal3"&gt;Show modal&lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui modal fullscreen modal3"&gt;<br />
+                            &lt;i class="close icon"&gt;&lt;/i&gt;<br />
+                            &lt;div class="content"&gt;<br />
+                            Conteudo<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;script type="text/javascript"&gt;<br />
+                            $( "#buttonModal3" ).click(function() {<br />
+                            $('.ui.modal.modal3')<br />
+                            .modal('show')<br />
+                            ;<br />
+                            });
+                            &lt;/script&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Small</b><br />
+                    </p>
+
+                    <div class="tr box-default simple-box">
+
+                        <div class="ui button" id="buttonModal4">Show modal</div>
+
+                        <div class="ui modal small modal4">
+                            <i class="close icon"></i>
+                            <div class="content">
+                                Conteudo
+                            </div>
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="ui button" id="buttonModal4"&gt;Show modal&lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui modal small modal4"&gt;<br />
+                            &lt;i class="close icon"&gt;&lt;/i&gt;<br />
+                            &lt;div class="content"&gt;<br />
+                            Conteudo<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;script type="text/javascript"&gt;<br />
+                            $( "#buttonModal4" ).click(function() {<br />
+                            $('.ui.modal.modal4')<br />
+                            .modal('show')<br />
+                            ;<br />
+                            });
+                            &lt;/script&gt;
+                        </div>
+
+                    </div>
+
+                    <br /><br />
+                    <p>
+                        <b>Large</b><br />
+                    </p>
+
+                    <div class="tr box-default simple-box">
+
+                        <div class="ui button" id="buttonModal5">Show modal</div>
+
+                        <div class="ui modal large modal5">
+                            <i class="close icon"></i>
+                            <div class="content">
+                                Conteudo
+                            </div>
+                        </div>
+
+                        <div class="box-code">
+                            &lt;div class="ui button" id="buttonModal5"&gt;Show modal&lt;/div&gt;<br /><br />
+
+                            &lt;div class="ui modal large modal5"&gt;<br />
+                            &lt;i class="close icon"&gt;&lt;/i&gt;<br />
+                            &lt;div class="content"&gt;<br />
+                            Conteudo<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;<br /><br />
+
+                            &lt;script type="text/javascript"&gt;<br />
+                            $( "#buttonModal5" ).click(function() {<br />
+                            $('.ui.modal.modal5')<br />
+                            .modal('show')<br />
+                            ;<br />
+                            });
+                            &lt;/script&gt;
+                        </div>
+
+                    </div>
+
+                    <script type="text/javascript">
+                        $( "#buttonModal" ).click(function() {
+                            $('.ui.modal.modal1')
+                                    .modal('show')
+                            ;
+                        });
+                        $( "#buttonModal2" ).click(function() {
+                            $('.ui.modal.modal2')
+                                    .modal('show')
+                            ;
+                        });
+                        $( "#buttonModal3" ).click(function() {
+                            $('.ui.modal.modal3')
+                                    .modal('show')
+                            ;
+                        });
+                        $( "#buttonModal4" ).click(function() {
+                            $('.ui.modal.modal4')
+                                    .modal('show')
+                            ;
+                        });
+                        $( "#buttonModal5" ).click(function() {
+                            $('.ui.modal.modal5')
+                                    .modal('show')
+                            ;
+                        });
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
