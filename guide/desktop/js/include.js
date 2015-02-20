@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    $("#menuLateral").load("_partial/menu-lateral.html");
-    $("#header").load("_partial/header.html");
-    $("#menuList").load("_partial/menu-list.html");
+    $("#menuLateral").load("/guide/desktop/_partial/menu-lateral.html");
+    $("#header").load("/guide/desktop/_partial/header.html");
+    $("#menuList").load("/guide/desktop/_partial/menu-list.html");
 });
