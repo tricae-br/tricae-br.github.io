@@ -6,3 +6,16 @@
 	right:-1.5em;
 	top:-1.5em;
 }
+.ui.loader.active{
+	background:url(/dist/themes/default/assets/images/loader-ie.gif) no-repeat center top;
+	width:40px;
+	height:40px;
+	line-height:4;
+}
+.ui.loader.active.inverted{
+	background:url(/dist/themes/default/assets/images/loader-ie-inverted.gif) no-repeat center top;
+}
+.ui.loader.active:after, .ui.loader.active:before{
+	border:none;
+}
+.ui.rating .icon{color:#ccc!important;}

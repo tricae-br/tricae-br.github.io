@@ -154,25 +154,25 @@
 *******************************/
 
 .ui.mini.rating .icon {
-  font-size: 0.7rem;
+  font-size: 10px;
 }
 .ui.tiny.rating .icon {
-  font-size: 0.8rem;
+  font-size: 11px;
 }
 .ui.small.rating .icon {
-  font-size: 0.875rem;
+  font-size: 11px;
 }
 .ui.rating .icon {
-  font-size: 1rem;
+  font-size: 12px;
 }
 .ui.large.rating .icon {
-  font-size: 1.1rem;
+  font-size: 14px;
 }
 .ui.huge.rating .icon {
-  font-size: 1.5rem;
+  font-size: 18px;
 }
 .ui.massive.rating .icon {
-  font-size: 2rem;
+  font-size: 21px;
 }
 
 /* Realign */

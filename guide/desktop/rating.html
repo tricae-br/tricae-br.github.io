@@ -10,6 +10,11 @@
     <script type="text/javascript" src="/dist/semantic.min.js"></script>
     <script type="text/javascript" src="js/include.js"></script>
 
+    <!--[if IE 8]>
+    <link rel="stylesheet" href="/dist/ie8.css" media="all">
+    <script src="../js/jquery.easing.js"></script>
+    <![endif]-->
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -39,7 +44,14 @@
                         <b>Default</b><br />
                     </p>
                     <div class="tr box-default simple-box">
-                        <div class="ui star rating" data-rating="4"></div>
+
+                        <div class="ui star rating" data-rating="4">
+                            <i class="icon active"></i>
+                            <i class="icon active"></i>
+                            <i class="icon active"></i>
+                            <i class="icon active"></i>
+                            <i class="icon"></i>
+                        </div>
 
                         <div class="box-code">
                             &lt;div class="ui star rating" data-rating="4"&gt;&lt;/div&gt;<br /><br />
@@ -52,15 +64,6 @@
                             &nbsp;&nbsp;});<br />
                             &lt;/script&gt;
                         </div>
-                        <script type="text/javascript">
-                            $(document).ready(function(){
-                                $('.box-default .star.rating')
-                                    .rating({
-                                        maxRating: 5
-                                    })
-                                ;
-                            });
-                        </script>
                     </div>
 
                     <br /><br />
@@ -85,12 +88,13 @@
                             &lt;div class="ui huge star rating"&gt;&lt;/div&gt;<br />
                             &lt;div class="ui massive star rating"&gt;&lt;/div&gt;
                         </div>
+
                         <script type="text/javascript">
-                            $(document).ready(function(){
+                            $(window).load(function(){
                                 $('.box-default .star.rating')
-                                        .rating({
-                                            maxRating: 5
-                                        })
+                                    .rating({
+                                        maxRating: 5
+                                    })
                                 ;
                             });
                         </script>
@@ -100,7 +104,7 @@
             </div>
         </div>
     </div>
-
+</div>
 </body>
 
 </html>
