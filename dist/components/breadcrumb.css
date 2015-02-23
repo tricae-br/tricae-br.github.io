@@ -35,6 +35,7 @@
 .tr.breadcrumb ul li:before {
   content: '/';
   color: #cccccc;
+  float: left;
 }
 .tr.breadcrumb ul li:first-child:before {
   content: none;

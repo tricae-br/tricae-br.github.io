@@ -109,8 +109,8 @@
   border-top: none;
   line-height: 1.2em;
   color: #333333;
-  padding: 0.65rem 1.25rem !important;
-  font-size: 1rem;
+  padding: 0.65em 1.25em !important;
+  font-size: 1em;
   text-transform: none;
   font-weight: normal;
   box-shadow: none;
@@ -354,22 +354,22 @@ select.ui.dropdown {
 }
 @media only screen and (max-width: 767px) {
   .ui.selection.dropdown .menu {
-    max-height: 7.7142rem;
+    max-height: 7.7142em;
   }
 }
 @media only screen and (min-width: 768px) {
   .ui.selection.dropdown .menu {
-    max-height: 10.2856rem;
+    max-height: 10.2856em;
   }
 }
 @media only screen and (min-width: 1280px) {
   .ui.selection.dropdown .menu {
-    max-height: 15.4284rem;
+    max-height: 15.4284em;
   }
 }
 @media only screen and (min-width: 1920px) {
   .ui.selection.dropdown .menu {
-    max-height: 20.5712rem;
+    max-height: 20.5712em;
   }
 }
 

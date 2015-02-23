@@ -35,7 +35,7 @@
   font-family: Arial, Helvetica, sans-serif;
   padding: 0.67861em 1em;
   background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 1px solid #dddddd;
   color: #333333;
   border-radius: 2px;
   -webkit-transition: background-color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;

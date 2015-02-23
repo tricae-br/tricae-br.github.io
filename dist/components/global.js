@@ -4,11 +4,6 @@ $( document ).ready(function() {
         $(this).closest('.message').fadeOut();
     });
 
-    //Dropdown
-    $('select.dropdown')
-        .dropdown()
-    ;
-
     //Accordion
     $('.ui.accordion')
         .accordion()

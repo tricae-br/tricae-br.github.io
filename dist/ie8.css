@@ -1,0 +1,8 @@
+.ui.dimmer{
+	background:#000;
+}
+
+.ui.modal > .close{
+	right:-1.5em;
+	top:-1.5em;
+}

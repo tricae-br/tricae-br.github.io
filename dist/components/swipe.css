@@ -61,6 +61,9 @@ Basic Swiper Styles
   float: left;
   box-sizing: content-box;
 }
+.swiper-slide img {
+  width: 100%;
+}
 
 /* IE10 Windows Phone 8 Fixes */
 .swiper-wp8-horizontal {
