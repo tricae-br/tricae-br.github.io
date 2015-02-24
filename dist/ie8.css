@@ -19,3 +19,16 @@
 	border:none;
 }
 .ui.rating .icon{color:#ccc!important;}
+
+.ui.dropdown select{
+	display:block!important;
+	padding:10px;
+	border:1px solid #ddd;
+
+}
+.ui.dropdown{
+	background:none!important;
+	padding:0!important;
+	border:none!important;
+}
+.ui.dropdown .menu, .ui.dropdown .text, .ui.dropdown i{display:none;}
