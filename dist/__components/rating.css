@@ -1,0 +1,256 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+           Rating
+*******************************/
+
+.ui.rating {
+  display: inline-block;
+  font-size: 0em;
+  vertical-align: baseline;
+}
+.ui.rating:last-child {
+  margin-right: 0em;
+}
+.ui.rating:before {
+  display: block;
+  content: '';
+  visibility: hidden;
+  clear: both;
+  height: 0;
+}
+
+/* Icon */
+.ui.rating .icon {
+  cursor: pointer;
+  margin: 0em;
+  width: 1.1em;
+  text-align: center;
+  height: auto;
+  padding: 0em;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: baseline;
+}
+
+
+/*******************************
+             Types
+*******************************/
+
+
+/*-------------------
+        Star
+--------------------*/
+
+
+/* Inactive */
+.ui.star.rating .icon {
+  width: 1.1em;
+  color: rgba(0, 0, 0, 0.15);
+}
+
+/* Active Star */
+.ui.star.rating .active.icon {
+  color: #ffe623 !important;
+  text-shadow: 0px -1px 0px #cfa300, -1px 0px 0px #cfa300, 0px 1px 0px #cfa300, 1px 0px 0px #cfa300;
+}
+
+/* Selected Star */
+.ui.star.rating .icon.selected,
+.ui.star.rating .icon.selected.active {
+  color: #ffb70a !important;
+}
+.ui.star.rating.partial {
+  position: relative;
+  z-index: 1;
+}
+.ui.star.rating.partial:before {
+  position: absolute;
+  z-index: -1;
+}
+
+/*-------------------
+        Heart
+--------------------*/
+
+/*.ui.heart.rating .icon {
+  width: @heartIconHitbox;
+  color: @heartInactiveColor;
+}*/
+
+/* Active Heart */
+/*.ui.heart.rating .active.icon {
+  color: @heartActiveColor !important;
+  text-shadow: @heartActiveShadow;
+}*/
+
+/* Selected Heart */
+/*.ui.heart.rating .icon.selected,
+.ui.heart.rating .icon.selected.active {
+  color: @heartSelectedColor !important;
+}*/
+
+
+/*******************************
+             States
+*******************************/
+
+
+/* Inactive Icon */
+.ui.rating .icon {
+  color: rgba(0, 0, 0, 0.15);
+}
+
+/* Active Icon */
+.ui.rating .active.icon {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/* Selected Icon */
+.ui.rating .icon.selected,
+.ui.rating .icon.selected.active {
+  color: #333333;
+}
+
+/*-------------------
+       Disabled
+--------------------*/
+
+
+/* disabled rating */
+.ui.disabled.rating .icon {
+  cursor: default;
+}
+
+/*-------------------
+     Interacting (Active)
+--------------------*/
+
+
+/* Selected Rating */
+.ui.rating.selected .active.icon {
+  opacity: 0.5;
+}
+.ui.rating.selected .icon.selected,
+.ui.rating .icon.selected {
+  opacity: 1;
+}
+
+
+/*******************************
+          Variations
+*******************************/
+
+.ui.mini.rating .icon {
+  font-size: 10px;
+}
+.ui.tiny.rating .icon {
+  font-size: 11px;
+}
+.ui.small.rating .icon {
+  font-size: 11px;
+}
+.ui.rating .icon {
+  font-size: 12px;
+}
+.ui.large.rating .icon {
+  font-size: 14px;
+}
+.ui.huge.rating .icon {
+  font-size: 18px;
+}
+.ui.massive.rating .icon {
+  font-size: 21px;
+}
+
+/* Realign */
+.ui.large.rating,
+.ui.huge.rating,
+.ui.massive.rating {
+  vertical-align: middle;
+}
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.rating .icon {
+  font-family: 'Icons';
+  line-height: 1;
+  height: 1em;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+/* Empty Star */
+.ui.rating .icon:before {
+  content: '\f006';
+}
+
+/* Active Star */
+.ui.rating .active.icon:before {
+  content: '\f005';
+}
+
+/*-------------------
+        Star
+--------------------*/
+
+
+/* Unfilled Star */
+.ui.star.rating .icon:before {
+  content: '\f005';
+}
+
+/* Active Star */
+.ui.star.rating .active.icon:before {
+  content: '\f005';
+}
+
+/* Partial */
+.ui.star.rating .partial.icon:before {
+  content: '\f006';
+}
+.ui.star.rating .partial.icon {
+  content: '\f005';
+}
+
+/*-------------------
+        Heart
+--------------------*/
+
+
+/* Empty Heart
+.ui.heart.rating .icon:before {
+  content: '\f08a';
+}
+*/
+.ui.heart.rating .icon:before {
+  content: '\f004';
+}
+/* Active */
+.ui.heart.rating .active.icon:before {
+  content: '\f004';
+}
+
+
+/*******************************
+         Site Overrides
+*******************************/
+

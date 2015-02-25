@@ -1,0 +1,770 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+            Dropdown
+*******************************/
+
+.ui.dropdown {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  line-height: 1em;
+  tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none;
+  text-align: left;
+  -webkit-transition: border-radius 0.1s ease, width 0.2s ease;
+          transition: border-radius 0.1s ease, width 0.2s ease;
+}
+
+
+/*******************************
+            Content
+*******************************/
+
+
+/*--------------
+      Menu
+---------------*/
+
+.ui.dropdown .menu {
+  cursor: auto;
+  position: absolute;
+  display: none;
+  outline: none;
+  top: 100%;
+  margin: 0em;
+  padding: 0em 0em;
+  background: #ffffff;
+  min-width: 100%;
+  white-space: nowrap;
+  font-size: 1rem;
+  text-shadow: none;
+  text-align: left;
+  box-shadow: 0px 1px 4px 0px rgba(39, 41, 43, 0.15);
+  border: 1px solid rgba(39, 41, 43, 0.15);
+  border-radius: 0em 0em 2px 2px;
+  -webkit-transition: opacity 0.2s ease;
+          transition: opacity 0.2s ease;
+  z-index: 11;
+  will-change: transform, opacity;
+}
+
+/*--------------
+  Hidden Input
+---------------*/
+
+.ui.dropdown > input[type="hidden"],
+.ui.dropdown > select {
+  display: none !important;
+}
+
+/*--------------
+ Dropdown Icon
+---------------*/
+
+.ui.dropdown > .dropdown.icon {
+  width: auto;
+  margin: 0em 0em 0em 1em;
+}
+.ui.dropdown .menu > .item .dropdown.icon {
+  width: auto;
+  float: right;
+  margin: 0.2em 0em 0em 1em;
+}
+.ui.dropdown .menu > .item .dropdown.icon + .text {
+  margin-right: 1em;
+}
+
+/*--------------
+      Text
+---------------*/
+
+.ui.dropdown > .text {
+  display: inline-block;
+  -webkit-transition: color 0.2s ease;
+          transition: color 0.2s ease;
+}
+
+/*--------------
+    Menu Item
+---------------*/
+
+.ui.dropdown .menu > .item {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  border: none;
+  height: auto;
+  border-top: none;
+  line-height: 1.2em;
+  color: #333333;
+  padding: 0.65em 1.25em !important;
+  font-size: 1em;
+  text-transform: none;
+  font-weight: normal;
+  box-shadow: none;
+  -webkit-touch-callout: none;
+}
+.ui.dropdown .menu > .item:first-child {
+  border-top-width: 0px;
+}
+
+/*--------------
+  Floated Content
+---------------*/
+
+/*.ui.dropdown > .text > [class*="right floated"],
+.ui.dropdown .menu .item > [class*="right floated"] {
+  float: right !important;
+  margin-right: 0em !important;
+  margin-left: @floatedDistance !important;
+}
+.ui.dropdown > .text > [class*="left floated"],
+.ui.dropdown .menu .item > [class*="left floated"] {
+  float: left !important;
+  margin-left: 0em !important;
+  margin-right: @floatedDistance !important;
+}
+
+.ui.dropdown .menu .item > .icon.floated,
+.ui.dropdown .menu .item > .flag.floated,
+.ui.dropdown .menu .item > .image.floated,
+.ui.dropdown .menu .item > img.floated {
+  margin-top: @itemLineHeightOffset;
+}*/
+
+/*--------------
+  Menu Divider X
+---------------*/
+
+
+/*-----------------
+  Item Description
+-------------------*/
+
+.ui.dropdown > .text > .description,
+.ui.dropdown .menu > .item > .description {
+  margin: 0em 0em 0em 1em;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/*--------------
+    Sub Menu
+---------------*/
+
+.ui.dropdown .menu .menu {
+  top: 0% !important;
+  left: 100% !important;
+  right: auto !important;
+  margin: 0em 0em 0em -0.5em !important;
+  border-radius: 0em 2px 2px 0em !important;
+  z-index: 21 !important;
+}
+
+/* Hide Arrow */
+.ui.dropdown .menu .menu:after {
+  display: none;
+}
+
+
+/*******************************
+            Coupling
+*******************************/
+
+
+/*--------------
+   Sub Elements
+---------------*/
+
+
+/* Icons / Flags / Labels / Image */
+.ui.dropdown > .text > .icon,
+.ui.dropdown > .text > .label,
+.ui.dropdown > .text > .flag,
+.ui.dropdown > .text > img,
+.ui.dropdown > .text > .image {
+  margin-top: 0em;
+}
+.ui.dropdown .menu > .item > .icon,
+.ui.dropdown .menu > .item > .label,
+.ui.dropdown .menu > .item > .flag,
+.ui.dropdown .menu > .item > .image,
+.ui.dropdown .menu > .item > img {
+  margin-top: 0.2em;
+}
+.ui.dropdown > .text > .icon,
+.ui.dropdown > .text > .label,
+.ui.dropdown > .text > .flag,
+.ui.dropdown > .text > img,
+.ui.dropdown > .text > .image,
+.ui.dropdown .menu > .item > .icon,
+.ui.dropdown .menu > .item > .label,
+.ui.dropdown .menu > .item > .flag,
+.ui.dropdown .menu > .item > .image,
+.ui.dropdown .menu > .item > img {
+  margin-left: 0em;
+  margin-right: 0.75em;
+}
+
+/*--------------
+     Image
+---------------*/
+
+.ui.dropdown > .text > img,
+.ui.dropdown > .text > .image,
+.ui.dropdown .menu > .item > .image,
+.ui.dropdown .menu > .item > img {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  max-height: 2.5em;
+}
+
+/*--------------
+      Menu
+---------------*/
+
+
+/* Remove Menu Item Divider */
+.ui.dropdown .ui.menu > .item:before,
+.ui.menu .ui.dropdown .menu > .item:before {
+  display: none;
+}
+
+/* Prevent Menu Item Border */
+.ui.menu .ui.dropdown .menu .active.item {
+  border-left: none;
+}
+
+/* Automatically float dropdown menu right on last menu item */
+.ui.menu .right.menu .dropdown:last-child .menu,
+.ui.menu .right.dropdown.item .menu,
+.ui.buttons > .ui.dropdown:last-child .menu {
+  left: auto;
+  right: 0em;
+}
+
+/*--------------
+     Button
+---------------*/
+
+
+/* No Margin On Icon Button */
+.ui.dropdown.icon.button > .dropdown.icon {
+  margin: 0em;
+}
+.ui.dropdown.button:not(.pointing):not(.floating).active,
+.ui.dropdown.button:not(.pointing):not(.floating).visible {
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0em;
+}
+
+
+/*******************************
+              Types
+*******************************/
+
+
+/*--------------
+    Selection
+---------------*/
+
+
+/* Displays like a select box */
+.ui.selection.dropdown {
+  cursor: pointer;
+  word-wrap: break-word;
+  white-space: normal;
+  outline: 0;
+  -webkit-transform: rotateZ(0deg);
+          transform: rotateZ(0deg);
+  min-width: 50px;
+  background: #ffffff;
+  display: inline-block;
+  padding: 1.1em 1.5em;
+  color: #333333;
+  box-shadow: none;
+  border: 1px solid rgba(39, 41, 43, 0.15);
+  border-radius: 2px;
+  -webkit-transition: border-radius 0.1s ease, width 0.2s ease, box-shadow 0.2s ease, border 0.2s ease;
+          transition: border-radius 0.1s ease, width 0.2s ease, box-shadow 0.2s ease, border 0.2s ease;
+}
+.ui.selection.dropdown.visible,
+.ui.selection.dropdown.active {
+  z-index: 10;
+}
+select.ui.dropdown {
+  height: 38px;
+  padding: 0em;
+  margin: 0em;
+  visibility: hidden;
+}
+.ui.selection.dropdown > .text {
+  margin-right: 2em;
+}
+.ui.selection.dropdown > .search.icon,
+.ui.selection.dropdown > .delete.icon,
+.ui.selection.dropdown > .dropdown.icon {
+  position: absolute;
+  top: auto;
+  margin: 0em;
+  width: auto;
+  right: 1.5em;
+  opacity: 0.8;
+  -webkit-transition: opacity 0.2s ease;
+          transition: opacity 0.2s ease;
+}
+
+/* Compact */
+.ui.compact.selection.dropdown {
+  min-width: 0px;
+}
+
+/*  Selection Menu */
+.ui.selection.dropdown .menu {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-overflow-scrolling: touch;
+  border-top-width: 0px !important;
+  width: auto;
+  margin: 0px -1px;
+  min-width: -webkit-calc(100% +  2px );
+  min-width: calc(100% +  2px );
+  outline: none;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  -webkit-transition: box-shadow 0.2s ease, border 0.2s ease;
+          transition: box-shadow 0.2s ease, border 0.2s ease;
+}
+.ui.selection.dropdown .menu:after,
+.ui.selection.dropdown .menu:before {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .ui.selection.dropdown .menu {
+    max-height: 7.7142em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ui.selection.dropdown .menu {
+    max-height: 10.2856em;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .ui.selection.dropdown .menu {
+    max-height: 15.4284em;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .ui.selection.dropdown .menu {
+    max-height: 20.5712em;
+  }
+}
+
+/* Menu Item */
+.ui.selection.dropdown .menu > .item {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding-left: 1.5em !important;
+  
+/* Add in spacing for scroll bar */
+  padding-right: -webkit-calc(2.5em) !important;
+  padding-right: calc(2.5em) !important;
+  white-space: normal;
+  word-wrap: normal;
+}
+
+/* Hover */
+.ui.selection.dropdown:hover {
+  border-color: rgba(39, 41, 43, 0.3);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* Disabled */
+.ui.selection.dropdown.disabled,
+.ui.selection.dropdown.disabled:hover {
+  cursor: default;
+  box-shadow: none;
+  color: #333333;
+  border: 1px solid rgba(39, 41, 43, 0.15);
+  opacity: 0.3 !important;
+}
+
+/* Visible Hover */
+.ui.selection.visible.dropdown:hover {
+  border-color: rgba(39, 41, 43, 0.3);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.ui.selection.visible.dropdown:hover .menu {
+  border: 1px solid rgba(39, 41, 43, 0.3);
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Visible */
+.ui.selection.dropdown.visible {
+  border-color: rgba(39, 41, 43, 0.15);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.ui.visible.selection.dropdown > .dropdown.icon {
+  opacity: 1;
+}
+
+/* Active Item */
+.ui.selection.active.dropdown > .text:not(.default),
+.ui.selection.visible.dropdown > .text:not(.default) {
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Connecting Border */
+.ui.active.selection.dropdown,
+.ui.visible.selection.dropdown {
+  border-bottom-left-radius: 0em !important;
+  border-bottom-right-radius: 0em !important;
+}
+
+/*--------------
+   Searchable X
+---------------*/
+
+
+/*--------------
+     Inline X
+---------------*/
+
+
+
+/*******************************
+            States
+*******************************/
+
+
+/*--------------------
+        Hover
+----------------------*/
+
+
+/* Menu Item Hover */
+.ui.dropdown .menu > .item:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.8);
+  z-index: 12;
+}
+
+/*--------------------
+        Active
+----------------------*/
+
+
+/* Menu Item Active */
+.ui.dropdown .menu .active.item {
+  background: transparent;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: none;
+  z-index: 12;
+}
+
+/*--------------------
+     Default Text
+----------------------*/
+
+.ui.dropdown > .default.text,
+.ui.default.dropdown > .text {
+  color: rgba(179, 179, 179, 0.7);
+}
+.ui.dropdown:hover > .default.text,
+.ui.default.dropdown:hover > .text {
+  color: rgba(140, 140, 140, 0.7);
+}
+
+/*--------------------
+        Loading
+----------------------*/
+
+.ui.loading.dropdown > .text {
+  -webkit-transition: none;
+          transition: none;
+}
+.ui.dropdown > .loading.menu {
+  display: block;
+  visibility: hidden;
+  z-index: -1;
+}
+
+/*--------------------
+    Keyboard Select
+----------------------*/
+
+
+/* Selected Item */
+.ui.dropdown.selected,
+.ui.dropdown .menu .selected.item {
+  background: rgba(0, 0, 0, 0.03);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/*--------------------
+    Search Filtered
+----------------------*/
+
+
+/* Filtered Item */
+.ui.dropdown > .filtered.text {
+  visibility: hidden;
+}
+.ui.dropdown .filtered.item {
+  display: none;
+}
+
+/*--------------------
+        Error
+----------------------*/
+
+.ui.dropdown.error,
+.ui.dropdown.error > .text,
+.ui.dropdown.error > .default.text {
+  color: #a94442;
+}
+.ui.selection.dropdown.error {
+  background: #fff0f0;
+  border-color: #dbb1b1;
+}
+.ui.selection.dropdown.error:hover {
+  border-color: #dbb1b1;
+}
+.ui.dropdown.error > .menu,
+.ui.dropdown.error > .menu .menu {
+  border-color: #dbb1b1;
+}
+.ui.dropdown.error > .menu > .item {
+  color: #d95c5c;
+}
+
+/* Item Hover */
+.ui.dropdown.error > .menu > .item:hover {
+  background-color: #fff2f2;
+}
+
+/* Item Active */
+.ui.dropdown.error > .menu .active.item {
+  background-color: #fdcfcf;
+}
+
+/*--------------------
+        Disabled
+----------------------*/
+
+
+/* Disabled */
+.ui.disabled.dropdown {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+
+/*******************************
+           Variations
+*******************************/
+
+
+/*--------------
+    Direction
+---------------*/
+
+
+/* Flyout Direction */
+.ui.dropdown .menu {
+  left: 0px;
+}
+
+/* Default Side (Right) */
+.ui.dropdown .right.menu > .menu,
+.ui.dropdown .menu .right.menu {
+  left: 100% !important;
+  right: auto !important;
+}
+
+/* Left Flyout Menu */
+.ui.dropdown > .left.menu .menu,
+.ui.dropdown .menu .left.menu {
+  left: auto !important;
+  right: 100% !important;
+}
+.ui.dropdown .item .left.dropdown.icon,
+.ui.dropdown .left.menu .item .dropdown.icon {
+  width: auto;
+  float: left;
+  margin: 0.2em 0.75em 0em 0em;
+}
+.ui.dropdown .item .left.dropdown.icon,
+.ui.dropdown .left.menu .item .dropdown.icon {
+  width: auto;
+  float: left;
+  margin: 0.2em 0.75em 0em 0em;
+}
+.ui.dropdown .item .left.dropdown.icon + .text,
+.ui.dropdown .left.menu .item .dropdown.icon + .text {
+  margin-left: 1em;
+}
+
+/*--------------
+     Upward X
+---------------*/
+
+
+/*--------------
+     Simple
+---------------*/
+
+
+/* Displays without javascript */
+.ui.simple.dropdown .menu:before,
+.ui.simple.dropdown .menu:after {
+  display: none;
+}
+.ui.simple.dropdown .menu {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  top: -9999px !important;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  -webkit-transition: opacity 0.2s ease;
+          transition: opacity 0.2s ease;
+}
+.ui.simple.active.dropdown,
+.ui.simple.dropdown:hover {
+  border-bottom-left-radius: 0em !important;
+  border-bottom-right-radius: 0em !important;
+}
+.ui.simple.active.dropdown > .menu,
+.ui.simple.dropdown:hover > .menu {
+  overflow: visible;
+  width: auto;
+  height: auto;
+  top: 100% !important;
+  opacity: 1;
+}
+.ui.simple.dropdown > .menu > .item:active > .menu,
+.ui.simple.dropdown:hover > .menu > .item:hover > .menu {
+  overflow: visible;
+  width: auto;
+  height: auto;
+  top: 0% !important;
+  left: 100% !important;
+  opacity: 1;
+}
+.ui.simple.disabled.dropdown:hover .menu {
+  display: none;
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
+}
+
+/* Visible */
+.ui.simple.visible.dropdown > .menu {
+  display: block;
+}
+
+/*--------------
+      Fluid
+---------------*/
+
+.ui.fluid.dropdown {
+  display: block;
+  width: 100%;
+  min-width: 0em;
+}
+.ui.fluid.dropdown > .dropdown.icon {
+  float: right;
+}
+
+/*--------------
+    Floating
+---------------*/
+
+.ui.floating.dropdown .menu {
+  left: 0;
+  right: auto;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+}
+.ui.floating.dropdown > .menu {
+  margin-top: 0.5em !important;
+}
+
+/*--------------
+     Pointing X
+---------------*/
+
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.dropdown > .dropdown.icon {
+  font-family: 'Icons';
+  line-height: 1;
+  height: 1em;
+  width: 1.23em;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+.ui.dropdown > .dropdown.icon {
+  width: auto;
+}
+.ui.dropdown > .dropdown.icon:before {
+  content: '\f0d7';
+}
+
+/* Sub Menu */
+.ui.dropdown .menu .item .dropdown.icon:before {
+  content: '\f0da' /*rtl:'\f0d9'*/;
+}
+.ui.dropdown .item .left.dropdown.icon:before,
+.ui.dropdown .left.menu .item .dropdown.icon:before {
+  content: "\f0d9" /*rtl:"\f0da"*/;
+}
+
+/* Vertical Menu Dropdown */
+.ui.vertical.menu .dropdown.item > .dropdown.icon:before {
+  content: "\f0da" /*rtl:"\f0d9"*/;
+}
+/* Icons for Reference
+.dropdown.down.icon {
+  content: "\f0d7";
+}
+.dropdown.up.icon {
+  content: "\f0d8";
+}
+.dropdown.left.icon {
+  content: "\f0d9";
+}
+.dropdown.icon.icon {
+  content: "\f0da";
+}
+*/
+
+
+/*******************************
+        User Overrides
+*******************************/
+

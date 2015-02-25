@@ -1,0 +1,11 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+.ui.rating{display:inline-block;font-size:0;vertical-align:baseline}.ui.rating:last-child{margin-right:0}.ui.rating:before{display:block;content:'';visibility:hidden;clear:both;height:0}.ui.rating .icon{cursor:pointer;margin:0;width:1.1em;padding:0;vertical-align:baseline}.ui.star.rating .icon{width:1.1em;color:rgba(0,0,0,.15)}.ui.star.rating .active.icon{color:#ffe623!important;text-shadow:0 -1px 0 #cfa300,-1px 0 0 #cfa300,0 1px 0 #cfa300,1px 0 0 #cfa300}.ui.star.rating .icon.selected,.ui.star.rating .icon.selected.active{color:#ffb70a!important}.ui.star.rating.partial{position:relative;z-index:1}.ui.star.rating.partial:before{position:absolute;z-index:-1}.ui.rating .icon{color:rgba(0,0,0,.15)}.ui.rating .active.icon{color:rgba(0,0,0,.85)}.ui.rating .icon.selected,.ui.rating .icon.selected.active{color:#333}.ui.disabled.rating .icon{cursor:default}.ui.rating.selected .active.icon{opacity:.5}.ui.rating .icon.selected,.ui.rating.selected .icon.selected{opacity:1}.ui.mini.rating .icon{font-size:10px}.ui.small.rating .icon,.ui.tiny.rating .icon{font-size:11px}.ui.rating .icon{font-size:12px}.ui.large.rating .icon{font-size:14px}.ui.huge.rating .icon{font-size:18px}.ui.massive.rating .icon{font-size:21px}.ui.huge.rating,.ui.large.rating,.ui.massive.rating{vertical-align:middle}.ui.rating .icon{font-family:Icons;line-height:1;height:1em;-webkit-backface-visibility:hidden;backface-visibility:hidden;font-weight:400;font-style:normal;text-align:center}.ui.rating .icon:before{content:'\f006'}.ui.rating .active.icon:before,.ui.star.rating .active.icon:before,.ui.star.rating .icon:before{content:'\f005'}.ui.star.rating .partial.icon:before{content:'\f006'}.ui.star.rating .partial.icon{content:'\f005'}.ui.heart.rating .active.icon:before,.ui.heart.rating .icon:before{content:'\f004'}

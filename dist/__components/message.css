@@ -1,0 +1,381 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+            Message
+*******************************/
+
+.ui.message {
+  position: relative;
+  min-height: 1em;
+  margin: 1em 0em;
+  background: #efefef;
+  padding: 1em 1.5em;
+  line-height: 1.3;
+  color: #333333;
+  -webkit-transition: opacity 0.2s ease, color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+          transition: opacity 0.2s ease, color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset, 0px 0px 0px 0px transparent;
+}
+.ui.message:first-child {
+  margin-top: 0em;
+}
+.ui.message:last-child {
+  margin-bottom: 0em;
+}
+
+/*--------------
+     Content
+---------------*/
+
+
+/* Header */
+.ui.message .header {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0em 0em 0.5rem 0em;
+}
+
+/* Default font size */
+.ui.message .header:not(.ui) {
+  font-size: 1.1em;
+}
+
+/* Paragraph */
+.ui.message p {
+  opacity: 0.85;
+  margin: 0.75em 0em;
+}
+.ui.message p:first-child {
+  margin-top: 0em;
+}
+.ui.message p:last-child {
+  margin-bottom: 0em;
+}
+.ui.message .header + p {
+  margin-top: 0.25em;
+}
+
+/* List */
+/*.ui.message ul.list {
+  opacity: @listOpacity;
+  list-style-position: @listStylePosition;
+  margin: @listMargin 0em 0em;
+  padding: 0em;
+}
+.ui.message ul.list:first-child {
+  margin-top: 0em;
+}
+.ui.message ul.list:last-child {
+  margin-bottom: 0em;
+}
+.ui.message ul.list li {
+  position: relative;
+  list-style-type: none;
+  margin: 0em 0em @listItemMargin @listItemIndent;
+  padding: 0em;
+}
+.ui.message ul.list li:before {
+  position: absolute;
+  content: '•';
+  left: -1em;
+  height: 100%;
+  vertical-align: baseline;
+}
+.ui.message ul.list li:last-child {
+  margin-bottom: 0em;
+}
+*/
+
+/* Icon */
+.ui.message > .icon {
+  margin-right: 0.6em;
+}
+
+/* Close Icon */
+.ui.message > .close.icon {
+  cursor: pointer;
+  position: absolute;
+  margin: 0em;
+  color: #999;
+  top: 1.15em;
+  right: 0.5em;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.1s linear;
+          transition: opacity 0.1s linear;
+}
+.ui.message > .close.icon:hover {
+  opacity: 1;
+}
+
+/* First / Last Element */
+.ui.message > :first-child {
+  margin-top: 0em;
+}
+.ui.message > :last-child {
+  margin-bottom: 0em;
+}
+
+
+/*******************************
+            States
+*******************************/
+
+
+/*--------------
+    Visible
+---------------*/
+
+.ui.visible.visible.visible.visible.message {
+  display: block;
+}
+.ui.icon.visible.visible.visible.visible.message {
+  display: table;
+}
+
+/*--------------
+     Hidden
+---------------*/
+
+.ui.hidden.hidden.hidden.hidden.message {
+  display: none;
+}
+
+
+/*******************************
+            Variations
+*******************************/
+
+
+/*--------------
+    Compact
+---------------*/
+
+.ui.compact.message {
+  display: inline-block;
+}
+
+/*--------------
+    Attached X
+---------------*/
+
+
+/*--------------
+      Icon X
+---------------*/
+
+
+/*--------------
+    Floating
+---------------*/
+
+.ui.floating.message {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15), 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
+}
+
+/*--------------
+     Colors
+---------------*/
+
+.ui.black.message {
+  background-color: #1b1c1d;
+  color: #ffffff;
+}
+
+/*--------------
+     Types
+---------------*/
+
+
+/* Positive */
+.ui.positive.message {
+  background-color: #eeffe7;
+  color: #3c763d;
+}
+.ui.positive.message,
+.ui.attached.positive.message {
+  box-shadow: 0px 0px 0px 1px #b7caa7 inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.ui.positive.message .header {
+  color: #356e36;
+}
+
+/* Negative */
+.ui.negative.message {
+  background-color: #fff0f0;
+  color: #a94442;
+}
+.ui.negative.message,
+.ui.attached.negative.message {
+  box-shadow: 0px 0px 0px 1px #dbb1b1 inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.ui.negative.message .header {
+  color: #912d2b;
+}
+
+/* Info */
+.ui.info.message {
+  background-color: #e9faff;
+  color: #337b92;
+}
+.ui.info.message,
+.ui.attached.info.message {
+  box-shadow: 0px 0px 0px 1px #aad6df inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.ui.info.message .header {
+  color: #297187;
+}
+
+/* Warning */
+.ui.warning.message {
+  background-color: #fffbe6;
+  color: #876a38;
+}
+.ui.warning.message,
+.ui.attached.warning.message {
+  box-shadow: 0px 0px 0px 1px #d9caab inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.ui.warning.message .header {
+  color: #825c01;
+}
+
+/* Error */
+.ui.error.message {
+  background-color: #fff0f0;
+  color: #a94442;
+}
+.ui.error.message,
+.ui.attached.error.message {
+  box-shadow: 0px 0px 0px 1px #dbb1b1 inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.ui.error.message .header {
+  color: #912d2b;
+}
+
+/* Success */
+.ui.success.message {
+  background-color: #eeffe7;
+  color: #3c763d;
+}
+.ui.success.message,
+.ui.attached.success.message {
+  box-shadow: 0px 0px 0px 1px #b7caa7 inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.ui.success.message .header {
+  color: #356e36;
+}
+
+/* Colors */
+/*
+.ui.inverted.message,
+.ui.black.message {
+  background-color: @black;
+  color: @invertedTextColor;
+}
+
+.ui.blue.message {
+  background-color: @blueBackground;
+  color: @blueTextColor;
+}
+.ui.blue.message .header {
+  color: @blueHeaderColor;
+}
+.ui.green.message {
+  background-color: @greenBackground;
+  color: @greenTextColor;
+}
+.ui.green.message .header {
+  color: @greenHeaderColor;
+}
+.ui.orange.message {
+  background-color: @orangeBackground;
+  color: @orangeTextColor;
+}
+.ui.orange.message .header {
+  color: @orangeHeaderColor;
+}
+.ui.pink.message {
+  background-color: @pinkBackground;
+  color: @pinkTextColor;
+}
+.ui.pink.message .header {
+  color: @pinkHeaderColor;
+}
+.ui.purple.message {
+  background-color: @purpleBackground;
+  color: @purpleTextColor;
+}
+.ui.purple.message .header {
+  color: @purpleHeaderColor;
+}
+.ui.red.message {
+  background-color: @redBackground;
+  color: @redTextColor;
+}
+.ui.red.message .header {
+  color: @redHeaderColor;
+}
+.ui.teal.message {
+  background-color: @tealBackground;
+  color: @tealTextColor;
+}
+.ui.teal.message .header {
+  color: @tealHeaderColor;
+}
+.ui.yellow.message {
+  background-color: @yellowBackground;
+  color: @yellowTextColor;
+}
+.ui.yellow.message .header {
+  color: @yellowHeaderColor;
+}*/
+
+/*--------------
+     Sizes
+---------------*/
+
+.ui.small.message {
+  font-size: 0.91666667em;
+}
+.ui.message {
+  font-size: 1em;
+}
+.ui.large.message {
+  font-size: 1.16666667em;
+}
+.ui.huge.message {
+  font-size: 1.41666667em;
+}
+.ui.massive.message {
+  font-size: 1.75em;
+}
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+
+/*******************************
+    User Variable Overrides
+*******************************/
+
