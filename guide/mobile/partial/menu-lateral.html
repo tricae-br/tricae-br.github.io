@@ -1,25 +1,21 @@
-<div class="ui left vertical demo icon sidebar menu" id="sidebar">
-    <div class="tr box-default nav-vertical">
-        <div class="box-header">Globals</div>
-        <div class="box-section">
+<div class="ui left vertical demo icon sidebar menu" id="mMenu">
+    <ul>
+        <li>
+            <a>Globals</a>
             <ul>
                 <li><a href="index.html">Site</a></li>
             </ul>
-        </div>
-    </div>
-    <div class="tr box-default nav-vertical">
-        <div class="box-header">Collections</div>
-        <div class="box-section">
+        </li>
+        <li>
+            <a>Collections</a>
             <ul>
                 <li><a href="form.html">Form</a></li>
                 <li><a href="message.html">Message</a></li>
                 <li><a href="table.html">Table</a></li>
             </ul>
-        </div>
-    </div>
-    <div class="tr box-default nav-vertical">
-        <div class="box-header">Elements</div>
-        <div class="box-section">
+        </li>
+        <li>
+            <a>Elements</a>
             <ul>
                 <li><a href="buttons.html">Buttons</a></li>
                 <li><a href="icon.html">Icons</a></li>
@@ -27,11 +23,9 @@
                 <li><a href="input.html">Input</a></li>
                 <li><a href="loader.html">Loader</a></li>
             </ul>
-        </div>
-    </div>
-    <div class="tr box-default nav-vertical">
-        <div class="box-header">Components</div>
-        <div class="box-section">
+        </li>
+        <li>
+            <a>Components</a>
             <ul>
                 <li><a href="breadcrumb.html">Breadcrumb</a></li>
                 <li><a href="box.html">Box</a></li>
@@ -40,37 +34,30 @@
                 <li><a href="filter.html">Filters</a></li>
                 <li><a href="grid.html">Grid</a></li>
                 <li>
-                    <div class="ui accordion">
-                        <a class="title">
-                            <i class="dropdown icon"></i>
-                            List
-                        </a>
-                        <ul class="content">
-                            <li><a href="list.html">Default</a></li>
-                            <li><a href="list-cards.html">Cartões</a></li>
-                            <li><a href="list-address.html">Endereços</a></li>
-                            <li><a href="list-prod-cart.html">Produtos Cart</a></li>
-                            <li><a href="list-prod-buy-together.html">Produtos Buy Together</a></li>
-                            <li><a href="list-prod-checkout.html">Produtos Checkout</a></li>
-                            <li><a href="list-prod-tamanho.html">Produtos Tamanho</a></li>
-                            <li><a href="list-prod-bundle.html">Produtos Bundle</a></li>
-                            <li><a href="list-prod-pedidos.html">Produtos Pedidos</a></li>
-                            <li><a href="list-prod-catalog.html">Produtos Catalog</a></li>
-                            <li><a href="list-prod-wishlist.html">Produtos Wishlist</a></li>
-                            <li><a href="list-comentarios.html">Comentários</a></li>
-                        </ul>
-                    </div>
+                    <a>List</a>
+                    <ul class="content">
+                        <li><a href="list.html">Default</a></li>
+                        <li><a href="list-cards.html">Cartões</a></li>
+                        <li><a href="list-address.html">Endereços</a></li>
+                        <li><a href="list-prod-cart.html">Produtos Cart</a></li>
+                        <li><a href="list-prod-buy-together.html">Produtos Buy Together</a></li>
+                        <li><a href="list-prod-checkout.html">Produtos Checkout</a></li>
+                        <li><a href="list-prod-tamanho.html">Produtos Tamanho</a></li>
+                        <li><a href="list-prod-bundle.html">Produtos Bundle</a></li>
+                        <li><a href="list-prod-pedidos.html">Produtos Pedidos</a></li>
+                        <li><a href="list-prod-catalog.html">Produtos Catalog</a></li>
+                        <li><a href="list-prod-wishlist.html">Produtos Wishlist</a></li>
+                        <li><a href="list-comentarios.html">Comentários</a></li>
+                    </ul>
                 </li>
                 <li><a href="nav.html">Nav</a></li>
                 <li><a href="swipe.html">Swipe</a></li>
                 <li><a href="tag.html">Tag</a></li>
                 <li><a href="text.html">Text</a></li>
             </ul>
-        </div>
-    </div>
-    <div class="tr box-default nav-vertical">
-        <div class="box-header">Modules</div>
-        <div class="box-section">
+        </li>
+        <li>
+            <a>Modules</a>
             <ul>
                 <li><a href="accordion.html">Accordion</a></li>
                 <li><a href="dropdown.html">Dropdown</a></li>
@@ -83,21 +70,20 @@
                 <li><a href="tab.html">Tab</a></li>
                 <li><a href="transition.html">Transition</a></li>
             </ul>
-        </div>
-    </div>
-    <div class="tr box-default nav-vertical">
-        <div class="box-header">Tricae</div>
-        <div class="box-section">
+        </li>
+        <li>
+            <a>Tricae</a>
             <ul>
                 <li><a href="ordenacao.html">Ordenação</a></li>
             </ul>
-        </div>
-    </div>
+        </li>
+    </ul>
 </div>
 
 <script type="text/javascript">
 
-    //Accordion
-    $('.ui.accordion').accordion();
+    //Menu
+    $('#mMenu').show();
+    $('#mMenu').mmenu();
 
 </script>
