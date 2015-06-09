@@ -1,0 +1,62 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+         Top Page
+*******************************/
+
+.catalog-to-top {
+  background: #47a6cd;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  opacity: 0.9;
+  box-shadow: 0 0 5px #ccc;
+  z-index: 980;
+}
+.catalog-to-top i.icon {
+  margin: 0;
+  color: #FFF;
+  line-height: 50px;
+}
+.catalog-to-top:active .icon {
+  color: #FFF;
+}
+.footer {
+  border-top: 1px solid #dddddd;
+}
+.footer.footer-simple {
+  background: #f5f5f5;
+  padding: 10px 15px;
+}
+.footer .copyright-footer {
+  font-size: 11px;
+  color: #999;
+  text-align: center;
+}
+
+
+/*******************************
+    User Variable Overrides
+*******************************/
+
+
+
+/*******************************
+    User Variable Overrides
+*******************************/
+

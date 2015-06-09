@@ -1,0 +1,287 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+             Geral
+*******************************/
+
+.page-checkout .option-payment {
+  border: 1px solid #dddddd;
+  border-bottom: none;
+  padding: 10px;
+  background: #f5f5f5;
+  opacity: 0.6;
+}
+.page-checkout .option-payment:last-child {
+  border-bottom: 1px solid #dddddd;
+}
+.page-checkout .option-payment .header-payment .pay-mercado-pago {
+  margin: 15px 5px 0 20px;
+}
+.page-checkout .option-payment .content-payment {
+  display: none;
+  padding: 15px 5px 0 20px;
+  font-size: 12px;
+}
+.page-checkout .option-payment .tit-option-payment {
+  font-weight: bold;
+}
+.page-checkout .option-payment.active {
+  background: #fff;
+  opacity: 1;
+}
+.page-checkout .option-payment.active .content-payment {
+  display: block;
+}
+.page-checkout .option-payment .box-card-checkout {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.page-checkout .option-payment .box-card-checkout .card {
+  display: none;
+}
+.page-checkout .option-payment .box-card-checkout .card.active {
+  display: block;
+}
+.page-checkout .option-payment .tx-cards span:before {
+  content: ", ";
+}
+.page-checkout .option-payment .tx-cards span:first-child:before {
+  content: "";
+}
+.page-checkout .option-payment .tx-cards span:last-child:before {
+  content: "ou ";
+}
+.page-checkout .option-payment i.barcode {
+  color: #000;
+}
+.page-checkout .option-voucher {
+  margin-bottom: 5px;
+}
+.page-checkout .item-checkout {
+  clear: both;
+  margin-bottom: 20px;
+}
+.page-checkout .item-checkout h3.subtitle {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.page-checkout .item-checkout .header-checkout {
+  background: #47a6cd;
+  color: #FFF;
+  padding: 15px;
+  margin-top: 2px;
+}
+.page-checkout .item-checkout .content-checkout {
+  padding: 10px;
+  width: 100%;
+  float: left;
+  clear: both;
+}
+.page-checkout .item-checkout.disabled {
+  margin-bottom: 5px;
+}
+.page-checkout .item-checkout.disabled .header-checkout {
+  background: #ccc;
+}
+.page-checkout .item-checkout.disabled .content-checkout {
+  display: none;
+}
+.page-checkout .item-checkout.checked .header-checkout {
+  background: none;
+  color: #999999;
+  padding-bottom: 0;
+}
+.page-checkout .item-checkout.checked .header-checkout i.icon {
+  color: #999999;
+}
+.page-checkout .item-checkout.checked .box-checked {
+  padding-left: 25px;
+}
+.page-checkout .item-checkout.checked .box-checked .content-field {
+  width: auto;
+  padding: 0;
+  border: none;
+  line-height: 1.4;
+}
+.page-checkout .item-checkout.checked .column.line {
+  width: 100%;
+}
+.page-checkout .item-checkout.checked .content-register {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+.page-checkout .item-checkout.checked .content-form-checkout {
+  width: 80%;
+  float: left;
+  padding-left: 25px;
+}
+.page-checkout .item-checkout.checked .content-form-checkout label {
+  float: left;
+  margin-right: 5px;
+  font-weight: normal;
+}
+.page-checkout .item-checkout.checked .content-form-checkout .content-field {
+  float: left;
+}
+.page-checkout .item-checkout.checked .content-form-checkout div.field {
+  clear: both;
+  margin: 0;
+}
+.page-checkout .item-checkout.checked .content-form-checkout input {
+  width: auto;
+  padding: 0;
+  border: none;
+  background: #fff !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.page-checkout .item-checkout.checked .content-form-checkout input.input-data {
+  width: 75px;
+}
+.page-checkout .item-checkout.checked .content-form-checkout input[disabled] {
+  opacity: 1;
+}
+.page-checkout .item-checkout.checked .content-form-checkout .no-edit {
+  display: none;
+}
+.page-checkout .item-checkout.checked .content-form-checkout .select-box.fluid {
+  width: auto;
+}
+.page-checkout .item-checkout.checked .content-form-checkout .select-box .icon {
+  display: none;
+}
+.page-checkout .item-checkout.checked .content-form-checkout select.dropdown {
+  border: none;
+  padding: 0;
+  opacity: 1 !important;
+}
+.page-checkout .item-checkout .box-shipping-address .button {
+  margin-bottom: 5px;
+}
+.page-checkout .item-checkout .content-shipping-methods table {
+  width: 100%;
+}
+.page-checkout .item-checkout .content-shipping-methods table td {
+  padding: 5px;
+}
+.page-checkout .item-total-finish {
+  padding: 15px 0;
+  border-top: 1px solid #dddddd;
+}
+.page-checkout .ui.modal .item-address {
+  font-size: 12px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #dddddd;
+}
+.page-checkout .cc-recurrent-option {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.page-checkout .cc-recurrent-option input {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.page-checkout .cc-recurrent-option label {
+  float: left;
+}
+.loading-cep {
+  left: 85% !important;
+}
+.loading-modal {
+  top: 75% !important;
+  left: 37% !important;
+}
+.modal-cvv div img {
+  max-width: 100%;
+}
+.box-cms-checkout img {
+  width: 100%;
+}
+#dialogProcessing {
+  position: relative;
+  z-index: 5001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 90%;
+  max-width: 960px;
+  max-height: 90%;
+  margin: 32% auto;
+  background-color: #FFF;
+  box-shadow: 0px 0px 5px #888;
+  padding: 20px;
+}
+#holderProcessing {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 5000;
+}
+#holderProcessing .bg-block {
+  background: #655853 none repeat scroll 0% 0%;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 5000;
+}
+.page-success .success .circle {
+  margin: 30px auto 0 auto;
+  width: 50px;
+  height: 50px;
+  background: #47a6cd;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.page-success .success .circle i {
+  margin: 0;
+}
+.page-success .success .box-success,
+.page-success .success #couponSuccess {
+  padding: 10px;
+}
+.page-success .success .box-success h3,
+.page-success .success #couponSuccess h3 {
+  color: #47a6cd;
+}
+.page-success .success .box-number-order .number {
+  color: #47a6cd;
+  font-weight: bold;
+}
+
+
+/*******************************
+    User Variable Overrides
+*******************************/
+
+
+
+/*******************************
+    User Variable Overrides
+*******************************/
+
