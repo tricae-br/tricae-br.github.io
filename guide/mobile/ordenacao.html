@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Tricae Guide</title>
-    <link rel="stylesheet" href="/dist/mobile.min.css" media="all">
+    <link rel="stylesheet" href="../../dist/mobile.min.css" media="all">
     <link rel="stylesheet" href="../css/guide.css" media="all">
 
     <script src="../js/jquery.js"></script>
-    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="../../dist/semantic.min.js"></script>
     <script type="text/javascript" src="js/include.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,27 +35,23 @@
                         Utiliza text e dropdown.
                     </p>
                     <div class="tr box-default simple-box">
-                        <div class="ui form">
-                            <div class="field">
-                                <label>Ordenar por:</label>
-                                <select class="ui dropdown">
-                                    <option>Popularidade</option>
-                                    <option>Menor preço</option>
-                                    <option>Maior preço</option>
-                                </select>
-                            </div>
+                        <div class="select-box">
+                            <select class="ui dropdown">
+                                <option>Popularidade</option>
+                                <option>Menor preço</option>
+                                <option>Maior preço</option>
+                            </select>
+                            <i class="icon caret down"></i>
                         </div>
 
                         <div class="box-code">
-                            &lt;div class="ui form"&gt;<br />
-                            &lt;div class="field"&gt;<br />
-                            &lt;label&gt;Ordenar por:&lt;/label&gt;<br />
+                            &lt;div class="select-box"&gt;<br />
                             &lt;select class="ui dropdown"&gt;<br />
                             &lt;option&gt;Popularidade&lt;/option&gt;<br />
                             &lt;option&gt;Menor pre&ccedil;o&lt;/option&gt;<br />
                             &lt;option&gt;Maior pre&ccedil;o&lt;/option&gt;<br />
                             &lt;/select&gt;<br />
-                            &lt;/div&gt;<br />
+                            &lt;i class="icon caret down"&gt;&lt;/i&gt;<br />
                             &lt;/div&gt;
                         </div>
                     </div>
