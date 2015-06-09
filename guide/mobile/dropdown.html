@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Tricae Guide</title>
-    <link rel="stylesheet" href="/dist/mobile.min.css" media="all">
+    <link rel="stylesheet" href="../../dist/mobile.min.css" media="all">
     <link rel="stylesheet" href="../css/guide.css" media="all">
 
     <script src="../js/jquery.js"></script>
-    <script type="text/javascript" src="/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="../../dist/semantic.min.js"></script>
     <script type="text/javascript" src="js/include.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,18 +38,24 @@
                     </p>
                     <div class="tr box-default simple-box">
 
-                        <select class="ui dropdown">
-                            <option value="">Gender</option>
-                            <option value="1">Male</option>
-                            <option value="0">Female</option>
-                        </select>
+                        <div class="select-box">
+                            <select class="ui dropdown">
+                                <option value="">Gender</option>
+                                <option value="1">Male</option>
+                                <option value="0">Female</option>
+                            </select>
+                            <i class="icon caret down"></i>
+                        </div>
 
                         <div class="box-code">
-                            &lt;select class="<b>ui dropdown</b>"&gt;<br />
-                            &lt;option value=""&gt;Gender&lt;/option&gt;<br />
-                            &lt;option value="1"&gt;Male&lt;/option&gt;<br />
-                            &lt;option value="0"&gt;Female&lt;/option&gt;<br />
-                            &lt;/select&gt;
+                            &lt;div class=&quot;select-box&quot;&gt;<br />
+                            &nbsp;&nbsp;&lt;select class=&quot;ui dropdown&quot;&gt;<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value=&quot;&quot;&gt;Gender&lt;/option&gt;<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value=&quot;1&quot;&gt;Male&lt;/option&gt;<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value=&quot;0&quot;&gt;Female&lt;/option&gt;<br />
+                            &nbsp;&nbsp;&lt;/select&gt;<br />
+                            &nbsp;&nbsp;&lt;i class=&quot;icon caret down&quot;&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;
                         </div>
 
                     </div>
@@ -60,33 +66,24 @@
                     </p>
                     <div class="tr box-default simple-box">
 
-                        <select class="ui dropdown error">
-                            <option value="">Gender</option>
-                            <option value="1">Male</option>
-                            <option value="0">Female</option>
-                        </select>
-
-                        <div class="box-code">
-                            &lt;select class="ui dropdown <b>error</b>"&gt;<br />
-                            &lt;option value=""&gt;Gender&lt;/option&gt;<br />
-                            &lt;option value="1"&gt;Male&lt;/option&gt;<br />
-                            &lt;option value="0"&gt;Female&lt;/option&gt;<br />
-                            &lt;/select&gt;
+                        <div class="select-box">
+                            <select class="ui dropdown error">
+                                <option value="">Gender</option>
+                                <option value="1">Male</option>
+                                <option value="0">Female</option>
+                            </select>
+                            <i class="icon caret down"></i>
                         </div>
 
-                    </div>
-
-                    <br /><br />
-                    <p>
-                        <b>Script</b><br />
-                        Utilizar o script abaixo para iniciar (já adicionado no global.js)
-                    </p>
-                    <div class="tr box-default simple-box" style="position:relative;">
-
                         <div class="box-code">
-                            $('.ui.dropdown')<br />
-                            .dropdown()<br />
-                            ;
+                            &lt;div class=&quot;select-box&quot;&gt;<br />
+                            &nbsp;&nbsp;&lt;select class=&quot;ui dropdown error&quot;&gt;<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value=&quot;&quot;&gt;Gender&lt;/option&gt;<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value=&quot;1&quot;&gt;Male&lt;/option&gt;<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value=&quot;0&quot;&gt;Female&lt;/option&gt;<br />
+                            &nbsp;&nbsp;&lt;/select&gt;<br />
+                            &nbsp;&nbsp;&lt;i class=&quot;icon caret down&quot;&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;
                         </div>
 
                     </div>
