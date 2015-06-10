@@ -32,7 +32,7 @@
 .guide-home .presentation .item-doc:hover{
 	background:#999;
 }
-.guide-home .presentation .item-doc .icon{margin-bottom:10px;}
+.guide-home .presentation .item-doc .icon{margin:0;margin-bottom:10px;}
 .box-choose-guide{
 	width:480px;
 	margin:auto;
@@ -42,7 +42,7 @@
 
 .guide-tricae .header-guide {
 	background: #47A6CD;
-	padding: 10px;
+	padding: 10px 0;
 	color: #fff;
 }
 
@@ -101,16 +101,15 @@ h2 {
 	width: 100%;
 }
 
-.button-menu {
-	padding: 8px 15px;
-	cursor: pointer;
-	left: 0;
-	position: fixed;
-	z-index: 3000;
+.guide-tricae .header-guide a{
+    display:block;
+    padding:0 10px;
 }
 
-.button-menu .icon {
+.guide-tricae .header-guide .icon {
 	color: #fff;
+    font-size:30px;
+    line-height:30px;
 }
 
 .table-icons i {
@@ -127,4 +126,8 @@ h2 {
 
 .box-example-content.inverted {
 	background: #333;
+}
+
+.content-main{
+    padding:10px;
 }

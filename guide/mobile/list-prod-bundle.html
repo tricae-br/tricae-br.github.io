@@ -17,7 +17,26 @@
 
 <div>
     <div id="header">
-        <!--carrega o header-->
+        <div class="header-guide">
+            <div class="row">
+                <div class="column desktop-3">
+                    <a class="button-menu" href="#mMenu"><i class="content icon"></i></a>
+                </div>
+                <div class="column desktop-6 al-center">
+                    <img src="images/logo.png" />
+                </div>
+                <div class="column desktop-3 al-right">
+                    <a href="../desktop"><i class="icon desktop large inverted" data-content="Mudar para mobile" data-variation="inverted"></i></a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            //Menu
+            $(document).ready(function(){
+                $('#menuLateral').show();
+                $('#menuLateral').mmenu();
+            });
+        </script>
     </div>
 
     <div class="two wide column" id="menuLateral">
@@ -57,10 +76,13 @@
                                                 </div>
                                                 <div class="column desktop-6 mobile-12">
                                                     <a class="lk-guide-size">Guia de tamanho</a>
-                                                    <select class="ui dropdown">
-                                                        <option>Tamanho</option>
-                                                        <option>RN</option>
-                                                    </select>
+                                                    <div class="select-box">
+                                                        <select class="ui dropdown">
+                                                            <option>Tamanho</option>
+                                                            <option>RN</option>
+                                                        </select>
+                                                        <i class="icon caret down"></i>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -84,10 +106,13 @@
                             &lt;/div&gt;<br />
                             &lt;div class="column desktop-6 mobile-12"&gt;<br />
                             &lt;a class="lk-guide-size"&gt;Guia de tamanho&lt;/a&gt;<br />
+                            &lt;div class="select-box"&gt;<br />
                             &lt;select class="ui dropdown"&gt;<br />
                             &lt;option&gt;Tamanho&lt;/option&gt;<br />
                             &lt;option&gt;RN&lt;/option&gt;<br />
                             &lt;/select&gt;<br />
+                            &lt;i class="icon caret down"&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;<br />
                             &lt;/div&gt;<br />
                             &lt;/div&gt;<br />
                             &lt;/div&gt;<br />
