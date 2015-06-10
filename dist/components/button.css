@@ -124,7 +124,7 @@
   cursor: default;
   background-color: #dcddde !important;
   color: rgba(0, 0, 0, 0.4) !important;
-  opacity: 0.3 !important;
+  opacity: 0.5 !important;
   background-image: none !important;
   box-shadow: none !important;
   pointer-events: none;
@@ -314,42 +314,42 @@
 .ui.mini.buttons .button,
 .ui.mini.buttons .or,
 .ui.mini.button {
-  font-size: 10px;
+  font-size: 11px;
 }
 .ui.tiny.buttons .button,
 .ui.tiny.buttons .or,
 .ui.tiny.button {
-  font-size: 11px;
+  font-size: 12px;
 }
 .ui.small.buttons .button,
 .ui.small.buttons .or,
 .ui.small.button {
-  font-size: 11px;
+  font-size: 12px;
 }
 .ui.buttons .button,
 .ui.buttons .or,
 .ui.button {
-  font-size: 12px;
+  font-size: 16px;
 }
 .ui.large.buttons .button,
 .ui.large.buttons .or,
 .ui.large.button {
-  font-size: 14px;
+  font-size: 20px;
 }
 .ui.big.buttons .button,
 .ui.big.buttons .or,
 .ui.big.button {
-  font-size: 16px;
+  font-size: 24px;
 }
 .ui.huge.buttons .button,
 .ui.huge.buttons .or,
 .ui.huge.button {
-  font-size: 18px;
+  font-size: 26px;
 }
 .ui.massive.buttons .button,
 .ui.massive.buttons .or,
 .ui.massive.button {
-  font-size: 21px;
+  font-size: 28px;
 }
 
 /*--------------
@@ -358,7 +358,7 @@
 
 .ui.icon.buttons .button,
 .ui.icon.button {
-  padding: 1em 1em 1em;
+  padding: 1.1em 1.5em;
 }
 .ui.icon.buttons .button > .icon,
 .ui.icon.button > .icon {
@@ -494,7 +494,8 @@
 ---------------*/
 
 .ui.circular.button {
-  border-radius: 10em;
+  border-radius: 20em;
+  padding: 1em;
 }
 .ui.circular.button > .icon {
   width: 1em;
@@ -914,12 +915,6 @@
   margin-bottom: 0px;
   border-radius: 0px 0px 2px 2px;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
 
 
 /*******************************

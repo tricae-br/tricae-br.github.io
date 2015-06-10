@@ -18,7 +18,7 @@
 .ui.accordion,
 .ui.accordion .accordion {
   max-width: 100%;
-  font-size: 12px;
+  font-size: 16px;
 }
 .ui.accordion .accordion {
   margin: 1em 0em 0em;
@@ -127,7 +127,7 @@
 ---------------*/
 
 .ui.styled.accordion {
-  width: 600px;
+  width: 100%;
 }
 .ui.styled.accordion,
 .ui.styled.accordion .accordion {
@@ -222,28 +222,6 @@
 /*.ui.inverted.accordion .title:not(.ui) {
   color: @invertedTitleColor;
 }*/
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
-
-/* Dropdown Icon */
-.ui.accordion .title .dropdown.icon,
-.ui.accordion .accordion .title .dropdown.icon {
-  font-family: Icons;
-  line-height: 1;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  font-weight: normal;
-  font-style: normal;
-  text-align: center;
-}
-.ui.accordion .title .dropdown.icon:before,
-.ui.accordion .accordion .title .dropdown.icon:before {
-  content: '\f0da' /*rtl:'\f0d9'*/;
-}
 
 
 /*******************************

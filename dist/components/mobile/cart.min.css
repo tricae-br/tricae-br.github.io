@@ -1,0 +1,11 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+.page-cart .header-cart{padding:10px}.page-cart .box-summary{background:#f5f5f5;position:relative}.page-cart .item-summary{border-bottom:1px solid #ddd;padding:10px;clear:both}.page-cart .item-summary .grand-total .tx-normal,.page-cart .item-summary label.static{font-size:11px}.page-cart .box-buttons-cart{padding:10px}.page-cart .box-buttons-cart a{margin-bottom:10px}.page-cart .tr.box-default{border-top:1px solid #ddd;margin-bottom:0}.page-cart .msg-shipping-free{padding:0 0 10px}.page-cart .msg-cart-empty{background:#f5f5f5;padding:30px;color:#999}

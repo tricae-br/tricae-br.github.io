@@ -621,9 +621,47 @@ select.ui.dropdown {
 }
 
 /*--------------
-     Upward X
+     Upward
 ---------------*/
 
+.ui.upward.dropdown > .menu {
+  top: auto;
+  bottom: 100%;
+  box-shadow: 0px 0px 4px 0px rgba(39, 41, 43, 0.15);
+  border-radius: 2px 2px 0em 0em;
+}
+
+/* Active Upward */
+.ui.simple.upward.active.dropdown,
+.ui.simple.upward.dropdown:hover {
+  border-radius: 2px 2px 0em 0em !important;
+}
+.ui.upward.dropdown.button:not(.pointing):not(.floating).active,
+.ui.upward.dropdown.button:not(.pointing):not(.floating).visible {
+  border-radius: 2px 2px 0em 0em;
+}
+
+/* Selection */
+.ui.upward.selection.dropdown .menu {
+  border-top-width: 1px !important;
+  border-bottom-width: 0px !important;
+}
+.ui.upward.selection.dropdown:hover {
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.ui.upward.selection.visible.dropdown:hover {
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
+}
+.ui.active.upward.selection.dropdown,
+.ui.visible.upward.selection.dropdown {
+  border-radius: 0em 0em 2px 2px !important;
+}
+.ui.upward.selection.dropdown.visible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.ui.upward.selection.visible.dropdown:hover .menu {
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+}
 
 /*--------------
      Simple

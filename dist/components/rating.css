@@ -154,25 +154,25 @@
 *******************************/
 
 .ui.mini.rating .icon {
-  font-size: 10px;
+  font-size: 11px;
 }
 .ui.tiny.rating .icon {
-  font-size: 11px;
-}
-.ui.small.rating .icon {
-  font-size: 11px;
-}
-.ui.rating .icon {
   font-size: 12px;
 }
+.ui.small.rating .icon {
+  font-size: 12px;
+}
+.ui.rating .icon {
+  font-size: 16px;
+}
 .ui.large.rating .icon {
-  font-size: 14px;
+  font-size: 20px;
 }
 .ui.huge.rating .icon {
-  font-size: 18px;
+  font-size: 26px;
 }
 .ui.massive.rating .icon {
-  font-size: 21px;
+  font-size: 28px;
 }
 
 /* Realign */
@@ -180,73 +180,6 @@
 .ui.huge.rating,
 .ui.massive.rating {
   vertical-align: middle;
-}
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
-.ui.rating .icon {
-  font-family: 'Icons';
-  line-height: 1;
-  height: 1em;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  font-weight: normal;
-  font-style: normal;
-  text-align: center;
-}
-
-/* Empty Star */
-.ui.rating .icon:before {
-  content: '\f006';
-}
-
-/* Active Star */
-.ui.rating .active.icon:before {
-  content: '\f005';
-}
-
-/*-------------------
-        Star
---------------------*/
-
-
-/* Unfilled Star */
-.ui.star.rating .icon:before {
-  content: '\f005';
-}
-
-/* Active Star */
-.ui.star.rating .active.icon:before {
-  content: '\f005';
-}
-
-/* Partial */
-.ui.star.rating .partial.icon:before {
-  content: '\f006';
-}
-.ui.star.rating .partial.icon {
-  content: '\f005';
-}
-
-/*-------------------
-        Heart
---------------------*/
-
-
-/* Empty Heart
-.ui.heart.rating .icon:before {
-  content: '\f08a';
-}
-*/
-.ui.heart.rating .icon:before {
-  content: '\f004';
-}
-/* Active */
-.ui.heart.rating .active.icon:before {
-  content: '\f004';
 }
 
 

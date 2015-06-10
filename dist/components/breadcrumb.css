@@ -17,20 +17,24 @@
 
 .tr.breadcrumb {
   border-bottom: 1px solid #dddddd;
-  margin-bottom: 10px;
-  font-size: 11px;
+  margin-bottom: 0;
+  padding: 0 10px;
+  font-size: 12px;
   width: 100%;
   float: left;
+  display: inline;
 }
 .tr.breadcrumb ul {
   margin: 0;
   padding: 0;
   list-style: none;
   line-height: 2;
+  display: inline;
 }
 .tr.breadcrumb ul li {
   display: block;
   float: left;
+  line-height: 40px;
 }
 .tr.breadcrumb ul li:before {
   content: '/';
@@ -43,6 +47,7 @@
 .tr.breadcrumb ul a,
 .tr.breadcrumb ul div {
   padding: 0 5px;
+  display: inline;
 }
 .tr.breadcrumb ul div {
   width: 80px;
@@ -50,12 +55,6 @@
   overflow: hidden;
   white-space: nowrap;
 }
-
-
-/*******************************
-         Site Overrides
-*******************************/
-
 
 
 /*******************************

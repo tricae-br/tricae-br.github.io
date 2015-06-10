@@ -1,0 +1,302 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+
+*******************************/
+
+.row-content-catalog .catalog-list {
+  padding: 10px;
+  clear: both;
+}
+@-webkit-keyframes showFilterTop {
+  0% {
+    display: none;
+    top: 0;
+  }
+  25% {
+    display: block;
+    top: -200px;
+  }
+  100% {
+    display: block;
+    top: 0;
+  }
+}
+@keyframes showFilterTop {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+  25% {
+    opacity: 1;
+    top: -200px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+@-webkit-keyframes showFilter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes showFilter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.row-content-catalog .box-filter-sort {
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #dddddd;
+  z-index: 100;
+  top: 0;
+  -webkit-animation-name: showFilter;
+          animation-name: showFilter;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: showFilter;
+  -webkit-animation-duration: 1s;
+}
+.row-content-catalog .box-filter-sort.fixed {
+  -webkit-animation-name: showFilterTop;
+          animation-name: showFilterTop;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: showFilterTop;
+  -webkit-animation-duration: 1s;
+}
+.page-catalog .tr.tx-description-page,
+.page-error .tr.tx-description-page {
+  padding: 10px;
+}
+.page-catalog .page-no-result,
+.page-error .page-no-result {
+  padding: 30px;
+  color: #999999;
+  background: #f5f5f5;
+}
+.page-catalog .page-no-result .icon.meh,
+.page-error .page-no-result .icon.meh {
+  color: #999999;
+  font-size: 80px;
+  margin: 0;
+}
+.page-detail .header-detail {
+  padding: 10px;
+  border-bottom: 1px solid #dddddd;
+  width: 100%;
+  float: left;
+  background: #f5f5f5;
+}
+.page-detail .header-detail h1 {
+  margin: 0;
+  font-weight: normal;
+}
+.page-detail .image-detail {
+  clear: both;
+  position: relative;
+}
+.page-detail .image-detail .tag-descount {
+  position: absolute;
+  z-index: 5;
+  right: 1em;
+  top: 1em;
+}
+.page-detail .image-detail .image-full-product img {
+  width: 100%;
+  max-width: 500px;
+}
+.page-detail .box-price {
+  clear: both;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background: #f5f5f5;
+}
+.page-detail .box-price .btn-buy {
+  margin: 10px 0;
+}
+.page-detail .box-price .ui.message {
+  margin-bottom: 10px;
+}
+.page-detail .box-telesales {
+  clear: both;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  background: #f5f5f5;
+  border-top: 1px solid #dddddd;
+  margin-bottom: 30px;
+}
+.page-detail .box-telesales .show-telesales .ui.button {
+  margin: 10px 0;
+}
+.page-detail .box-details-product {
+  clear: both;
+}
+.page-detail .box-details-product .tabular .item {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-bottom: none;
+  background: #f5f5f5;
+  color: #666;
+}
+.page-detail .box-details-product .tabular .item.active {
+  background: #fff;
+  color: #47a6cd;
+}
+.page-detail .box-details-product .segment {
+  padding: 30px 10px 10px 10px;
+  font-size: 12px;
+}
+.page-detail .form-comments fieldset {
+  border: none;
+}
+@-webkit-keyframes showPriceBottom {
+  0% {
+    bottom: -300px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+@keyframes showPriceBottom {
+  0% {
+    bottom: -300px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+.page-detail .box-price {
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 0 0 10px 0 #ccc;
+  -webkit-transition-property: bottom, opacity;
+          transition-property: bottom, opacity;
+  -webkit-transition-duration: 1s, 0.5s;
+          transition-duration: 1s, 0.5s;
+  bottom: -300px;
+  opacity: 0;
+}
+.page-detail .box-price.fixed {
+  background: rgba(240, 240, 240, 0.95);
+  opacity: 1;
+  -webkit-transition-property: bottom;
+          transition-property: bottom;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+  bottom: 0;
+}
+.page-detail .btn-favorite {
+  position: absolute;
+  margin-top: -60px;
+  z-index: 100;
+  right: 10px;
+}
+.box-sold-out {
+  padding: 10px;
+  padding-bottom: 0px;
+}
+.page-brands {
+  padding: 10px;
+}
+.page-brands .btn-letter {
+  width: 50px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+.content-page-mobile {
+  padding: 10px;
+}
+.tx-detail-product {
+  font-size: 12px;
+}
+.tx-detail-product img {
+  max-width: 100%;
+}
+.tx-detail-product h2 {
+  font-size: 12px;
+  margin: 10px 0;
+}
+.tx-detail-product ul {
+  padding-left: 10px;
+}
+.ui.modal .login-comments {
+  padding: 10px;
+}
+.rating-modal {
+  top: 83.5% !important;
+  left: 37% !important;
+}
+.optionConfigSizeModal {
+  float: left;
+  margin-bottom: 3px;
+}
+#productModalContent .choose-size {
+  margin-top: 20px;
+}
+#productModalContent .lk-guide-size {
+  font-size: 0.6em;
+  line-height: 0.9;
+  padding-bottom: 10px;
+}
+.ui.modal.modal-choose-size b {
+  margin-bottom: 15px;
+  display: block;
+}
+.ui.modal.modal-choose-size .box-options-size {
+  padding: 10px;
+}
+.ui.modal.modal-choose-size .btn-size {
+  margin-bottom: 10px;
+}
+.ui.modal.modal-choose-size .btn-size.selected {
+  background: #47a6cd;
+  box-shadow: none;
+  border: none;
+}
+.ui.modal.modal-choose-size .btn-size.selected a {
+  color: #fff;
+}
+.ui.modal.modal-choose-size .box-let-me-know {
+  padding: 10px;
+  background: #f5f5f5;
+}
+
+
+/*******************************
+    User Variable Overrides
+*******************************/
+
+
+
+/*******************************
+    User Variable Overrides
+*******************************/
+

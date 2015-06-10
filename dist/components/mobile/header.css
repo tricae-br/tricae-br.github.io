@@ -1,0 +1,320 @@
+ /*
+ * # Semantic UI - 1.8.1
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+         Smartbanner
+*******************************/
+
+#smartbanner {
+  border-bottom: 1px solid #e8e8e8;
+  width: 100%;
+  height: 78px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f2f2;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  z-index: 9998;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  -webkit-text-size-adjust: none;
+}
+#smartbanner,
+html.sb-animation {
+  -webkit-transition: all .3s ease;
+}
+#smartbanner .sb-container {
+  margin: 0 auto;
+}
+#smartbanner .sb-close {
+  position: absolute;
+  left: 5px;
+  top: 30px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #828282;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 20px;
+}
+#smartbanner .sb-close:active {
+  font-size: 13px;
+  color: #aaa;
+}
+#smartbanner .sb-icon {
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  display: block;
+  width: 57px;
+  height: 57px;
+  background: rgba(0, 0, 0, 0.6);
+  background-image: url(https://tricae-a.akamaihd.net/cms/ico-smartbanner120.gif);
+  background-size: cover;
+  border-radius: 10px;
+}
+#smartbanner.no-icon .sb-icon {
+  display: none;
+}
+#smartbanner .sb-info {
+  position: absolute;
+  left: 98px;
+  top: 18px;
+  width: 44%;
+  font-size: 11px;
+  line-height: 1.2em;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+#smartbanner #smartbanner.no-icon .sb-info {
+  left: 34px;
+}
+#smartbanner .sb-info strong {
+  display: block;
+  font-size: 13px;
+  color: #4d4d4d;
+  line-height: 18px;
+}
+#smartbanner .sb-info > span {
+  display: block;
+}
+#smartbanner .sb-info em {
+  font-style: normal;
+  text-transform: uppercase;
+}
+#smartbanner .sb-button {
+  position: absolute;
+  right: 20px;
+  top: 24px;
+  padding: 0 10px;
+  min-width: 10%;
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: #4774ff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 3px;
+}
+#smartbanner .sb-icon.gloss:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 100%;
+  height: 50%;
+  border-radius: 10px 10px 12px 12px;
+}
+
+
+/*******************************
+       Search Suggestion
+*******************************/
+
+.tr.search {
+  border-bottom: 1px solid #dddddd;
+  padding: 0 10px 10px 10px;
+}
+.ssg-result {
+  position: absolute;
+  width: 100%;
+  font-size: 12px;
+  z-index: 1000;
+}
+.ssg-result ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.ssg-result ul.fsm {
+  border: 1px solid #dddddd;
+  max-height: 350px;
+  overflow: auto;
+  background: #fff;
+  padding: 15px;
+  opacity: 0.93;
+}
+.ssg-result .type-title {
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+.ssg-result .type-wrapper {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 10px;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+.ssg-result .type-wrapper:last-child {
+  border-bottom: 0;
+}
+.ssg-result img {
+  float: left;
+  width: 10%;
+  height: auto;
+  margin-right: 10px;
+}
+.ssg-result .title-prd-search {
+  color: #333333;
+}
+.ssg-result .ssg-item {
+  clear: both;
+  float: left;
+  width: 100%;
+}
+.ssg-result .ssg-item a {
+  padding: 10px 0;
+  display: block;
+}
+.ssg-result .ssg-item a:hover,
+.ssg-result .ssg-item a:active {
+  background: #eee;
+}
+.ssg-result .ssg-item .title-prd-search {
+  float: left;
+  width: 55%;
+}
+.ssg-result .ssg-item .price {
+  float: right;
+  width: 30%;
+  height: 40px;
+  text-align: right;
+}
+.ssg-result .ssg-item .price .current-price {
+  display: block;
+  clear: both;
+}
+.ssg-result .ssg-item .product {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #dddddd;
+  font-size: 11px;
+}
+
+
+/*******************************
+           Minicart
+*******************************/
+
+.tr.header {
+  height: 51px;
+  padding: 0 10px;
+}
+.tr.header .logo {
+  background-position: 0 0;
+  width: 100px;
+  height: 35px;
+  display: block;
+  margin: 8px auto;
+}
+.tr.header .button-nav-mobile {
+  float: left;
+  background: #f5f5f5;
+  margin-top: 7px;
+  padding: 7px 8px 8px 8px;
+  border: 1px solid #eee;
+}
+.tr.header .button-nav-mobile i {
+  margin: 0;
+}
+.tr.header.simple {
+  border-bottom: 1px solid #dddddd;
+}
+.tr.header.simple .icon {
+  margin: 14px 0 0 0;
+}
+.tr.minicart .ico-cart {
+  float: right;
+  position: relative;
+  padding: 8px 0;
+}
+.tr.minicart .quantity-minicart {
+  background: #f9c558;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+.body-content {
+  background: #FFF;
+}
+.nav-mobile .box-my-account {
+  background: #f5f5f5 !important;
+  padding: 15px;
+  color: #dddddd;
+  border-top: none;
+}
+.nav-mobile .box-my-account .icon {
+  color: #47a6cd;
+  border: 1px solid #47a6cd;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  line-height: 38px;
+}
+.nav-mobile .box-my-account a {
+  padding: 10px;
+  color: #47a6cd;
+}
+.nav-mobile .box-my-account .mm-subopen:after {
+  border-color: #47a6cd !important;
+}
+.nav-mobile .box-my-account .field {
+  display: block;
+}
+.nav-mobile .box-my-account .ui.form {
+  padding: 15px 0 10px 0;
+}
+.nav-mobile .loader-item {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.nav-mobile .links-login,
+.nav-mobile .nome-login {
+  float: right;
+  line-height: 40px;
+}
+.nav-mobile .nome-login {
+  padding-right: 30px;
+  color: #47a6cd;
+}
+.button-nav-mobile {
+  display: block;
+}
+
+
+/*******************************
+    User Variable Overrides
+*******************************/
+
+
+
+/*******************************
+    User Variable Overrides
+*******************************/
+
