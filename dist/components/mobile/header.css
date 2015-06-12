@@ -154,9 +154,8 @@ html.sb-animation {
   margin: 0 0 10px 0;
 }
 .ssg-result .type-wrapper {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-bottom: 1px solid #dddddd;
-  padding-bottom: 10px;
   clear: both;
   float: left;
   width: 100%;
@@ -179,7 +178,7 @@ html.sb-animation {
   width: 100%;
 }
 .ssg-result .ssg-item a {
-  padding: 10px 0;
+  padding: 5px 0;
   display: block;
 }
 .ssg-result .ssg-item a:hover,

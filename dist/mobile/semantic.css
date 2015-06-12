@@ -9284,6 +9284,8 @@ html.mm-opening .mm-fixed-bottom {
 
 .tr.filter-box li > a,
 .tr.filter-mobile li > a,
+.tr.filter-box li > label,
+.tr.filter-mobile li > label,
 .tr.filter-box .clear-filter,
 .tr.filter-mobile .clear-filter {
   display: block;
@@ -9300,7 +9302,9 @@ html.mm-opening .mm-fixed-bottom {
 }
 
 .tr.filter-box a input,
-.tr.filter-mobile a input {
+.tr.filter-mobile a input,
+.tr.filter-box label input,
+.tr.filter-mobile label input {
   float: right;
 }
 
@@ -9315,7 +9319,9 @@ html.mm-opening .mm-fixed-bottom {
 }
 
 .tr.filter-box li.active a,
-.tr.filter-mobile li.active a {
+.tr.filter-mobile li.active a,
+.tr.filter-box li.active label,
+.tr.filter-mobile li.active label {
   background-color: #f5f5f5;
   color: #333333;
 }
@@ -9676,12 +9682,29 @@ html.mm-opening .mm-fixed-bottom {
   text-align: center;
   border: 1px solid #dddddd;
   border-top: none;
+  position: relative;
   font-size: 11px;
 }
 
 .filter-mobile .tabular a.active {
   background: #47a6cd;
   color: #FFF;
+}
+
+.filter-mobile .tabular a.active .counter {
+  background: #d95c5c;
+}
+
+.filter-mobile .tabular a .counter {
+  background: #aaaaaa;
+  color: #ffffff;
+  font-weight: bold;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  line-height: 1;
+  border-radius: 0.2857em;
+  padding: 3px 6px;
 }
 
 .filter-mobile label input[type=checkbox] {
@@ -11132,9 +11155,8 @@ html.sb-animation {
 }
 
 .ssg-result .type-wrapper {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-bottom: 1px solid #dddddd;
-  padding-bottom: 10px;
   clear: both;
   float: left;
   width: 100%;
@@ -11162,7 +11184,7 @@ html.sb-animation {
 }
 
 .ssg-result .ssg-item a {
-  padding: 10px 0;
+  padding: 5px 0;
   display: block;
 }
 

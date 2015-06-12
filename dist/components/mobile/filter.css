@@ -28,6 +28,8 @@
 }
 .tr.filter-box li > a,
 .tr.filter-mobile li > a,
+.tr.filter-box li > label,
+.tr.filter-mobile li > label,
 .tr.filter-box .clear-filter,
 .tr.filter-mobile .clear-filter {
   display: block;
@@ -42,7 +44,9 @@
   background-color: #f5f5f5;
 }
 .tr.filter-box a input,
-.tr.filter-mobile a input {
+.tr.filter-mobile a input,
+.tr.filter-box label input,
+.tr.filter-mobile label input {
   float: right;
 }
 .tr.filter-box li,
@@ -54,7 +58,9 @@
   border-top: none;
 }
 .tr.filter-box li.active a,
-.tr.filter-mobile li.active a {
+.tr.filter-mobile li.active a,
+.tr.filter-box li.active label,
+.tr.filter-mobile li.active label {
   background-color: #f5f5f5;
   color: #333333;
 }
@@ -353,11 +359,26 @@
   text-align: center;
   border: 1px solid #dddddd;
   border-top: none;
+  position: relative;
   font-size: 11px;
 }
 .filter-mobile .tabular a.active {
   background: #47a6cd;
   color: #FFF;
+}
+.filter-mobile .tabular a.active .counter {
+  background: #d95c5c;
+}
+.filter-mobile .tabular a .counter {
+  background: #aaaaaa;
+  color: #ffffff;
+  font-weight: bold;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  line-height: 1;
+  border-radius: 0.2857em;
+  padding: 3px 6px;
 }
 .filter-mobile label input[type=checkbox] {
   float: right;
