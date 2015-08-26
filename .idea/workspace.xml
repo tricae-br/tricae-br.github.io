@@ -2,47 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3fbc367-a116-4ff6-80c5-ff035dc83300" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/accordion.html" afterPath="$PROJECT_DIR$/guide/mobile/accordion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/box.html" afterPath="$PROJECT_DIR$/guide/mobile/box.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/breadcrumb.html" afterPath="$PROJECT_DIR$/guide/mobile/breadcrumb.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/busca.html" afterPath="$PROJECT_DIR$/guide/mobile/busca.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/buttons.html" afterPath="$PROJECT_DIR$/guide/mobile/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/dropdown.html" afterPath="$PROJECT_DIR$/guide/mobile/dropdown.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/filter.html" afterPath="$PROJECT_DIR$/guide/mobile/filter.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/form.html" afterPath="$PROJECT_DIR$/guide/mobile/form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/grid.html" afterPath="$PROJECT_DIR$/guide/mobile/grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/partial/header-mobile.html" afterPath="$PROJECT_DIR$/guide/mobile/partial/header-mobile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/icon.html" afterPath="$PROJECT_DIR$/guide/mobile/icon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/input.html" afterPath="$PROJECT_DIR$/guide/mobile/input.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-address.html" afterPath="$PROJECT_DIR$/guide/mobile/list-address.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-cards.html" afterPath="$PROJECT_DIR$/guide/mobile/list-cards.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-comentarios.html" afterPath="$PROJECT_DIR$/guide/mobile/list-comentarios.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-bundle.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-bundle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-buy-together.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-buy-together.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-cart.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-catalog.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-catalog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-checkout.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-pedidos.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-pedidos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-tamanho.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-tamanho.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-wishlist.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-wishlist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list.html" afterPath="$PROJECT_DIR$/guide/mobile/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/loader.html" afterPath="$PROJECT_DIR$/guide/mobile/loader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/message.html" afterPath="$PROJECT_DIR$/guide/mobile/message.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/modal.html" afterPath="$PROJECT_DIR$/guide/mobile/modal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/nav.html" afterPath="$PROJECT_DIR$/guide/mobile/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/ordenacao.html" afterPath="$PROJECT_DIR$/guide/mobile/ordenacao.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/pagination.html" afterPath="$PROJECT_DIR$/guide/mobile/pagination.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/popup.html" afterPath="$PROJECT_DIR$/guide/mobile/popup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/rating.html" afterPath="$PROJECT_DIR$/guide/mobile/rating.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/sidebar.html" afterPath="$PROJECT_DIR$/guide/mobile/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/sticky.html" afterPath="$PROJECT_DIR$/guide/mobile/sticky.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/swipe.html" afterPath="$PROJECT_DIR$/guide/mobile/swipe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/tab.html" afterPath="$PROJECT_DIR$/guide/mobile/tab.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/table.html" afterPath="$PROJECT_DIR$/guide/mobile/table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/tag.html" afterPath="$PROJECT_DIR$/guide/mobile/tag.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/text.html" afterPath="$PROJECT_DIR$/guide/mobile/text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/transition.html" afterPath="$PROJECT_DIR$/guide/mobile/transition.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/vars.html" afterPath="$PROJECT_DIR$/guide/mobile/vars.html" />
     </list>
     <ignored path="tricae-docs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,9 +47,6 @@
         <option value="$PROJECT_DIR$/guide/mobile/busca.html" />
         <option value="$PROJECT_DIR$/guide/mobile/buttons.html" />
         <option value="$PROJECT_DIR$/guide/mobile/dropdown.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/filter.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/form.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/grid.html" />
         <option value="$PROJECT_DIR$/guide/mobile/icon.html" />
         <option value="$PROJECT_DIR$/guide/mobile/input.html" />
         <option value="$PROJECT_DIR$/guide/mobile/list.html" />
@@ -119,6 +78,9 @@
         <option value="$PROJECT_DIR$/guide/mobile/tag.html" />
         <option value="$PROJECT_DIR$/guide/mobile/text.html" />
         <option value="$PROJECT_DIR$/guide/mobile/transition.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/form.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/filter.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/grid.html" />
       </list>
     </option>
   </component>
@@ -360,14 +322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/accordion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="2850">
-          <caret line="25" column="48" selection-start-line="24" selection-start-column="12" selection-end-line="25" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guide/mobile/box.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5917667" vertical-offset="30" max-vertical-offset="1410">
@@ -403,32 +357,6 @@
     <entry file="file://$PROJECT_DIR$/guide/mobile/dropdown.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="194" max-vertical-offset="1515">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/filter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4714549" vertical-offset="194" max-vertical-offset="3450">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3296501" vertical-offset="554" max-vertical-offset="4320">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/grid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42105263" vertical-offset="135" max-vertical-offset="5250">
           <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding />
         </state>
@@ -686,6 +614,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15789473" vertical-offset="285" max-vertical-offset="1860">
           <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/accordion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65789473" vertical-offset="0" max-vertical-offset="2850">
+          <caret line="25" column="48" selection-start-line="24" selection-start-column="12" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1578948" vertical-offset="0" max-vertical-offset="4185">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/filter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23859648" vertical-offset="284" max-vertical-offset="3450">
+          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57894737" vertical-offset="120" max-vertical-offset="690">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
         </state>
       </provider>
