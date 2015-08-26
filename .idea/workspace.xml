@@ -2,10 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3fbc367-a116-4ff6-80c5-ff035dc83300" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/mobile/semantic.css" afterPath="$PROJECT_DIR$/dist/mobile/semantic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/mobile/semantic.js" afterPath="$PROJECT_DIR$/dist/mobile/semantic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/mobile/semantic.min.css" afterPath="$PROJECT_DIR$/dist/mobile/semantic.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/mobile/semantic.min.js" afterPath="$PROJECT_DIR$/dist/mobile/semantic.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/accordion.html" afterPath="$PROJECT_DIR$/guide/mobile/accordion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/box.html" afterPath="$PROJECT_DIR$/guide/mobile/box.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/breadcrumb.html" afterPath="$PROJECT_DIR$/guide/mobile/breadcrumb.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/busca.html" afterPath="$PROJECT_DIR$/guide/mobile/busca.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/buttons.html" afterPath="$PROJECT_DIR$/guide/mobile/buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/dropdown.html" afterPath="$PROJECT_DIR$/guide/mobile/dropdown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/filter.html" afterPath="$PROJECT_DIR$/guide/mobile/filter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/form.html" afterPath="$PROJECT_DIR$/guide/mobile/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/grid.html" afterPath="$PROJECT_DIR$/guide/mobile/grid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/partial/header-mobile.html" afterPath="$PROJECT_DIR$/guide/mobile/partial/header-mobile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/icon.html" afterPath="$PROJECT_DIR$/guide/mobile/icon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/input.html" afterPath="$PROJECT_DIR$/guide/mobile/input.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-address.html" afterPath="$PROJECT_DIR$/guide/mobile/list-address.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-cards.html" afterPath="$PROJECT_DIR$/guide/mobile/list-cards.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-comentarios.html" afterPath="$PROJECT_DIR$/guide/mobile/list-comentarios.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-bundle.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-bundle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-buy-together.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-buy-together.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-cart.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-catalog.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-catalog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-checkout.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-checkout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-pedidos.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-pedidos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-tamanho.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-tamanho.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list-prod-wishlist.html" afterPath="$PROJECT_DIR$/guide/mobile/list-prod-wishlist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/list.html" afterPath="$PROJECT_DIR$/guide/mobile/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/loader.html" afterPath="$PROJECT_DIR$/guide/mobile/loader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/message.html" afterPath="$PROJECT_DIR$/guide/mobile/message.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/modal.html" afterPath="$PROJECT_DIR$/guide/mobile/modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/nav.html" afterPath="$PROJECT_DIR$/guide/mobile/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/ordenacao.html" afterPath="$PROJECT_DIR$/guide/mobile/ordenacao.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/pagination.html" afterPath="$PROJECT_DIR$/guide/mobile/pagination.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/popup.html" afterPath="$PROJECT_DIR$/guide/mobile/popup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/rating.html" afterPath="$PROJECT_DIR$/guide/mobile/rating.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/sidebar.html" afterPath="$PROJECT_DIR$/guide/mobile/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/sticky.html" afterPath="$PROJECT_DIR$/guide/mobile/sticky.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/swipe.html" afterPath="$PROJECT_DIR$/guide/mobile/swipe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/tab.html" afterPath="$PROJECT_DIR$/guide/mobile/tab.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/table.html" afterPath="$PROJECT_DIR$/guide/mobile/table.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/tag.html" afterPath="$PROJECT_DIR$/guide/mobile/tag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/text.html" afterPath="$PROJECT_DIR$/guide/mobile/text.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/transition.html" afterPath="$PROJECT_DIR$/guide/mobile/transition.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/mobile/vars.html" afterPath="$PROJECT_DIR$/guide/mobile/vars.html" />
     </list>
     <ignored path="tricae-docs.iws" />
@@ -30,18 +66,7 @@
     <favorites_list name="tricae-docs" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="box.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guide/mobile/box.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5145798" vertical-offset="0" max-vertical-offset="1410">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,10 +75,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/guide/mobile/partial/menu-lateral.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/breadcrumb.html" />
         <option value="$PROJECT_DIR$/guide/mobile/js/include.js" />
+        <option value="$PROJECT_DIR$/guide/mobile/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/partial/header-mobile.html" />
         <option value="$PROJECT_DIR$/guide/mobile/accordion.html" />
         <option value="$PROJECT_DIR$/guide/mobile/box.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/breadcrumb.html" />
         <option value="$PROJECT_DIR$/guide/mobile/busca.html" />
         <option value="$PROJECT_DIR$/guide/mobile/buttons.html" />
         <option value="$PROJECT_DIR$/guide/mobile/dropdown.html" />
@@ -64,36 +92,33 @@
         <option value="$PROJECT_DIR$/guide/mobile/input.html" />
         <option value="$PROJECT_DIR$/guide/mobile/list.html" />
         <option value="$PROJECT_DIR$/guide/mobile/list-address.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/list-comentarios.html" />
         <option value="$PROJECT_DIR$/guide/mobile/list-cards.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/list-comentarios.html" />
         <option value="$PROJECT_DIR$/guide/mobile/list-prod-bundle.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/list-prod-wishlist.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/list-prod-buy-together.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/list-prod-cart.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/list-prod-catalog.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/list-prod-checkout.html" />
         <option value="$PROJECT_DIR$/guide/mobile/list-prod-tamanho.html" />
         <option value="$PROJECT_DIR$/guide/mobile/list-prod-pedidos.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/list-prod-checkout.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/list-prod-catalog.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/list-prod-cart.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/list-prod-buy-together.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/list-prod-wishlist.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/loader.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/message.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/modal.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/nav.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/ordenacao.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/pagination.html" />
         <option value="$PROJECT_DIR$/guide/mobile/rating.html" />
         <option value="$PROJECT_DIR$/guide/mobile/popup.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/pagination.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/ordenacao.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/nav.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/modal.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/message.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/loader.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/transition.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/text.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/tag.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/table.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/tab.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/sidebar.html" />
         <option value="$PROJECT_DIR$/guide/mobile/swipe.html" />
         <option value="$PROJECT_DIR$/guide/mobile/sticky.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/sidebar.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/guide/mobile/partial/header-mobile.html" />
         <option value="$PROJECT_DIR$/guide/mobile/vars.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/tab.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/table.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/tag.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/text.html" />
+        <option value="$PROJECT_DIR$/guide/mobile/transition.html" />
       </list>
     </option>
   </component>
@@ -237,22 +262,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20840065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20840065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -312,300 +337,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/breadcrumb.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5" vertical-offset="30" max-vertical-offset="1140">
-          <caret line="21" column="10" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/accordion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10526316" vertical-offset="180" max-vertical-offset="2850">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/busca.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2631579" vertical-offset="150" max-vertical-offset="945">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/buttons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2631579" vertical-offset="150" max-vertical-offset="5235">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/dropdown.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1315789" vertical-offset="945" max-vertical-offset="1515">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/filter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10526316" vertical-offset="240" max-vertical-offset="3450">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23684211" vertical-offset="165" max-vertical-offset="4320">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/grid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18421052" vertical-offset="195" max-vertical-offset="5250">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/icon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55263156" vertical-offset="45" max-vertical-offset="5595">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13157895" vertical-offset="225" max-vertical-offset="2550">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05263158" vertical-offset="270" max-vertical-offset="2385">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/list-address.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2631579" vertical-offset="150" max-vertical-offset="1650">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/list-comentarios.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13157895" vertical-offset="225" max-vertical-offset="1395">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/list-cards.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2631579" vertical-offset="150" max-vertical-offset="1650">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-bundle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18421052" vertical-offset="195" max-vertical-offset="1785">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-wishlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18421052" vertical-offset="195" max-vertical-offset="1950">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-tamanho.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13157895" vertical-offset="225" max-vertical-offset="1440">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-pedidos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23684211" vertical-offset="165" max-vertical-offset="5055">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-checkout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15789473" vertical-offset="210" max-vertical-offset="1335">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-catalog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18421052" vertical-offset="195" max-vertical-offset="1695">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21052632" vertical-offset="180" max-vertical-offset="5415">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-buy-together.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10526316" vertical-offset="240" max-vertical-offset="1275">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/rating.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2631579" vertical-offset="150" max-vertical-offset="1650">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15789473" vertical-offset="210" max-vertical-offset="2775">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/pagination.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30874786" vertical-offset="135" max-vertical-offset="840">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/ordenacao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13157895" vertical-offset="225" max-vertical-offset="1005">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.078947365" vertical-offset="255" max-vertical-offset="1380">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02631579" vertical-offset="345" max-vertical-offset="4290">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/message.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10526316" vertical-offset="240" max-vertical-offset="4455">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/loader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13157895" vertical-offset="225" max-vertical-offset="1845">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/transition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02631579" vertical-offset="285" max-vertical-offset="1875">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/text.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02631579" vertical-offset="285" max-vertical-offset="2175">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/tag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02631579" vertical-offset="285" max-vertical-offset="1545">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02631579" vertical-offset="285" max-vertical-offset="3435">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/tab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.078947365" vertical-offset="255" max-vertical-offset="1425">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/swipe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15789473" vertical-offset="210" max-vertical-offset="5895">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/sticky.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15789473" vertical-offset="210" max-vertical-offset="1125">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36842105" vertical-offset="90" max-vertical-offset="735">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7975986" vertical-offset="0" max-vertical-offset="600">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/partial/header-mobile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1560">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17948718" vertical-offset="2940" max-vertical-offset="3525">
-          <caret line="203" column="27" selection-start-line="203" selection-start-column="27" selection-end-line="203" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide/mobile/vars.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.5831904" vertical-offset="0" max-vertical-offset="3630">
-          <caret line="217" column="21" selection-start-line="217" selection-start-column="21" selection-end-line="217" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,10 +352,340 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/partial/header-mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21052632" vertical-offset="0" max-vertical-offset="1560">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/accordion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="2850">
+          <caret line="25" column="48" selection-start-line="24" selection-start-column="12" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guide/mobile/box.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5145798" vertical-offset="0" max-vertical-offset="1410">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.5917667" vertical-offset="30" max-vertical-offset="1410">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/breadcrumb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="209" max-vertical-offset="1140">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/busca.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327338" vertical-offset="190" max-vertical-offset="945">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/buttons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="194" max-vertical-offset="5235">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/dropdown.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="194" max-vertical-offset="1515">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/filter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4714549" vertical-offset="194" max-vertical-offset="3450">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3296501" vertical-offset="554" max-vertical-offset="4320">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42105263" vertical-offset="135" max-vertical-offset="5250">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/icon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30874786" vertical-offset="195" max-vertical-offset="5580">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.1200686" vertical-offset="60" max-vertical-offset="3525">
+          <caret line="203" column="27" selection-start-line="203" selection-start-column="27" selection-end-line="203" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2572899" vertical-offset="225" max-vertical-offset="2550">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48885077" vertical-offset="90" max-vertical-offset="2385">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/list-address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38593483" vertical-offset="150" max-vertical-offset="1635">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/list-cards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38593483" vertical-offset="150" max-vertical-offset="1635">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/list-comentarios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2631579" vertical-offset="225" max-vertical-offset="1380">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-bundle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31578946" vertical-offset="195" max-vertical-offset="1770">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-buy-together.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23684211" vertical-offset="240" max-vertical-offset="1260">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34210527" vertical-offset="180" max-vertical-offset="5400">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-catalog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31578946" vertical-offset="195" max-vertical-offset="1680">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28947368" vertical-offset="210" max-vertical-offset="1335">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-tamanho.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2631579" vertical-offset="225" max-vertical-offset="1425">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-pedidos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36842105" vertical-offset="165" max-vertical-offset="5055">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/list-prod-wishlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31578946" vertical-offset="195" max-vertical-offset="1935">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/loader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2572899" vertical-offset="225" max-vertical-offset="1830">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23684211" vertical-offset="240" max-vertical-offset="4455">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15789473" vertical-offset="345" max-vertical-offset="4275">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21052632" vertical-offset="255" max-vertical-offset="1380">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/ordenacao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2572899" vertical-offset="225" max-vertical-offset="1005">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46312177" vertical-offset="120" max-vertical-offset="840">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/rating.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39473686" vertical-offset="150" max-vertical-offset="1650">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28947368" vertical-offset="210" max-vertical-offset="2760">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48885077" vertical-offset="90" max-vertical-offset="720">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/swipe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28947368" vertical-offset="210" max-vertical-offset="5895">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/sticky.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28947368" vertical-offset="210" max-vertical-offset="1110">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/vars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.9691253" vertical-offset="0" max-vertical-offset="3690">
+          <caret line="232" column="18" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/tab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2058319" vertical-offset="255" max-vertical-offset="1410">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15437393" vertical-offset="285" max-vertical-offset="3435">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15437393" vertical-offset="285" max-vertical-offset="1545">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15789473" vertical-offset="285" max-vertical-offset="2175">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/mobile/transition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15789473" vertical-offset="285" max-vertical-offset="1860">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding />
         </state>
       </provider>
